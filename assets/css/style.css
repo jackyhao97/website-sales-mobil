@@ -1,3 +1,7 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
 #carouselExampleIndicators .carousel-indicators .active {
   background-color: #ed0000;
   background-image: none;
@@ -7,4 +11,18 @@
   width: 20px !important;
   height: 20px !important;
   border-radius: 50%;
+}
+
+section.profile .bg-profile {
+  background-image: url(../img/bg-profile.png);
+  background-size: cover;
+}
+
+section.profile .text-mitsubishi {
+  font-weight: 800;
+}
+
+section.testimoni .bg-testimoni {
+  background-image: url(../img/bg-testimoni.png);
+  background-size: cover;
 }
