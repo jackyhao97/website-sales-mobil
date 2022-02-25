@@ -103,6 +103,7 @@
     </section>
     <section class="testimoni" id="testimoni">
       <div class="container-fluid bg-testimoni">
+        <img src="./assets/img/customer-testimonial.png" alt="Testimoni Mitsubishi Medan" class="customer-testimonial">
         <img src="./assets/img/testimoni-1.png" alt="Testimoni Mitsubishi Medan">
       </div>
     </section>

@@ -26,3 +26,14 @@ section.testimoni .bg-testimoni {
   background-image: url(../img/bg-testimoni.png);
   background-size: cover;
 }
+
+section.testimoni .customer-testimonial {
+  padding: 60px;
+}
+
+@media (max-width: 576px) {
+  section.testimoni .customer-testimonial {
+    padding: 20px;
+    width: 100%;
+  }
+}
