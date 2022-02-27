@@ -31,9 +31,27 @@ section.testimoni .customer-testimonial {
   padding: 60px;
 }
 
+section.testimoni .grid img {
+  width: 400px;
+}
+
+section.testimoni .grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 5px;
+}
+
 @media (max-width: 576px) {
   section.testimoni .customer-testimonial {
     padding: 20px;
     width: 100%;
+  }
+
+  section.testimoni .grid img {
+    width: 100%;
+  }
+
+  section.testimoni .grid {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   }
 }
