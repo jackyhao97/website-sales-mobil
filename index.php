@@ -120,6 +120,418 @@
         </div>
       </div>
     </section>
+    <section class="product bg-dark text-white pt-5" id="product">
+      <div class="container">
+        <div class="row mb-2">
+          <div class="col-md-12">
+            <h1 class="title mmc-bold">PASSENGER CAR</h1>
+          </div>
+        </div>
+        <div class="swiper swiper-container-xpander text-dark">
+          <div class="swiper-wrapper">              
+            <div class="swiper-slide">
+              <div class="card mb-3 swiper-card">
+                <div class="row no-gutters">
+                  <div class="col-md-12 text-center">
+                    <img src="<?=BASE_URL.DS.'assets/img/new-xpander/red-ultimate-xpander.webp'?>" class="card-img w-80" alt="Mitsubishi New Xpander Medan">
+                  </div>
+                  <div class="col-md-12">
+                    <div class="card-body">
+                      <h5 class="card-title text-center mmc-bold">Mitsubishi New Xpander</h5>
+                      <div class="row mt-4">
+                        <div class="col-5 mmc-bold">Harga mulai</div>
+                        <?php
+                          $sql = $conn->query("SELECT MIN(harga) AS harga FROM tb_harga WHERE merek = 'NEW XPANDER'");
+                          $res = $sql->fetch_assoc();
+                        ?>
+                          <div class="col-7 mmc-bold"><?= "Rp " . number_format($res['harga'], 0, ",", "."); ?></div>
+                      </div>
+                      <p style="font-size: 11px" class="text-syarat mt-3 card-text"> Medan | OTR Sumatera Utara</p>
+                    </div>
+                  </div>              
+                </div>
+                <div class="row text-center" style="cursor: pointer">
+                  <div class="col-4 p-2 social-media-hover" style="background: #1515a4" onclick="window.open('tel:081370494906')">
+                    <i class="fa fa-phone-alt fa-lg"></i><br />
+                    <small class="d-none d-sm-block">Telepon sekarang</small>
+                    <small class="d-block d-sm-none">Telp Sekarang</small>
+                  </div>
+                  <div class="col-4 p-2 social-media-hover" style="background: #19692c" onclick="window.open('https://wa.me/+6281973380227?text=Halo Bg Hasri, Saya ingin tanya harga xpander. [Sumber: website mitsubishidealermedan.com]')">
+                    <i class="fa fa-whatsapp fa-lg"></i><br />
+                    <small>Whatsapp</small>
+                  </div>
+                  <div class="col-4 p-2 social-media-hover" style="background: #fb559b" onclick="window.location='mitsubishi/xpander'">
+                    <i class="fa fa-search fa-lg"></i><br />
+                    <small>Telusuri</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card mb-3 swiper-card">
+                <div class="row no-gutters">
+                  <div class="col-md-12 text-center">
+                    <img src="<?=BASE_URL.DS.'assets/img/new-xpander/red-ultimate-xpander.webp'?>" class="card-img w-80" alt="Mitsubishi New Xpander Medan">
+                  </div>
+                  <div class="col-md-12">
+                    <div class="card-body">
+                      <h5 class="card-title text-center mmc-bold">Mitsubishi New Xpander</h5>
+                      <div class="row mt-4">
+                        <div class="col-5 mmc-bold">Harga mulai</div>
+                        <?php
+                          $sql = $conn->query("SELECT MIN(harga) AS harga FROM tb_harga WHERE merek = 'NEW XPANDER'");
+                          $res = $sql->fetch_assoc();
+                        ?>
+                          <div class="col-7 mmc-bold"><?= "Rp " . number_format($res['harga'], 0, ",", "."); ?></div>
+                      </div>
+                      <p style="font-size: 11px" class="text-syarat mt-3 card-text"> Medan | OTR Sumatera Utara</p>
+                    </div>
+                  </div>              
+                </div>
+                <div class="row text-center" style="cursor: pointer">
+                  <div class="col-4 p-2 social-media-hover" style="background: #1515a4" onclick="window.open('tel:081370494906')">
+                    <i class="fa fa-phone-alt fa-lg"></i><br />
+                    <small class="d-none d-sm-block">Telepon sekarang</small>
+                    <small class="d-block d-sm-none">Telp Sekarang</small>
+                  </div>
+                  <div class="col-4 p-2 social-media-hover" style="background: #19692c" onclick="window.open('https://wa.me/+6281973380227?text=Halo Bg Hasri, Saya ingin tanya harga xpander. [Sumber: website mitsubishidealermedan.com]')">
+                    <i class="fa fa-whatsapp fa-lg"></i><br />
+                    <small>Whatsapp</small>
+                  </div>
+                  <div class="col-4 p-2 social-media-hover" style="background: #fb559b" onclick="window.location='mitsubishi/xpander'">
+                    <i class="fa fa-search fa-lg"></i><br />
+                    <small>Telusuri</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- <div class="swiper-slide">
+              <div class="card mb-3 swiper-card">
+                <div class="row no-gutters">
+                  <div class="col-md-12 text-center">
+                    <img src="<?= base_url('img/cross/xpander-cross-gray.webp'); ?>" class="card-img w-80" alt="Mitsubishi Xpander Cross Medan">
+                  </div>
+                  <div class="col-md-12">
+                    <div class="card-body">
+                      <h5 class="card-title text-center mmc-bold">Mitsubishi Xpander Cross</h5>
+                      <div class="row mt-4">
+                        <div class="col-5 mmc-bold">Harga mulai</div>
+                        <div class="col-7 mmc-bold"><?= "Rp " . number_format($harga_xpander_cross, 0, ",", "."); ?></div>
+                      </div>
+                      <div class="row">                  
+                        <div class="col-5">DP (20%)</div>
+                        <div class="col-7"><?= "Rp " . number_format($dp_xpander_cross, 0, ",", "."); ?></div>
+                      </div>
+                      <div class="row">
+                        <div class="col-5">Cicilan (5thn)</div>
+                        <div class="col-7"><?= "Rp " . number_format($cicilan_xpander_cross, 0, ",", ".") . " / Bulan"; ?></div>
+                      </div>
+                      <p style="font-size: 11px" class="text-syarat mt-3 card-text"> Medan | OTR Sumatera Utara<br />* DP dan Cicilan merupakan estimasi, belum termasuk bunga, Asuransi, dll.</p>
+                    </div>
+                  </div>              
+                </div>
+                <div class="row text-center" style="cursor: pointer">
+                  <div class="col-4 p-2 social-media-hover" style="background: #1515a4" onclick="window.open('tel:081370494906')">
+                    <i class="fa fa-phone-alt fa-lg"></i><br />
+                    <small class="d-none d-sm-block">Telepon sekarang</small>
+                    <small class="d-block d-sm-none">Telp Sekarang</small>
+                  </div>
+                  <div class="col-4 p-2 social-media-hover" style="background: #19692c" onclick="window.open('https://wa.me/+6281973380227?text=Halo Bg Hasri, Saya ingin tanya harga xpander cross. [Sumber: website mitsubishidealermedan.com]')">
+                    <i class="fa fa-whatsapp fa-lg"></i><br />
+                    <small>Whatsapp</small>
+                  </div>
+                  <div class="col-4 p-2 social-media-hover" style="background: #fb559b" onclick="window.location='mitsubishi/xpander-cross'">
+                    <i class="fa fa-search fa-lg"></i><br />
+                    <small>Telusuri</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card mb-3 swiper-card">
+                <div class="row no-gutters">
+                  <div class="col-md-12 text-center">
+                    <img src="<?= base_url('img/pajero/pajero-sport-white.webp'); ?>" class="card-img w-80" alt="Mitsubishi Pajero Sport Medan">
+                  </div>
+                  <div class="col-md-12">
+                    <div class="card-body">
+                      <h5 class="card-title text-center mmc-bold">Mitsubishi Pajero Sport</h5>
+                      <div class="row mt-4">
+                        <div class="col-5 mmc-bold">Harga mulai</div>                    
+                        <div class="col-7 mmc-bold"><?= "Rp " . number_format($harga_pajero_sport, 0, ",", "."); ?></div>
+                      </div>
+                      <div class="row">                  
+                        <div class="col-5">DP (20%)</div>
+                        <div class="col-7"><?= "Rp " . number_format($dp_pajero_sport, 0, ",", "."); ?></div>
+                      </div>
+                      <div class="row">
+                        <div class="col-5">Cicilan (5thn)</div>
+                        <div class="col-7"><?= "Rp " . number_format($cicilan_pajero_sport, 0, ",", ".") . " / Bulan"; ?></div>
+                      </div>
+                      <p style="font-size: 11px" class="text-syarat mt-3 card-text"> Medan | OTR Sumatera Utara<br />* DP dan Cicilan merupakan estimasi, belum termasuk bunga, Asuransi, dll.</p>
+                    </div>
+                  </div>              
+                </div>
+                <div class="row text-center" style="cursor: pointer">
+                  <div class="col-4 p-2 social-media-hover" style="background: #1515a4" onclick="window.open('tel:081370494906')">
+                    <i class="fa fa-phone-alt fa-lg"></i><br />
+                    <small class="d-none d-sm-block">Telepon sekarang</small>
+                    <small class="d-block d-sm-none">Telp Sekarang</small>
+                  </div>
+                  <div class="col-4 p-2 social-media-hover" style="background: #19692c" onclick="window.open('https://wa.me/+6281973380227?text=Halo Bg Hasri, Saya ingin tanya harga pajero sport. [Sumber: website mitsubishidealermedan.com]')">
+                    <i class="fa fa-whatsapp fa-lg"></i><br />
+                    <small>Whatsapp</small>
+                  </div>
+                  <div class="col-4 p-2 social-media-hover" style="background: #fb559b" onclick="window.location='mitsubishi/pajero-sport'">
+                    <i class="fa fa-search fa-lg"></i><br />
+                    <small>Telusuri</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card mb-3 swiper-card">
+                <div class="row no-gutters">
+                  <div class="col-md-12 text-center">
+                    <img src="<?= base_url('img/eclipse/eclipse-cross-red.webp'); ?>" class="card-img w-80" alt="Mitsubishi Eclipse Cross Medan">
+                  </div>
+                  <div class="col-md-12">
+                    <div class="card-body">
+                      <h5 class="card-title text-center mmc-bold">Mitsubishi Eclipse Cross</h5>
+                      <div class="row mt-4">
+                        <div class="col-5 mmc-bold">Harga mulai</div>              
+                        <div class="col-7 mmc-bold"><?= "Rp " . number_format($harga_eclipse_cross, 0, ",", "."); ?></div>
+                      </div>
+                      <div class="row">                  
+                        <div class="col-5">DP (20%)</div>
+                        <div class="col-7"><?= "Rp " . number_format($dp_eclipse_cross, 0, ",", "."); ?></div>
+                      </div>
+                      <div class="row">
+                        <div class="col-5">Cicilan (5thn)</div>
+                        <div class="col-7"><?= "Rp " . number_format($cicilan_eclipse_cross, 0, ",", ".") . " / Bulan"; ?></div>
+                      </div>
+                      <p style="font-size: 11px" class="text-syarat mt-3 card-text"> Medan | OTR Sumatera Utara<br />* DP dan Cicilan merupakan estimasi, belum termasuk bunga, Asuransi, dll.</p>
+                    </div>
+                  </div>              
+                </div>
+                <div class="row text-center" style="cursor: pointer">
+                  <div class="col-4 p-2 social-media-hover" style="background: #1515a4" onclick="window.open('tel:081370494906')">
+                    <i class="fa fa-phone-alt fa-lg"></i><br />
+                    <small class="d-none d-sm-block">Telepon sekarang</small>
+                    <small class="d-block d-sm-none">Telp Sekarang</small>
+                  </div>
+                  <div class="col-4 p-2 social-media-hover" style="background: #19692c" onclick="window.open('https://wa.me/+6281973380227?text=Halo Bg Hasri, Saya ingin tanya harga eclipse cross. [Sumber: website mitsubishidealermedan.com]')">
+                    <i class="fa fa-whatsapp fa-lg"></i><br />
+                    <small>Whatsapp</small>
+                  </div>
+                  <div class="col-4 p-2 social-media-hover" style="background: #fb559b" onclick="window.location='mitsubishi/eclipse-cross'">
+                    <i class="fa fa-search fa-lg"></i><br />
+                    <small>Telusuri</small>
+                  </div>
+                </div>
+              </div>
+            </div> -->
+          </div>
+          <div class="swiper-button-next swiper-button-next-custom swiper-button-next-xpander"></div>
+          <div class="swiper-button-prev swiper-button-prev-custom swiper-button-prev-xpander"></div>
+          <div class="swiper-pagination swiper-pagination-xpander"></div>
+        </div>
+        <!-- <div class="row mb-2 mt-4">
+          <div class="col-md-12">
+            <h2 class="title mmc-bold">LIGHT COMMERCIAL VEHICLE</h2>
+          </div>
+        </div>
+        <div class="swiper swiper-container-xpander text-dark">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="card mb-3 swiper-card">
+                <div class="row no-gutters">
+                  <div class="col-md-12 text-center">
+                    <img src="<?= base_url('img/triton/triton-gray.webp'); ?>" class="card-img w-80" alt="Mitsubishi Triton Medan">
+                  </div>
+                  <div class="col-md-12">
+                    <div class="card-body">
+                      <h5 class="card-title text-center mmc-bold">Mitsubishi Triton</h5>
+                      <div class="row mt-4">
+                        <div class="col-5 mmc-bold">Harga mulai</div>              
+                        <div class="col-7 mmc-bold"><?= "Rp " . number_format($harga_triton, 0, ",", "."); ?></div>
+                      </div>
+                      <div class="row">                  
+                        <div class="col-5">DP (20%)</div>
+                        <div class="col-7"><?= "Rp " . number_format($dp_triton, 0, ",", "."); ?></div>
+                      </div>
+                      <div class="row">
+                        <div class="col-5">Cicilan (5thn)</div>
+                        <div class="col-7"><?= "Rp " . number_format($cicilan_triton, 0, ",", ".") . " / Bulan"; ?></div>
+                      </div>
+                      <p style="font-size: 11px" class="text-syarat mt-3 card-text"> Medan | OTR Sumatera Utara<br />* DP dan Cicilan merupakan estimasi, belum termasuk bunga, Asuransi, dll.</p>
+                    </div>
+                  </div>              
+                </div>
+                <div class="row text-center" style="cursor: pointer">
+                  <div class="col-4 p-2 social-media-hover" style="background: #1515a4" onclick="window.open('tel:081370494906')">
+                    <i class="fa fa-phone-alt fa-lg"></i><br />
+                    <small class="d-none d-sm-block">Telepon sekarang</small>
+                    <small class="d-block d-sm-none">Telp Sekarang</small>
+                  </div>
+                  <div class="col-4 p-2 social-media-hover" style="background: #19692c" onclick="window.open('https://wa.me/+6281973380227?text=Halo Bg Hasri, Saya ingin tanya harga triton. [Sumber: website mitsubishidealermedan.com]')">
+                    <i class="fa fa-whatsapp fa-lg"></i><br />
+                    <small>Whatsapp</small>
+                  </div>
+                  <div class="col-4 p-2 social-media-hover" style="background: #fb559b" onclick="window.location='mitsubishi/triton'">
+                    <i class="fa fa-search fa-lg"></i><br />
+                    <small>Telusuri</small>
+                  </div>
+                </div>
+              </div>
+            </div>              
+            <div class="swiper-slide">
+              <div class="card mb-3 swiper-card">
+                <div class="row no-gutters">
+                  <div class="col-md-12 text-center">
+                    <img src="<?= base_url('img/l300/1.webp'); ?>" class="card-img w-80" alt="Mitsubishi L300 Medan">
+                  </div>
+                  <div class="col-md-12">
+                    <div class="card-body">
+                      <h5 class="card-title text-center mmc-bold">Mitsubishi L300</h5>
+                      <div class="row mt-4">
+                        <div class="col-5 mmc-bold">Harga mulai</div>
+                          <div class="col-7 mmc-bold"><?= "Rp " . number_format($harga_l300, 0, ",", "."); ?></div>
+                      </div>
+                      <div class="row">                  
+                        <div class="col-5">DP (20%)</div>
+                        <div class="col-7"><?= "Rp " . number_format($dp_l300, 0, ",", "."); ?></div>
+                      </div>
+                      <div class="row">
+                        <div class="col-5">Cicilan (5thn)</div>
+                        <div class="col-7"><?= "Rp " . number_format($cicilan_l300, 0, ",", ".") . " / Bulan"; ?></div>
+                      </div>
+                      <p style="font-size: 11px" class="text-syarat mt-3 card-text"> Medan | OTR Sumatera Utara<br />* DP dan Cicilan merupakan estimasi, belum termasuk bunga, Asuransi, dll.</p>
+                    </div>
+                  </div>              
+                </div>
+                <div class="row text-center" style="cursor: pointer">
+                  <div class="col-4 p-2 social-media-hover" style="background: #1515a4" onclick="window.open('tel:081370494906')">
+                    <i class="fa fa-phone-alt fa-lg"></i><br />
+                    <small class="d-none d-sm-block">Telepon sekarang</small>
+                    <small class="d-block d-sm-none">Telp Sekarang</small>
+                  </div>
+                  <div class="col-4 p-2 social-media-hover" style="background: #19692c" onclick="window.open('https://wa.me/+6281973380227?text=Halo Bg Hasri, Saya ingin tanya harga l300. [Sumber: website mitsubishidealermedan.com]')">
+                    <i class="fa fa-whatsapp fa-lg"></i><br />
+                    <small>Whatsapp</small>
+                  </div>
+                  <div class="col-4 p-2 social-media-hover" style="background: #fb559b" onclick="window.location='mitsubishi/l300'">
+                    <i class="fa fa-search fa-lg"></i><br />
+                    <small>Telusuri</small>
+                  </div>
+                </div>
+              </div>
+            </div>              
+          </div>
+          <div class="swiper-button-next swiper-button-next-custom swiper-button-next-xpander"></div>
+          <div class="swiper-button-prev swiper-button-prev-custom swiper-button-prev-xpander"></div>
+          <div class="swiper-pagination swiper-pagination-xpander"></div>
+        </div>
+        <div class="row mb-2 mt-4">
+          <div class="col-md-12">
+            <h2 class="title mmc-bold">COMMERCIAL VEHICLE</h2>
+          </div>
+        </div>
+        <div class="swiper swiper-container-xpander text-dark">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="card mb-3 swiper-card">
+                <div class="row no-gutters">
+                  <div class="col-md-12 text-center">
+                    <img src="<?= base_url('img/fuso/box-besi.webp'); ?>" class="card-img w-80" alt="Mitsubishi Fuso Medan">
+                  </div>
+                  <div class="col-md-12">
+                    <div class="card-body">
+                      <h5 class="card-title text-center mmc-bold">Mitsubishi Fuso</h5>
+                      <div class="row mt-4">
+                        <div class="col-5 mmc-bold">Harga mulai</div>
+                          <div class="col-7 mmc-bold"><?= "Rp " . number_format($harga_fuso, 0, ",", "."); ?></div>
+                      </div>
+                      <div class="row">                  
+                        <div class="col-5">DP (20%)</div>
+                        <div class="col-7"><?= "Rp " . number_format($dp_fuso, 0, ",", "."); ?></div>
+                      </div>
+                      <div class="row">
+                        <div class="col-5">Cicilan (5thn)</div>
+                        <div class="col-7"><?= "Rp " . number_format($cicilan_fuso, 0, ",", ".") . " / Bulan"; ?></div>
+                      </div>
+                      <p style="font-size: 11px" class="text-syarat mt-3 card-text"> Medan | OTR Sumatera Utara<br />* DP dan Cicilan merupakan estimasi, belum termasuk bunga, Asuransi, dll.</p>
+                    </div>
+                  </div>              
+                </div>
+                <div class="row text-center" style="cursor: pointer">
+                  <div class="col-4 p-2 social-media-hover" style="background: #1515a4" onclick="window.open('tel:081370494906')">
+                    <i class="fa fa-phone-alt fa-lg"></i><br />
+                    <small class="d-none d-sm-block">Telepon sekarang</small>
+                    <small class="d-block d-sm-none">Telp Sekarang</small>
+                  </div>
+                  <div class="col-4 p-2 social-media-hover" style="background: #19692c" onclick="window.open('https://wa.me/+6281973380227?text=Halo Bg Hasri, Saya ingin tanya harga fuso. [Sumber: website mitsubishidealermedan.com]')">
+                    <i class="fa fa-whatsapp fa-lg"></i><br />
+                    <small>Whatsapp</small>
+                  </div>
+                  <div class="col-4 p-2 social-media-hover" style="background: #fb559b" onclick="window.location='mitsubishi/fuso'">
+                    <i class="fa fa-search fa-lg"></i><br />
+                    <small>Telusuri</small>
+                  </div>
+                </div>
+              </div>
+            </div>  
+            <div class="swiper-slide">
+              <div class="card mb-3 swiper-card">
+                <div class="row no-gutters">
+                  <div class="col-md-12 text-center">
+                    <img src="<?= base_url('img/colt-diesel/colt-diesel.webp'); ?>" class="card-img w-80" alt="Mitsubishi Colt Diesel Medan">
+                  </div>
+                  <div class="col-md-12">
+                    <div class="card-body">
+                      <h5 class="card-title text-center mmc-bold">Mitsubishi Colt Diesel</h5>
+                      <div class="row mt-4">
+                        <div class="col-5 mmc-bold">Harga mulai</div>
+                          <div class="col-7 mmc-bold"><?= "Rp " . number_format($harga_colt_diesel, 0, ",", "."); ?></div>
+                      </div>
+                      <div class="row">                  
+                        <div class="col-5">DP (20%)</div>
+                        <div class="col-7"><?= "Rp " . number_format($dp_colt_diesel, 0, ",", "."); ?></div>
+                      </div>
+                      <div class="row">
+                        <div class="col-5">Cicilan (5thn)</div>
+                        <div class="col-7"><?= "Rp " . number_format($cicilan_colt_diesel, 0, ",", ".") . " / Bulan"; ?></div>
+                      </div>
+                      <p style="font-size: 11px" class="text-syarat mt-3 card-text"> Medan | OTR Sumatera Utara<br />* DP dan Cicilan merupakan estimasi, belum termasuk bunga, Asuransi, dll.</p>
+                    </div>
+                  </div>              
+                </div>
+                <div class="row text-center" style="cursor: pointer">
+                  <div class="col-4 p-2 social-media-hover" style="background: #1515a4" onclick="window.open('tel:081370494906')">
+                    <i class="fa fa-phone-alt fa-lg"></i><br />
+                    <small class="d-none d-sm-block">Telepon sekarang</small>
+                    <small class="d-block d-sm-none">Telp Sekarang</small>
+                  </div>
+                  <div class="col-4 p-2 social-media-hover" style="background: #19692c" onclick="window.open('https://wa.me/+6281973380227?text=Halo Bg Hasri, Saya ingin tanya harga colt diesel. [Sumber: website mitsubishidealermedan.com]')">
+                    <i class="fa fa-whatsapp fa-lg"></i><br />
+                    <small>Whatsapp</small>
+                  </div>
+                  <div class="col-4 p-2 social-media-hover" style="background: #fb559b" onclick="window.location='mitsubishi/colt-diesel'">
+                    <i class="fa fa-search fa-lg"></i><br />
+                    <small>Telusuri</small>
+                  </div>
+                </div>
+              </div>
+            </div>  
+          </div>
+          <div class="swiper-button-next swiper-button-next-custom swiper-button-next-xpander"></div>
+          <div class="swiper-button-prev swiper-button-prev-custom swiper-button-prev-xpander"></div>
+          <div class="swiper-pagination swiper-pagination-xpander"></div>
+        </div> -->
+      </div>
+    </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./assets/js/script.js"></script>
   </body>
 </html>
