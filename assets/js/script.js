@@ -64,6 +64,10 @@ const swiperTestimoni = new Swiper('.swiper-container-xpander', {
     el: '.swiper-pagination-xpander',
     clickable: true,
   },
+  navigation: {
+    nextEl: '.swiper-button-next-xpander',
+    prevEl: '.swiper-button-prev-xpander',
+  },
   breakpoints: {
     800: {
       slidesPerView: 3,
