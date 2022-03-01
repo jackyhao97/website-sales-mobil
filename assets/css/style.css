@@ -1,5 +1,28 @@
+@font-face {
+  font-family: mmc-regular;
+  src: url(../fonts/MMCOFFICE-Regular.ttf);
+}
+@font-face {
+  font-family: mmc-bold;
+  src: url(../fonts/MMCOFFICE-Bold.ttf);
+}
+@font-face {
+  font-family: mmc-medium;
+  src: url(../fonts/MMC-Medium.ttf);
+}
+
 body {
   font-family: 'Poppins', sans-serif;
+}
+
+.mmc-regular {
+  font-family: mmc-regular;
+}
+.mmc-medium {
+  font-family: mmc-medium;
+}
+.mmc-bold {
+  font-family: mmc-bold;
 }
 
 #carouselExampleIndicators .carousel-indicators .active {
@@ -90,6 +113,10 @@ section.testimoni .grid {
 .swiper-pagination-bullets {
   bottom: 0 !important;
 }
+
+.swiper-pagination-bullet {
+  background: red;
+}
 /* Akhir Swiper */
 
 .social-media-hover {
@@ -107,6 +134,27 @@ section.testimoni .grid {
   background: #363535;
   color: white;
   overflow: hidden;
+}
+
+.media-mobile {
+  display: block;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  padding: 10px 20px 0;
+  color: white;
+  background: transparent;
+  z-index: 1000;
+}
+
+.icon-media-mobile {
+  border-radius: 15px 15px 0 0 !important;
+  border-top: 4px solid black;
+  border-bottom: none;
+}
+
+.icon-media-mobile-red {
+  border-top: 4px solid rgb(187, 17, 7);
 }
 
 @media (max-width: 576px) {
