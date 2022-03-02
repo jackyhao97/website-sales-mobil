@@ -157,6 +157,10 @@ section.testimoni .grid {
   border-top: 4px solid rgb(187, 17, 7);
 }
 
+.dropdown-menu .nav-product:hover {
+  color: black !important;
+}
+
 @media (max-width: 576px) {
   section.testimoni .customer-testimonial {
     padding: 20px;
