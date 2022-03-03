@@ -161,7 +161,23 @@ section.testimoni .grid {
   color: black !important;
 }
 
+.swiper-mitsubishi-new-xpander .swiper-pagination-bullet {
+  background: red;
+  width: 20px;
+  height: 20px;
+}
+
+.parallax-xpander {
+  background: url(../img/parallax-new-xpander.jpg);
+  background-size: cover;
+}
+
 @media (max-width: 576px) {
+  section.video-colt iframe,
+  section.video-fuso iframe {
+    width: 100%;
+  }
+
   section.testimoni .customer-testimonial {
     padding: 20px;
     width: 100%;
