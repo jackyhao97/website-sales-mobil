@@ -172,7 +172,79 @@ section.testimoni .grid {
   background-size: cover;
 }
 
+.social-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-icons li {
+  list-style: none;
+}
+
+.social-icons a {
+  border: 1px solid #fff;
+  border-radius: 50%;
+  color: #fff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  height: 40px;
+  width: 40px;
+  text-decoration: none;
+}
+
+.footer-flex {
+  display: flex;
+  align-items: center;
+}
+
+.footer-flex > div,
+.footer-flex > ul {
+  flex: 1;
+}
+
+.footer {
+  background-color: black;
+  color: #fff;
+  padding: 100px 20px 60px;
+}
+
+.footer ul {
+  list-style-type: none;
+}
+
+.footer ul li {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: mmc-regular;
+}
+
+.footer p {
+  text-align: right;
+  font-family: mmc-regular;
+}
+
+.footer ul li a {
+  text-decoration: none;
+  color: white;
+  font-family: mmc-regular;
+}
+
+.footer ul li a:hover {
+  color: red;
+}
+
+.footer img {
+  width: 30%;
+}
+
 @media (max-width: 576px) {
+  .copyright {
+    margin-top: 20px;
+  }
+
   section.video-colt iframe,
   section.video-fuso iframe {
     width: 100%;
@@ -193,5 +265,26 @@ section.testimoni .grid {
 
   .swiper-button-next-custom {
     right: 5%;
+  }
+
+  .footer-flex {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer {
+    text-align: center;
+  }
+
+  .footer ul {
+    padding: 0;
+  }
+
+  .footer p {
+    text-align: center;
+  }
+
+  .footer img {
+    width: 90%;
   }
 }

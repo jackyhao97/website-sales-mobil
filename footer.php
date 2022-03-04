@@ -26,3 +26,124 @@
     </div>
   </div>
 </div>
+
+<div class="footer">
+  <img src="<?=BASE_URL.DS.'assets/img/logo-jacky.png'?>" alt="Mitsubishi Jacky" />
+
+  <div class="footer-flex">
+    <ul>
+      <li>
+        Dapatkan penawaran dan promo terbaik dari produk Mitsubishi.
+        Ayo segera kontak kami di nomor dibawah ini.
+      </li>
+      <li>
+        <a
+          target="_blank"
+          href="https://wa.me/+628116541800?text=[NXP]Halo Sardana berlian. Saya tertarik dengan penawaran dan promo dari Mitsubishi new Xpander."
+        >
+          <i class="fa fa-lg fa-whatsapp"></i> 0812-7900-8217
+        </a>
+      </li>
+    </ul>
+    <ul>
+      <li>
+        <a
+          target="_blank"
+          href="https://hargamitsubishimedan.id/product/new-xpander/"
+        >
+          New Xpander
+        </a>
+      </li>
+      <li>
+        <a
+          target="_blank"
+          href="https://hargamitsubishimedan.id/product/new-xpander-cross/"
+        >
+          New Xpander Cross
+        </a>
+      </li>
+      <li>
+        <a
+          target="_blank"
+          href="https://hargamitsubishimedan.id/product/xpander/"
+        >
+          Pajero Sport
+        </a>
+      </li>
+    </ul>
+
+    <ul>
+      <li>
+        <a
+          target="_blank"
+          href="https://hargamitsubishimedan.id/product/eclipse-cross/"
+        >
+          Eclipse Cross
+        </a>
+      </li>
+      <li>
+        <a
+          target="_blank"
+          href="https://hargamitsubishimedan.id/product/triton/"
+        >
+          Triton
+        </a>
+      </li>
+      <li>
+        <a
+          target="_blank"
+          href="https://hargamitsubishimedan.id/product/l300/"
+        >
+          L300
+        </a>
+      </li>
+    </ul>
+
+    <ul>
+      <li>
+        <a
+          target="_blank"
+          href="https://hargamitsubishimedan.id/product/eclipse-cross/"
+        >
+          Colt Diesel
+        </a>
+      </li>
+      <li>
+        <a
+          target="_blank"
+          href="https://hargamitsubishimedan.id/product/triton/"
+        >
+          Fuso
+        </a>
+      </li>
+    </ul>
+
+    <div class="social-icons">
+      <li>
+        <a
+          target="_blank"
+          href="https://instagram.com/sardanaindahberlianmotor"
+        >
+          <i class="fa fa-lg fa-instagram"></i>
+        </a>
+        <a target="_blank" href="https://facebook.com/sardanaindahberlianmotor">
+          <i class="fa fa-lg fa-facebook"></i>
+        </a>
+        <a
+          target="_blank"
+          href="https://wa.me/+628116541800?text=[NXP] Halo Sardana Berlian."
+        >
+          <i class="fa fa-lg fa-whatsapp"></i>
+        </a>
+        <a
+          target="_blank"
+          href="https://wa.me/+628116541800?text=[NXP] Halo Sardana Berlian."
+        >
+          <i class="fa fa-lg fa-phone-alt"></i>
+        </a>
+      </li>
+    </div>
+  </div>
+
+  <p class="copyright">&copy; 2022 Mitsubishi Medan Jacky. All rights reserved</p>
+</div>
