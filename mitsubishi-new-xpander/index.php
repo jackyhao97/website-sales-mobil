@@ -32,7 +32,7 @@
     <?php require_once '../navbar.php'; ?>
 
     <!-- Slider -->
-    <div class="swiper swiper-mitsubishi-new-xpander">
+    <div class="swiper swiper-mitsubishi-new-xpander" style="margin-top: 73px">
       <div class="swiper-wrapper">
         <div class="swiper-slide">
           <img src="<?= BASE_URL.DS.'assets/img/new-xpander/new-xpander-desktop.jpg' ?>" alt="Mitsubishi New Xpander" class="w-100 slider-1">
