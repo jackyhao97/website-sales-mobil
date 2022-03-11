@@ -25,7 +25,7 @@
           </ul>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">TESTIMONI</a>
+          <a class="nav-link" href="<?=BASE_URL.DS.'testimoni-mitsubishi-medan'?>">TESTIMONI</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="<?=BASE_URL.DS.'harga-mitsubishi-medan/'?>">PRICE LIST</a>

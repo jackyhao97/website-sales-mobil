@@ -80,3 +80,15 @@ const swiperTestimoni = new Swiper('.swiper-container-xpander', {
     },
   },
 })
+
+lightbox.option({
+  showImageNumberLabel: false,
+  wrapAround: true,
+})
+
+// $(document).ready(function () {
+//   lightbox.option({
+//     showImageNumberLabel: false,
+//     wrapAround: true,
+//   })
+// })
