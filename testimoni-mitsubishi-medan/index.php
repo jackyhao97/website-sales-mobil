@@ -37,53 +37,53 @@
       <h2 class="text-center text-uppercase mmc-medium mb-3" style="border: 2px solid #c5c5c5;">Testimoni Mitsubishi Medan</h2>
       <div class="row">
         <div class="col-6 col-sm-4 col-lg-3 mb-2">
-          <a href="<?=BASE_URL.DS.'assets/img/testimoni/1.jpg'?>"  data-lightbox="Testimoni" data-title="Terima kasih Ci atas pembelian unit Xpander Cross">
-            <img src="<?=BASE_URL.DS.'assets/img/testimoni/1.jpg'?>" alt="Testimoni Mitsubishi Medan" class="w-100">
+          <a href="<?=BASE_URL.DS.'assets/img/testimoni/2.jpg'?>"  data-lightbox="Testimoni" data-title="Terima kasih Ci atas pembelian unit Xpander Cross">
+            <img src="<?=BASE_URL.DS.'assets/img/testimoni/2.jpg'?>" alt="Testimoni Mitsubishi Medan" class="w-100">
           </a>
         </div>
         <div class="col-6 col-sm-4 col-lg-3 mb-2">
-          <a href="<?=BASE_URL.DS.'assets/img/testimoni/1.jpg'?>"  data-lightbox="Testimoni" data-title="Terima kasih Ci atas pembelian unit Xpander Cross">
-            <img src="<?=BASE_URL.DS.'assets/img/testimoni/1.jpg'?>" alt="Testimoni Mitsubishi Medan" class="w-100">
+          <a href="<?=BASE_URL.DS.'assets/img/testimoni/2.jpg'?>"  data-lightbox="Testimoni" data-title="Terima kasih Ci atas pembelian unit Xpander Cross">
+            <img src="<?=BASE_URL.DS.'assets/img/testimoni/2.jpg'?>" alt="Testimoni Mitsubishi Medan" class="w-100">
           </a>
         </div>
         <div class="col-6 col-sm-4 col-lg-3 mb-2">
-          <a href="<?=BASE_URL.DS.'assets/img/testimoni/1.jpg'?>"  data-lightbox="Testimoni" data-title="Terima kasih Ci atas pembelian unit Xpander Cross">
-            <img src="<?=BASE_URL.DS.'assets/img/testimoni/1.jpg'?>" alt="Testimoni Mitsubishi Medan" class="w-100">
+          <a href="<?=BASE_URL.DS.'assets/img/testimoni/2.jpg'?>"  data-lightbox="Testimoni" data-title="Terima kasih Ci atas pembelian unit Xpander Cross">
+            <img src="<?=BASE_URL.DS.'assets/img/testimoni/2.jpg'?>" alt="Testimoni Mitsubishi Medan" class="w-100">
           </a>
         </div>
         <div class="col-6 col-sm-4 col-lg-3 mb-2">
-          <a href="<?=BASE_URL.DS.'assets/img/testimoni/1.jpg'?>"  data-lightbox="Testimoni" data-title="Terima kasih Ci atas pembelian unit Xpander Cross">
-            <img src="<?=BASE_URL.DS.'assets/img/testimoni/1.jpg'?>" alt="Testimoni Mitsubishi Medan" class="w-100">
+          <a href="<?=BASE_URL.DS.'assets/img/testimoni/2.jpg'?>"  data-lightbox="Testimoni" data-title="Terima kasih Ci atas pembelian unit Xpander Cross">
+            <img src="<?=BASE_URL.DS.'assets/img/testimoni/2.jpg'?>" alt="Testimoni Mitsubishi Medan" class="w-100">
           </a>
         </div>
         <div class="col-6 col-sm-4 col-lg-3 mb-2">
-          <a href="<?=BASE_URL.DS.'assets/img/testimoni/1.jpg'?>"  data-lightbox="Testimoni" data-title="Terima kasih Ci atas pembelian unit Xpander Cross">
-            <img src="<?=BASE_URL.DS.'assets/img/testimoni/1.jpg'?>" alt="Testimoni Mitsubishi Medan" class="w-100">
+          <a href="<?=BASE_URL.DS.'assets/img/testimoni/2.jpg'?>"  data-lightbox="Testimoni" data-title="Terima kasih Ci atas pembelian unit Xpander Cross">
+            <img src="<?=BASE_URL.DS.'assets/img/testimoni/2.jpg'?>" alt="Testimoni Mitsubishi Medan" class="w-100">
           </a>
         </div>
         <div class="col-6 col-sm-4 col-lg-3 mb-2">
-          <a href="<?=BASE_URL.DS.'assets/img/testimoni/1.jpg'?>"  data-lightbox="Testimoni" data-title="Terima kasih Ci atas pembelian unit Xpander Cross">
-            <img src="<?=BASE_URL.DS.'assets/img/testimoni/1.jpg'?>" alt="Testimoni Mitsubishi Medan" class="w-100">
+          <a href="<?=BASE_URL.DS.'assets/img/testimoni/2.jpg'?>"  data-lightbox="Testimoni" data-title="Terima kasih Ci atas pembelian unit Xpander Cross">
+            <img src="<?=BASE_URL.DS.'assets/img/testimoni/2.jpg'?>" alt="Testimoni Mitsubishi Medan" class="w-100">
           </a>
         </div>
         <div class="col-6 col-sm-4 col-lg-3 mb-2">
-          <a href="<?=BASE_URL.DS.'assets/img/testimoni/1.jpg'?>"  data-lightbox="Testimoni" data-title="Terima kasih Ci atas pembelian unit Xpander Cross">
-            <img src="<?=BASE_URL.DS.'assets/img/testimoni/1.jpg'?>" alt="Testimoni Mitsubishi Medan" class="w-100">
+          <a href="<?=BASE_URL.DS.'assets/img/testimoni/2.jpg'?>"  data-lightbox="Testimoni" data-title="Terima kasih Ci atas pembelian unit Xpander Cross">
+            <img src="<?=BASE_URL.DS.'assets/img/testimoni/2.jpg'?>" alt="Testimoni Mitsubishi Medan" class="w-100">
           </a>
         </div>
         <div class="col-6 col-sm-4 col-lg-3 mb-2">
-          <a href="<?=BASE_URL.DS.'assets/img/testimoni/1.jpg'?>"  data-lightbox="Testimoni" data-title="Terima kasih Ci atas pembelian unit Xpander Cross">
-            <img src="<?=BASE_URL.DS.'assets/img/testimoni/1.jpg'?>" alt="Testimoni Mitsubishi Medan" class="w-100">
+          <a href="<?=BASE_URL.DS.'assets/img/testimoni/2.jpg'?>"  data-lightbox="Testimoni" data-title="Terima kasih Ci atas pembelian unit Xpander Cross">
+            <img src="<?=BASE_URL.DS.'assets/img/testimoni/2.jpg'?>" alt="Testimoni Mitsubishi Medan" class="w-100">
           </a>
         </div>
         <div class="col-6 col-sm-4 col-lg-3 mb-2">
-          <a href="<?=BASE_URL.DS.'assets/img/testimoni/1.jpg'?>"  data-lightbox="Testimoni" data-title="Terima kasih Ci atas pembelian unit Xpander Cross">
-            <img src="<?=BASE_URL.DS.'assets/img/testimoni/1.jpg'?>" alt="Testimoni Mitsubishi Medan" class="w-100">
+          <a href="<?=BASE_URL.DS.'assets/img/testimoni/2.jpg'?>"  data-lightbox="Testimoni" data-title="Terima kasih Ci atas pembelian unit Xpander Cross">
+            <img src="<?=BASE_URL.DS.'assets/img/testimoni/2.jpg'?>" alt="Testimoni Mitsubishi Medan" class="w-100">
           </a>
         </div>
         <div class="col-6 col-sm-4 col-lg-3 mb-2">
-          <a href="<?=BASE_URL.DS.'assets/img/testimoni/1.jpg'?>"  data-lightbox="Testimoni" data-title="Terima kasih Ci atas pembelian unit Xpander Cross">
-            <img src="<?=BASE_URL.DS.'assets/img/testimoni/1.jpg'?>" alt="Testimoni Mitsubishi Medan" class="w-100">
+          <a href="<?=BASE_URL.DS.'assets/img/testimoni/2.jpg'?>"  data-lightbox="Testimoni" data-title="Terima kasih Ci atas pembelian unit Xpander Cross">
+            <img src="<?=BASE_URL.DS.'assets/img/testimoni/2.jpg'?>" alt="Testimoni Mitsubishi Medan" class="w-100">
           </a>
         </div>
       </div>

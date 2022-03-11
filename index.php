@@ -70,7 +70,7 @@
           <div class="col-12 col-md-6 text-white">
             <h3>Jacky - Sales Executive</h3>
             <h1 class="text-uppercase text-mitsubishi">Mitsubishi Medan</h1>
-            <p>Percayakan urusan mobil Mitsubishi anda bersama Kami. Wandy – Sales Executive dari Mitsubishi Sardana Medan Siap melayani anda dan memberikan penawaran spesial yang terbaik bagi anda. Pertanyaan seputar Spesifikasi , Simulasi Kredit, Info Stok, Promo Terbaru, Booking Service, Test Drive dan Pemesanan silahkan menghubungi kami disini.</p>
+            <p>Percayakan urusan mobil Mitsubishi anda bersama Kami. Jacky – Sales Executive dari Mitsubishi Sardana Medan Siap melayani anda dan memberikan penawaran spesial yang terbaik bagi anda. Pertanyaan seputar Spesifikasi , Simulasi Kredit, Info Stok, Promo Terbaru, Booking Service, Test Drive dan Pemesanan silahkan menghubungi kami disini.</p>
             <a class="btn btn-primary" href="tel:+6281279008217" target="_blank"><i class="fa fa-phone-alt"></i> Hubungi Kami</a>
             <a class="btn btn-success mt-2 mt-sm-0" href="https://wa.me/+6281279008217?text=Halo Jacky, Saya ingin bertanya tentang produk Mitsubishi. (sumber website)" target="_blank"><i class="fa fa-whatsapp"></i> Whatsapp Kami</a>
           </div>
@@ -85,13 +85,13 @@
           </div>
         </div>
         <div class="row">
-          <div class="col grid px-5">
-            <img src="./assets/img/testimoni-1.png" alt="Testimoni Mitsubishi Medan">
-            <img src="./assets/img/testimoni-1.png" alt="Testimoni Mitsubishi Medan">
-            <img src="./assets/img/testimoni-1.png" alt="Testimoni Mitsubishi Medan">
-            <img src="./assets/img/testimoni-1.png" alt="Testimoni Mitsubishi Medan">
-            <img src="./assets/img/testimoni-1.png" alt="Testimoni Mitsubishi Medan">
-            <img src="./assets/img/testimoni-1.png" alt="Testimoni Mitsubishi Medan">
+          <div class="col grid px-5 mb-5">
+            <img src="./assets/img/testimoni/2.jpg" alt="Testimoni Mitsubishi Medan" style="border-radius:10px;border:1px solid white">
+            <img src="./assets/img/testimoni/2.jpg" alt="Testimoni Mitsubishi Medan" style="border-radius:10px;border:1px solid white">
+            <img src="./assets/img/testimoni/2.jpg" alt="Testimoni Mitsubishi Medan" style="border-radius:10px;border:1px solid white">
+            <img src="./assets/img/testimoni/2.jpg" alt="Testimoni Mitsubishi Medan" style="border-radius:10px;border:1px solid white">
+            <img src="./assets/img/testimoni/2.jpg" alt="Testimoni Mitsubishi Medan" style="border-radius:10px;border:1px solid white">
+            <img src="./assets/img/testimoni/2.jpg" alt="Testimoni Mitsubishi Medan" style="border-radius:10px;border:1px solid white">
           </div>
         </div>
       </div>

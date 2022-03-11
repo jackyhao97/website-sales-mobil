@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" style="background:black !important; border-bottom:3px solid red">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#"><img src="<?=BASE_URL.DS.'assets/img/logo-jacky.png'?>" style="width: 200px"></a>
+    <a class="navbar-brand" href="<?=BASE_URL?>"><img src="<?=BASE_URL.DS.'assets/img/logo-jacky.png'?>" style="width: 200px"></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -31,7 +31,7 @@
           <a class="nav-link" href="<?=BASE_URL.DS.'harga-mitsubishi-medan/'?>">PRICE LIST</a>
         </li>
       </ul>
-      <a class="navbar-brand ms-auto d-none d-lg-block" href="#"><img src="<?=BASE_URL.DS.'assets/img/logo-sardana-putih.png'?>" style="width: 200px"></a>
+      <a class="navbar-brand ms-auto d-none d-lg-block" href="<?=BASE_URL?>"><img src="<?=BASE_URL.DS.'assets/img/logo-sardana-putih.png'?>" style="width: 200px"></a>
     </div>
   </div>
 </nav>
