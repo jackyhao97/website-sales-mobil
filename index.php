@@ -408,6 +408,13 @@
         </div>
       </div>
     </section>
+    <section class="promo-spesial" id="promo-spesial">
+      <div class="row">
+        <div class="col-lg-6">
+          <img src="<?=BASE_URL.DS.'assets/img/promo-spesial-result.png'?>" alt="Promo Spesial Mitsubishi Medan">
+        </div>
+      </div>
+    </section>
     <?php require_once './footer.php'; ?>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
