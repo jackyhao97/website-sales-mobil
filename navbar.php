@@ -30,6 +30,9 @@
         <li class="nav-item">
           <a class="nav-link" href="<?=BASE_URL.DS.'harga-mitsubishi-medan/'?>">PRICE LIST</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" href="<?=BASE_URL.DS.'kontak/'?>">KONTAK</a>
+        </li>
       </ul>
       <a class="navbar-brand ms-auto d-none d-lg-block" href="<?=BASE_URL?>"><img src="<?=BASE_URL.DS.'assets/img/logo-sardana-putih.png'?>" style="width: 200px"></a>
     </div>
