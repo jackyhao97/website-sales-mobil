@@ -248,7 +248,35 @@ section.testimoni .grid {
   color: white !important;
 }
 
+.blink_me {
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+.countdown {
+  font-size: 30px;
+  font-family: mmc-medium;
+}
+
+section.promo-spesial {
+  background: url('../img/bg-promo.jpg');
+  background-size: cover;
+  color: white;
+}
+
 @media (max-width: 576px) {
+  .img-promo-spesial {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    margin-bottom: 30px;
+  }
+
   .copyright {
     margin-top: 20px;
   }

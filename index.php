@@ -408,16 +408,46 @@
         </div>
       </div>
     </section>
-    <section class="promo-spesial" id="promo-spesial">
-      <div class="row">
-        <div class="col-lg-6">
-          <img src="<?=BASE_URL.DS.'assets/img/promo-spesial-result.png'?>" alt="Promo Spesial Mitsubishi Medan">
+    <section class="promo-spesial py-5" id="promo-spesial">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <img src="<?=BASE_URL.DS.'assets/img/promo-spesial-result.png'?>" alt="Promo Spesial Mitsubishi Medan" class="img-promo-spesial">
+          </div>
+          <div class="col-lg-6">
+            <h2 class="mmc-bold">PROMO <span class="blink_me text-danger mmc-bold">KHUSUS HARI INI!</span></h2>
+            <div class="countdown">
+              <span id="days"></span>
+              <span id="hours"></span>
+              <span id="mins"></span>
+              <span id="secs"></span>
+              <h2 id="end"></h2>
+            </div>
+            <p>Dapatkan Bonus Langsung untuk penawaran kredit seperti berikut <b>KHUSUS HARI INI : </b></p>
+            <ul>
+              <li>Kaca Film</li>
+              <li>Karpet Lembaran</li>
+              <li>Payung esklusif</li>
+              <li>Rumah Plat</li>
+              <li>Dompet Kulit</li>
+              <li>Gantungan kunci</li>
+              <li>Frame Plat</li>
+              <li>P3K</li>
+              <li>Dongkrak</li>
+              <li>Kunci Roda</li>
+            </ul>
+            <p>Bagus bukan? Ayo segera pesan lewat kontak dibawah ini : </p>
+            <a href="" class="btn btn-primary"><i class="fa fa-phone-alt"></i> Hubungi Saya</a>
+            <a href="" class="btn btn-success"><i class="fa fa-whatsapp"></i> Whatsapp Saya</a>
+          </div>
         </div>
       </div>
     </section>
     <?php require_once './footer.php'; ?>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="<?=BASE_URL.DS.'assets/js/lightbox.js'?>"></script>
     <script src="./assets/js/script.js"></script>
   </body>
 </html>
