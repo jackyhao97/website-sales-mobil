@@ -87,6 +87,40 @@
     <h2 class="mmc-bold text-center mt-5">360 Exterior New Xpander</h2>
     <div class="Sirv" data-src="https://andshant.sirv.com/new-xpander/product.spin" mousewheelstep="0"></div>
 
+    <h2 class="mmc-bold text-center mt-5 pt-4 text-white" style="background:black">Exterior New Xpander</h2>
+    <div class="swiper swiper-exterior-new-xpander text-white pb-4" style="background:black">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img class="w-100" src="<?= BASE_URL.DS.'assets/img/new-xpander/exterior/new-17-inch-two-tone-alloy-wheel.jpg'; ?>">
+          <h4 class="text-center mmc-bold">New 17 Inch Two Tone Alloy Wheel</h4>
+        </div>
+        <div class="swiper-slide">
+          <img class="w-100" src="<?= BASE_URL.DS.'assets/img/new-xpander/exterior/new-front-bumper-grille-design.jpg'; ?>">
+          <h4 class="text-center mmc-bold">New Front Bumper Grille Design</h4>
+        </div>
+        <div class="swiper-slide">
+          <img class="w-100" src="<?= BASE_URL.DS.'assets/img/new-xpander/exterior/new-rear-design.jpg'; ?>">
+          <h4 class="text-center mmc-bold">New Rear Design</h4>
+        </div>
+        <div class="swiper-slide">
+          <img class="w-100" src="<?= BASE_URL.DS.'assets/img/new-xpander/exterior/new-t-shape-head-light.jpg'; ?>">
+          <h4 class="text-center mmc-bold">New T-Shape Head Light</h4>
+        </div>
+        <div class="swiper-slide">
+          <img class="w-100" src="<?= BASE_URL.DS.'assets/img/new-xpander/exterior/new-t-shape-tail-light.jpg'; ?>">
+          <h4 class="text-center mmc-bold">New T-Shape Tail Light</h4>
+        </div>
+        <div class="swiper-slide">
+          <img class="w-100" src="<?= BASE_URL.DS.'assets/img/new-xpander/exterior/rear-window-defogger.jpg'; ?>">
+          <h4 class="text-center mmc-bold">Rear Window Defogger</h4>
+        </div>
+        <div class="swiper-slide">
+          <img class="w-100" src="<?= BASE_URL.DS.'assets/img/new-xpander/exterior/spacious-luggage.jpg'; ?>">
+          <h4 class="text-center mmc-bold">Spacious Luggage</h4>
+        </div>
+      </div>
+    </div>
+
     <h2 class="mmc-bold text-center mt-5">Interior New Xpander</h2>
     <div class="swiper swiper-interior-new-xpander">
       <div class="swiper-wrapper">
@@ -137,6 +171,27 @@
       </div>
     </div>
 
+    <div class="d-none d-sm-block container">
+      <div class="row mt-5">
+        <div class="col d-flex justify-content-center">
+          <a href="" class="btn btn-lg btn-danger me-2"><i class="fa fa-lg fa-download"></i> Download brochure</a>
+          <a href="" class="btn btn-lg btn-primary me-2"><i class="fa fa-lg fa-calculator"></i> Simulasi Kredit</a>
+          <a href="" class="btn btn-lg btn-success"><i class="fa fa-lg fa-whatsapp"></i> Konsultasi Pembelian</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container d-block d-sm-none">
+      <div class="row mt-5">
+        <div class="col">
+          <a href="" class="btn btn-lg btn-danger mb-2 d-flex justify-content-center"><i class="fa fa-lg fa-download me-2"></i> Download brochure</a>
+          <a href="" class="btn btn-lg btn-primary mb-2 d-flex justify-content-center"><i class="fa fa-lg fa-calculator me-2"></i> Simulasi Kredit</a>
+          <a href="" class="btn btn-lg btn-success mb-2 d-flex justify-content-center"><i class="me-2 fa fa-lg fa-whatsapp"></i> Konsultasi Pembelian</a>
+        </div>
+      </div>
+    </div>
+    <hr />  
+
     <!-- Hubungi Kami -->
     <div class="container mt-5 mb-2">
       <div class="row d-flex align-items-center">
@@ -184,6 +239,25 @@
       });
 
       new Swiper(".swiper-interior-new-xpander", {
+        autoplay: {
+          delay: 3000,
+          disableOnInteraction: false,
+        },
+        spaceBetween: 10,
+        breakpoints: {
+          800: {
+            slidesPerView: 3
+          },
+          600: {
+            slidesPerView: 2
+          },
+          300: {
+            slidesPerView: 1
+          }
+        },
+      });
+
+      new Swiper(".swiper-exterior-new-xpander", {
         autoplay: {
           delay: 3000,
           disableOnInteraction: false,
