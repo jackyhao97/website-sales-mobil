@@ -1,4 +1,7 @@
-<?php require_once "../config.php"; ?>
+<?php 
+  require_once "../config.php"; 
+  $message = 'Berikut di-infokan untuk difollow up leads berikut ini, %0D %0DTanggal: %0DNama: %0DNo.HP: %0DCatatan: %0DUntuk selengkapnya mohon cek di OP, terima kasih. %0D %0DSalam, %0DDigital Marketing Team';
+?>
 
 <!doctype html>
 <html lang="en">
@@ -48,7 +51,7 @@
     <!-- Price -->
     <div class="container mt-5">
       <h2 class="text-uppercase mmc-bold text-center text-black">Harga New Xpander Medan</h2>
-      <p class="text-center text-muted">Lihat harga terbaru New Xpander untuk wilayah Medan dan sekitarnya khusus untuk anda pengunjung website <a href="<?= BASE_URL; ?>" target="_blank">mitsubishimedan-vandys.id</a></p>
+      <p class="text-center text-muted">Lihat harga terbaru New Xpander untuk wilayah Medan dan sekitarnya khusus untuk anda pengunjung website <a href="<?= BASE_URL; ?>" target="_blank">mitsubishijacky.com</a></p>
       <table class="table table-striped table-bordered table-width text-center">
         <thead>
           <tr class="bg-danger text-white">
@@ -174,8 +177,8 @@
     <div class="d-none d-sm-block container">
       <div class="row mt-5">
         <div class="col d-flex justify-content-center">
-          <a href="" class="btn btn-lg btn-danger me-2"><i class="fa fa-lg fa-download"></i> Download brochure</a>
-          <a href="" class="btn btn-lg btn-primary me-2"><i class="fa fa-lg fa-calculator"></i> Simulasi Kredit</a>
+          <a href="<?=BASE_URL.DS.'assets/brochure/new-xpander.pdf'?>" class="btn btn-lg btn-danger me-2" target="_blank"><i class="fa fa-lg fa-download"></i> Download brochure</a>
+          <a href="https://wa.me/6281279008217?text=<?=$message?>" class="btn btn-lg btn-primary me-2" target="_blank"><i class="fa fa-lg fa-calculator"></i> Simulasi Kredit</a>
           <a href="" class="btn btn-lg btn-success"><i class="fa fa-lg fa-whatsapp"></i> Konsultasi Pembelian</a>
         </div>
       </div>
