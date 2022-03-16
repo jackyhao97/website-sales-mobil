@@ -188,9 +188,9 @@
     <div class="container d-block d-sm-none">
       <div class="row mt-5">
         <div class="col">
-          <a href="" class="btn btn-lg btn-danger mb-2 d-flex justify-content-center"><i class="fa fa-lg fa-download me-2"></i> Download brochure</a>
-          <a href="" class="btn btn-lg btn-primary mb-2 d-flex justify-content-center"><i class="fa fa-lg fa-calculator me-2"></i> Simulasi Kredit</a>
-          <a href="" class="btn btn-lg btn-success mb-2 d-flex justify-content-center"><i class="me-2 fa fa-lg fa-whatsapp"></i> Konsultasi Pembelian</a>
+          <a href="<?=BASE_URL.DS.'assets/brochure/new-xpander.pdf'?>" class="btn btn-lg btn-danger mb-2 d-flex justify-content-center"><i class="fa fa-lg fa-download me-2"></i> Download brochure</a>
+          <a href="https://wa.me/6281279008217?text=<?=$message?>" class="btn btn-lg btn-primary mb-2 d-flex justify-content-center"><i class="fa fa-lg fa-calculator me-2"></i> Simulasi Kredit</a>
+          <a href="javascript:void(0)" class="btn btn-lg btn-success mb-2 d-flex justify-content-center" data-bs-toggle="modal" data-bs-target="#popupKonsultasi"><i class="me-2 fa fa-lg fa-whatsapp"></i> Konsultasi Pembelian</a>
         </div>
       </div>
     </div>
@@ -229,15 +229,53 @@
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Konsultasi Pembelian</h5>
+            <h5 class="modal-title mmc-bold" id="exampleModalLabel">Konsultasi Pembelian</h5>
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body">
-            ...
+            <div class="mb-3">
+              <label for="nama_lengkap" class="col-form-label">Nama Lengkap: </label>
+              <input type="text" class="form-control" id="nama_lengkap">
+            </div>
+            <div class="mb-3">
+              <label for="no_hp" class="col-form-label">Nomor Handphone: </label>
+              <input type="text" class="form-control" id="nama_lengkap">
+            </div>
+            <div class="mb-3">
+              <label for="alamat" class="col-form-label">Alamat: </label>
+              <textarea class="form-control" id="alamat"></textarea>
+            </div>
+            <div class="mb-3">
+              <label for="email" class="col-form-label">Email: </label>
+              <input type="email" class="form-control" id="email">
+            </div>
+            <div class="mb-3">
+              <label for="jenis_kelamin" class="col-form-label">Jenis Kelamin: </label>
+              <select class="form-select" id="jenis_kelamin">
+                <option>Pria</option>
+                <option>Wanita</option>
+              </select>
+            </div>
+            <div class="mb-3">
+              <label for="pilih_mobil" class="col-form-label">Pilih Mobil: </label>
+              <select class="form-select" id="pilih_mobil">
+                <option>New Xpander</option>
+                <option>New Xpander Cross</option>
+                <option>Pajero Sport</option>
+                <option>Triton</option>
+                <option>L300</option>
+                <option>Colt Diesel</option>
+                <option>Fuso</option>
+              </select>
+            </div>
+            <div class="mb-3">
+              <label for="pertanyaan" class="col-form-label">Pertanyaan: </label>
+              <textarea class="form-control" id="pertanyaan"></textarea>
+            </div>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-primary">Save changes</button>
+            <button type="button" class="btn btn-danger btn-kirim">Kirim</button>
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
           </div>
         </div>
       </div>
@@ -245,6 +283,7 @@
 
     <?php require_once '../footer.php'; ?>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="https://scripts.sirv.com/sirv.js"></script>
     <script src="../assets/js/script.js"></script>
@@ -303,6 +342,13 @@
         $(".slider-1").attr('src','<?= BASE_URL.DS.'assets/img/new-xpander/new-xpander-mobile.jpg' ?>')
         $(".slider-2").attr('src','<?= BASE_URL.DS.'assets/img/new-xpander/new-xpander-2-mobile.jpg' ?>')
       }
+
+      $(document).ready(function() {
+        $(".btn-kirim").click(function() {
+          const nama = $("#nama_lengkap").val();
+          console.log(nama);
+        });
+      })
     </script>
   </body>
 </html>
