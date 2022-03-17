@@ -88,10 +88,10 @@
         </div>
       </div>
       <div class="row justify-content-center">
-        <p>Tunggu apalagi? Ayo segera pesan mobil kesayangan anda, cocok banget dimasa pandemi ini daripada harus naik angkutan umum melulu ^_^</p>
+        <p>Tunggu apalagi? Ayo segera pesan mobil kesayangan anda, cocok banget dimasa pandemi ini punya mobil sendiri.</p>
       </div>
-      <a href="" class="btn btn-success mb-2">Hubungi Sales</a>
-      <a href="" class="btn btn-primary mb-2">Simulasi Kredit</a>
+      <a href="" class="btn btn-success btn-lg mb-2">Hubungi Sales</a>
+      <a href="" class="btn btn-primary btn-lg mb-2">Simulasi Kredit</a>
     </div>
 
     <?php require_once '../footer.php'; ?>

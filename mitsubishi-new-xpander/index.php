@@ -78,6 +78,39 @@
     </div>
     <!-- Akhir Price -->
 
+    <!-- Promo Terkait -->
+    <section class="promo-terkait mt-5" id="promo-terkait">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-6">
+            <img src="<?=BASE_URL.DS.'assets/img/promo-spesial-result.png'?>" alt="Promo Mitsubishi New Xpander" class="w-100">
+          </div>
+          <div class="col-12 col-lg-6">
+              <h2 class="mmc-bold text-center mt-4 mt-sm-0">Promo New Xpander</h2>
+              <ol>
+                <li>Program pilihan pembiayaan melalui PT. Dipo Star Finance (S&K berlaku): </li>
+                <ul>
+                  <li>DP ringan mulai 10%, atau</li>
+                  <li>Bunga 0% sampai dengan tenor 2 tahun, atau </li>
+                  <li>Gratis Asuransi 2 tahun </li>
+                  <li>Paket Smart Cash dengan bunga 0% dan gratis asuransi serta biaya admin</li>
+                </ul>
+                <li>Gratis kaca film Konica Minolta </li>
+                <li>Gratis Paket SMART Silver untuk Perawatan/Servis Berkala hingga 50.000 km atau 4 tahun: </li>
+                <ul>
+                  <li>Biaya Jasa (Untuk semua varian) </li>
+                  <li>Suku cadang, Mitsubishi Motors Genuine Oil & Brake Fluid (sesuai dengan Jadwal Service Booklet) </li>
+                  <li>Chemical item: Engine flush, Brake Fluid </li>
+                  <li>Asuransi Kecelakaan Diri (Personal Accident) selama 1 tahun, dengan nominal klaim maksimal hingga Rp 5.000.000/orang* </li>
+                  <li>Asuransi Kerusakan Ban selama 1 tahun, dengan nominal klaim maksimal Rp 1.000.000 dan berlaku untuk 1 ban* </li>
+                </ul>
+              </ol>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir Promo Terkait -->
+
     <!-- Video -->
     <section class="video-colt mt-5 parallax-xpander">
       <div class="container-100 p-4 text-center text-white">
@@ -222,7 +255,6 @@
         </div>
       </div>
     </div>
-    <!-- Akhir Hubungi Kami -->
 
     <!-- Popup Konsultasi -->
     <div class="modal fade" id="popupKonsultasi" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -239,7 +271,7 @@
             </div>
             <div class="mb-3">
               <label for="no_hp" class="col-form-label">Nomor Handphone: </label>
-              <input type="text" class="form-control" id="nama_lengkap">
+              <input type="text" class="form-control" id="no_hp">
             </div>
             <div class="mb-3">
               <label for="alamat" class="col-form-label">Alamat: </label>
@@ -276,6 +308,107 @@
           <div class="modal-footer">
             <button type="button" class="btn btn-danger btn-kirim">Kirim</button>
             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Produk Lainnya -->
+    <div class="container">
+      <div class="row mt-5 mb-4">
+        <div class="col-12">
+          <h3 class="mb-4 text-uppercase mmc-bold">Produk Mitsubishi Lainnya</h3>
+        </div>
+        <div class="col-12">
+          <div class="swiper swiper-container-produk">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="card" style="overflow: hidden; cursor: pointer; border-radius: 0 !important; border: 2px solid #e3dfdf;">
+                  <div class="card-header" style="border: 0; padding: 0; border-radius: 0 !important; height: 200px; overflow: hidden">
+                    <img src="<?=BASE_URL.DS.'assets/img/new-xpander/new-xpander.png'?>" class="card-img-top" alt="Mitsubishi New Xpander">
+                  </div>
+                  <div class="card-body">
+                    <h3 class="mmc-bold text-center">NEW XPANDER</h3>
+                    <p class="card-text" style="margin-bottom: 0; height: 100px">New Xpander hadir dengan lampu utama baru desain T-Shape, memberikan pencahayaan terbaik dalam berkendara.</p>
+                    <a class="btn btn-danger" href="<?=BASE_URL.DS.'mitsubishi-new-xpander/'?>"><i class="fas fa-plus mr-2" style="font-size: 12px;"></i> SELENGKAPNYA</a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card" style="overflow: hidden; cursor: pointer; border-radius: 0 !important; border: 2px solid #e3dfdf;">
+                  <div class="card-header" style="border: 0; padding: 0; border-radius: 0 !important; height: 200px; overflow: hidden">
+                    <img src="<?=BASE_URL.DS.'assets/img/new-xpander-cross/xpander-cross-gray.webp'?>" class="card-img-top" alt="Mitsubishi New Xpander">
+                  </div>
+                  <div class="card-body">
+                    <h3 class="mmc-bold text-center">NEW XPANDER CROSS</h3>
+                    <p class="card-text" style="margin-bottom: 0; height: 100px">New Xpander Cross adalah sebuah crossover yang memadukan kenyamanan sebuah MPV dengan ketangguhan SUV.</p>
+                    <a class="btn btn-danger" href="<?=BASE_URL.DS.'mitsubishi-new-xpander/'?>"><i class="fas fa-plus mr-2" style="font-size: 12px;"></i> SELENGKAPNYA</a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card" style="overflow: hidden; cursor: pointer; border-radius: 0 !important; border: 2px solid #e3dfdf;">
+                  <div class="card-header" style="border: 0; padding: 0; border-radius: 0 !important; height: 200px; overflow: hidden">
+                    <img src="<?=BASE_URL.DS.'assets/img/new-pajero-sport/pajero-sport-white.webp'?>" class="card-img-top" alt="Mitsubishi New Xpander">
+                  </div>
+                  <div class="card-body">
+                    <h3 class="mmc-bold text-center">PAJERO SPORT</h3>
+                    <p class="card-text" style="margin-bottom: 0; height: 100px">Temukan dunia baru melalui eksplorasi tanpa batas dengan New Pajero Sport yang kini hadir lebih tangguh.</p>
+                    <a class="btn btn-danger" href="<?=BASE_URL.DS.'mitsubishi-new-xpander/'?>"><i class="fas fa-plus mr-2" style="font-size: 12px;"></i> SELENGKAPNYA</a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card" style="overflow: hidden; cursor: pointer; border-radius: 0 !important; border: 2px solid #e3dfdf;">
+                  <div class="card-header" style="border: 0; padding: 0; border-radius: 0 !important; height: 200px; overflow: hidden">
+                    <img src="<?=BASE_URL.DS.'assets/img/triton/triton-gray.webp'?>" class="card-img-top" alt="Mitsubishi New Xpander">
+                  </div>
+                  <div class="card-body">
+                    <h3 class="mmc-bold text-center">TRITON</h3>
+                    <p class="card-text" style="margin-bottom: 0; height: 100px">Triton 4X4 hadir dengan performa lebih tangguh dan fitur-fitur inovatif.</p>
+                    <a class="btn btn-danger" href="<?=BASE_URL.DS.'mitsubishi-new-xpander/'?>"><i class="fas fa-plus mr-2" style="font-size: 12px;"></i> SELENGKAPNYA</a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card" style="overflow: hidden; cursor: pointer; border-radius: 0 !important; border: 2px solid #e3dfdf;">
+                  <div class="card-header" style="border: 0; padding: 0; border-radius: 0 !important; height: 200px; overflow: hidden">
+                    <img src="<?=BASE_URL.DS.'assets/img/l300/1.webp'?>" class="card-img-top" alt="Mitsubishi New Xpander">
+                  </div>
+                  <div class="card-body">
+                    <h3 class="mmc-bold text-center">L300</h3>
+                    <p class="card-text" style="margin-bottom: 0; height: 100px">Efisien dan memiliki ruang kargo luas yang didukung oleh mesin bertenaga.</p>
+                    <a class="btn btn-danger" href="<?=BASE_URL.DS.'mitsubishi-new-xpander/'?>"><i class="fas fa-plus mr-2" style="font-size: 12px;"></i> SELENGKAPNYA</a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card" style="overflow: hidden; cursor: pointer; border-radius: 0 !important; border: 2px solid #e3dfdf;">
+                  <div class="card-header" style="border: 0; padding: 0; border-radius: 0 !important; height: 200px; overflow: hidden">
+                    <img src="<?=BASE_URL.DS.'assets/img/colt-diesel/colt-diesel.webp'?>" class="card-img-top" alt="Mitsubishi New Xpander">
+                  </div>
+                  <div class="card-body">
+                    <h3 class="mmc-bold text-center">COLT DIESEL</h3>
+                    <p class="card-text" style="margin-bottom: 0; height: 100px">Sangat cocok untuk bak kayu, aluminium dump truck, serta kargo lainnya.</p>
+                    <a class="btn btn-danger" href="<?=BASE_URL.DS.'mitsubishi-new-xpander/'?>"><i class="fas fa-plus mr-2" style="font-size: 12px;"></i> SELENGKAPNYA</a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card" style="overflow: hidden; cursor: pointer; border-radius: 0 !important; border: 2px solid #e3dfdf;">
+                  <div class="card-header" style="border: 0; padding: 0; border-radius: 0 !important; height: 200px; overflow: hidden">
+                    <img src="<?=BASE_URL.DS.'assets/img/fuso/box-besi.webp'?>" class="card-img-top" alt="Mitsubishi New Xpander">
+                  </div>
+                  <div class="card-body">
+                    <h3 class="mmc-bold text-center">FUSO</h3>
+                    <p class="card-text" style="margin-bottom: 0; height: 100px">Fuso merupakan truk kategori medium yang ekonomis dan dapat diandalkan untuk berbagai kebutuhan.</p>
+                    <a class="btn btn-danger" href="<?=BASE_URL.DS.'mitsubishi-new-xpander/'?>"><i class="fas fa-plus mr-2" style="font-size: 12px;"></i> SELENGKAPNYA</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-button-next swiper-button-next-custom"></div>
+            <div class="swiper-button-prev swiper-button-prev-custom"></div>
           </div>
         </div>
       </div>
@@ -338,6 +471,32 @@
         },
       });
 
+      new Swiper('.swiper-container-produk', {
+        autoplay: {
+          delay: 4000,
+          disableOnInteraction: false,
+        },
+        breakpoints: {
+          0: {
+            slidesPerView: 1,
+            spaceBetween: 20
+          },
+          600: {
+            slidesPerView: 2,
+            spaceBetween: 20
+          },
+          // when window width is >= 480px
+          800: {
+            slidesPerView: 3,
+            spaceBetween: 30
+          },       
+        },
+        navigation: {
+          nextEl: '.swiper-button-next-custom',
+          prevEl: '.swiper-button-prev-custom',
+        },
+      });
+
       if (window.matchMedia("(max-width: 576px)").matches) {
         $(".slider-1").attr('src','<?= BASE_URL.DS.'assets/img/new-xpander/new-xpander-mobile.jpg' ?>')
         $(".slider-2").attr('src','<?= BASE_URL.DS.'assets/img/new-xpander/new-xpander-2-mobile.jpg' ?>')
@@ -346,7 +505,14 @@
       $(document).ready(function() {
         $(".btn-kirim").click(function() {
           const nama = $("#nama_lengkap").val();
-          console.log(nama);
+          const nomorHp = $("#no_hp").val();
+          const alamat = $("#alamat").val();
+          const email = $("#email").val();
+          const jenisKelamin = $("#jenis_kelamin").val();
+          const pilihMobil = $("#pilih_mobil").val();
+          const pertanyaan = $("#pertanyaan").val();
+
+          window.open('https://api.whatsapp.com/send?phone=6281279008217&text=Halo%20Jacky,%20Saya%20Ingin%20Konsultasi%20Pembelian%20Sebagai%20Berikut:%0D%0DNama:%20'+nama+'%0DNomor%20Handphone:%20'+nomorHp+'%0DAlamat:%20'+alamat+'%0DEmail:%20'+email+'%0DJenis%20Kelamin:%20'+jenisKelamin+'%0DPilih%20Mobil:%20'+pilihMobil+'%0DPertanyaan:%20'+pertanyaan+'%0D%0DTerimakasih.%20(Sumber%20Website)', '_blank');
         });
       })
     </script>

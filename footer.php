@@ -1,7 +1,7 @@
 <div class="container-fluid media-mobile">
   <div class="row text-center" style="cursor: pointer">
     <div class="col-3" style="background:black;padding:5px">
-      <div class="icon-media-mobile icon-media-mobile-red p-0 align-items-center" onclick="window.open('https://wa.me/+6282274190043?text=Halo Kak Hesti.')">
+      <div class="icon-media-mobile icon-media-mobile-red p-0 align-items-center" onclick="window.open('https://wa.me/+6281279008217?text=Halo Jacky. (sumber website)')">
         <i class="fa fa-lg fa-whatsapp mt-2"></i>
         <p class="p-0 mt-1 mb-0 mb-0" style="font-size:12px">WHATSAPP</p>              
       </div>
@@ -39,7 +39,7 @@
       <li>
         <a
           target="_blank"
-          href="https://wa.me/+628116541800?text=[NXP]Halo Sardana berlian. Saya tertarik dengan penawaran dan promo dari Mitsubishi new Xpander."
+          href="https://wa.me/+628129008217?text=Halo Jacky. (sumber website)"
         >
           <i class="fa fa-lg fa-whatsapp"></i> 0812-7900-8217
         </a>
@@ -131,13 +131,13 @@
         </a>
         <a
           target="_blank"
-          href="https://wa.me/+628116541800?text=[NXP] Halo Sardana Berlian."
+          href="https://wa.me/+6281279008217?text=Halo Jacky. (sumber website)"
         >
           <i class="fa fa-lg fa-whatsapp"></i>
         </a>
         <a
           target="_blank"
-          href="https://wa.me/+628116541800?text=[NXP] Halo Sardana Berlian."
+          href="#"
         >
           <i class="fa fa-lg fa-phone-alt"></i>
         </a>

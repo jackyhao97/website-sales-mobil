@@ -40,7 +40,7 @@
             <img src="<?=BASE_URL.DS.'assets/img/kontak.jpg'?>" alt="Kontak Kami" class="w-100 img-promo-spesial">
           </div>
           <div class="col-12 col-lg-6">
-            <h1 class="text-danger mmc-bold">MAU KONSULTASI PEMBELIAN?</h1>
+            <h1 class="text-danger mmc-bold">KONTAK SAYA</h1>
             <p class="text-danger mmc-medium">Hubungi <span class="text-dark">Jacky</span> dibawah ini</p>
             <hr style="background:red;border-top: 2px solid rgba(0,0,0,.1);">
             <div class="row text-dark">

@@ -32,7 +32,7 @@
     <?php require_once '../navbar.php'; ?>
     <div class="container-fluid fixed-top p-0" style="margin-top:73px;z-index:999">
       <marquee direction="left" scrollAmount="7" onmouseover="this.stop()" onmouseout="this.start()" style="background:white">        
-        <p class="text-danger mmc-bold" style="font-style: italic;margin-bottom:0">PROMO Pajak PPnBM 0%, Harga Turun Drastis, Diskon Besar Besaran, Bunga Kredit 0% Dan Free Aksesoris. Promo Hanya Berlaku Setiap Pemesanan Melalui Website Ini.. <span class="text-primary mmc-bold">Ajukan penawaran sekarang <a class="btn btn-success" style="margin-left: 10px">Telepon Sales</a>
+        <p class="text-danger mmc-bold" style="font-style: italic;margin-bottom:0">PROMO Maret 2022, Harga Turun Drastis, Diskon Besar Besaran, Bunga Kredit 0% Dan Free Aksesoris. Promo Hanya Berlaku Setiap Pemesanan Melalui Website Ini.. <span class="text-primary mmc-bold">Ajukan penawaran sekarang <a class="btn btn-success" style="margin-left: 10px">Telepon Sales</a>
       </marquee>
     </div>
     <div class="container container-price">
