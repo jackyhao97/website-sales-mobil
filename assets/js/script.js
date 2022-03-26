@@ -87,7 +87,7 @@ lightbox.option({
 });
 
 $(document).ready(function () {
-  let countDownDate = new Date('Mar 18, 2022 00:00:00').getTime();
+  let countDownDate = new Date('Mar 27, 2022 00:00:00').getTime();
 
   // Run myfunc every second
   let myfunc = setInterval(function () {

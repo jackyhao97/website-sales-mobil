@@ -94,6 +94,11 @@
             <img src="./assets/img/testimoni/2.jpg" alt="Testimoni Mitsubishi Medan" style="border-radius:10px;border:1px solid white">
           </div>
         </div>
+        <div class="row">
+          <div class="col-12 text-center">
+            <a href="<?=BASE_URL.DS.'testimoni-mitsubishi-medan/'?>" class="btn btn-lg btn-danger">Lihat Lainnya</a>
+          </div>
+        </div>
       </div>
     </section>
     <section class="product bg-dark text-white py-5" id="product">
@@ -109,7 +114,7 @@
               <div class="card mb-3 swiper-card">
                 <div class="row no-gutters">
                   <div class="col-md-12 text-center">
-                    <img src="<?=BASE_URL.DS.'assets/img/new-xpander/red-ultimate-xpander.webp'?>" class="card-img w-80" alt="Mitsubishi New Xpander Medan">
+                    <img src="<?=BASE_URL.DS.'assets/img/new-xpander/new-xpander.png'?>" class="card-img w-80" alt="Mitsubishi New Xpander Medan">
                   </div>
                   <div class="col-md-12">
                     <div class="card-body">
