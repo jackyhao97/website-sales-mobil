@@ -64,7 +64,7 @@
                 <img alt="" data-src="https://hondamedancenter.com/wp-content/uploads/2020/11/whatsapp.svg" class="attachment-medium size-medium lazyloaded" src="https://hondamedancenter.com/wp-content/uploads/2020/11/whatsapp.svg" width="60" height="60">
                 <div class="container-profile-detail">
                   <h5 class="mmc-bold">WHATSAPP</h5>
-                  <a href="https://wa.me/+6282274190043?text=Halo Kak Hesti." class="mmc-bold text-danger">0812-7900-8217</a>
+                  <a href="https://wa.me/+6282274190043?text=Halo Jacky. Saya tertarik dengan mobil Mitsubishi. (sumber website)" class="mmc-bold text-danger" target="_blank">0812-7900-8217</a>
                 </div>                
               </div>
               <div class="col-sm-6 col-xs-12 d-flex align-items-center mt-4">
