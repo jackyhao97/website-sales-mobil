@@ -17,9 +17,9 @@
 
   // Koneksi Live
   // $servername = "localhost";
-  // $username = "mith3351_admin";
-  // $password = "JackyVallent1997";
-  // $dbname = "mith3351_vandys";
+  // $username = "mitq1622_hasri";
+  // $password = "Orig1nh4sri2021";
+  // $dbname = "mitq1622_hasri";
   // $conn = mysqli_connect($servername, $username, $password, $dbname);
   // if (!$conn) {
   //   echo "Failed to connect!";

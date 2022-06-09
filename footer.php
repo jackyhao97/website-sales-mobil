@@ -7,19 +7,19 @@
       </div>
     </div>
     <div class="col-3" style="background:rgb(187, 17, 7);padding:5px">
-      <div class="icon-media-mobile p-0" onclick="window.open('https://web.facebook.com/cieesty.vozuegbf')">
+      <div class="icon-media-mobile p-0" onclick="window.open('https://www.facebook.com/jacky.mfirstlinez.1')">
         <i class="fa fa-lg fa-facebook mt-2"></i>
         <p class="p-0 mt-1 mb-0" style="font-size:12px">FACEBOOK</p>
       </div>
     </div>
     <div class="col-3" style="background:rgb(187, 17, 7);padding:5px">
-      <div class="icon-media-mobile p-0" onclick="window.open('https://www.instagram.com/estikk92/')">
+      <div class="icon-media-mobile p-0" onclick="window.open('https://www.instagram.com/jackyha0/')">
         <i class="fa fa-lg fa-instagram mt-2"></i>
         <p class="p-0 mt-1 mb-0" style="font-size:12px">INSTAGRAM</p>
       </div>
     </div>
     <div class="col-3" style="background:black;padding:5px">
-      <div class="icon-media-mobile icon-media-mobile-red p-0" onclick="window.open('tel:+6282274190043')">
+      <div class="icon-media-mobile icon-media-mobile-red p-0" onclick="window.open('tel:+6281279008217')">
         <i class="fa fa-lg fa-phone-alt mt-2"></i>
         <p class="p-0 mt-1 mb-0" style="font-size:12px">PHONE</p>
       </div>
@@ -122,11 +122,11 @@
       <li>
         <a
           target="_blank"
-          href="https://instagram.com/sardanaindahberlianmotor"
+          href="https://www.instagram.com/jackyha0/"
         >
           <i class="fa fa-lg fa-instagram"></i>
         </a>
-        <a target="_blank" href="https://facebook.com/sardanaindahberlianmotor">
+        <a target="_blank" href="https://www.facebook.com/jacky.mfirstlinez.1">
           <i class="fa fa-lg fa-facebook"></i>
         </a>
         <a
@@ -137,7 +137,7 @@
         </a>
         <a
           target="_blank"
-          href="#"
+          href="tel:+6281279008217"
         >
           <i class="fa fa-lg fa-phone-alt"></i>
         </a>
