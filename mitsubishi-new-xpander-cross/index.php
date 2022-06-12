@@ -125,32 +125,32 @@
     <div class="swiper swiper-exterior-new-xpander-cross text-white pb-4" style="background:black">
       <div class="swiper-wrapper">
         <div class="swiper-slide">
-          <img class="w-100" src="<?= BASE_URL.DS.'assets/img/new-xpander/exterior/new-17-inch-two-tone-alloy-wheel.jpg'; ?>">
+          <img class="w-100" src="<?= BASE_URL.DS.'assets/img/new-xpander-cross/exterior/17-inch-alloy-wheel.jpg'; ?>">
           <h4 class="text-center mmc-bold">New 17 Inch Two Tone Alloy Wheel</h4>
         </div>
         <div class="swiper-slide">
-          <img class="w-100" src="<?= BASE_URL.DS.'assets/img/new-xpander/exterior/new-front-bumper-grille-design.jpg'; ?>">
-          <h4 class="text-center mmc-bold">New Front Bumper Grille Design</h4>
+          <img class="w-100" src="<?= BASE_URL.DS.'assets/img/new-xpander-cross/exterior/new-black-metallic-grille.jpg'; ?>">
+          <h4 class="text-center mmc-bold">New black metallic grille</h4>
         </div>
         <div class="swiper-slide">
-          <img class="w-100" src="<?= BASE_URL.DS.'assets/img/new-xpander/exterior/new-rear-design.jpg'; ?>">
-          <h4 class="text-center mmc-bold">New Rear Design</h4>
+          <img class="w-100" src="<?= BASE_URL.DS.'assets/img/new-xpander-cross/exterior/rear-bumper.jpg'; ?>">
+          <h4 class="text-center mmc-bold">Rear bumper</h4>
         </div>
         <div class="swiper-slide">
-          <img class="w-100" src="<?= BASE_URL.DS.'assets/img/new-xpander/exterior/new-t-shape-head-light.jpg'; ?>">
-          <h4 class="text-center mmc-bold">New T-Shape Head Light</h4>
+          <img class="w-100" src="<?= BASE_URL.DS.'assets/img/new-xpander-cross/exterior/roof-rail.jpg'; ?>">
+          <h4 class="text-center mmc-bold">Roof rail</h4>
         </div>
         <div class="swiper-slide">
-          <img class="w-100" src="<?= BASE_URL.DS.'assets/img/new-xpander/exterior/new-t-shape-tail-light.jpg'; ?>">
-          <h4 class="text-center mmc-bold">New T-Shape Tail Light</h4>
+          <img class="w-100" src="<?= BASE_URL.DS.'assets/img/new-xpander-cross/exterior/shark-fin-antenna.jpg'; ?>">
+          <h4 class="text-center mmc-bold">Shark fin antenna</h4>
         </div>
         <div class="swiper-slide">
-          <img class="w-100" src="<?= BASE_URL.DS.'assets/img/new-xpander/exterior/rear-window-defogger.jpg'; ?>">
-          <h4 class="text-center mmc-bold">Rear Window Defogger</h4>
+          <img class="w-100" src="<?= BASE_URL.DS.'assets/img/new-xpander-cross/exterior/tailgate-garnish.jpg'; ?>">
+          <h4 class="text-center mmc-bold">Tailgate garnish</h4>
         </div>
         <div class="swiper-slide">
-          <img class="w-100" src="<?= BASE_URL.DS.'assets/img/new-xpander/exterior/spacious-luggage.jpg'; ?>">
-          <h4 class="text-center mmc-bold">Spacious Luggage</h4>
+          <img class="w-100" src="<?= BASE_URL.DS.'assets/img/new-xpander-cross/exterior/wheel-arch-molding.jpg'; ?>">
+          <h4 class="text-center mmc-bold">Wheel arch molding</h4>
         </div>
       </div>
     </div>
@@ -159,48 +159,48 @@
     <div class="swiper swiper-interior-new-xpander-cross">
       <div class="swiper-wrapper">
         <div class="swiper-slide">
-          <img class="w-100" src="<?= BASE_URL.DS.'assets/img/new-xpander/interior/large-open-tray-with-card-holder-usb-port-and-power-outlet.jpg'; ?>">
-          <h4 class="text-center mmc-bold">Large Open Tray With Card Holder Usb Port And Power Outlet</h4>
+          <img class="w-100" src="<?= BASE_URL.DS.'assets/img/new-xpander-cross/interior/2nd-row-arm-rest-with-cup-holder.jpg'; ?>">
+          <h4 class="text-center mmc-bold">2nd row arm rest with cup holder</h4>
         </div>
         <div class="swiper-slide">
-          <img class="w-100" src="<?= BASE_URL.DS.'assets/img/new-xpander/interior/meter-cluster-with-new-design-and-opening-animation.jpg'; ?>">
-          <h4 class="text-center mmc-bold">Meter Cluster With New Design And Opening Animation</h4>
+          <img class="w-100" src="<?= BASE_URL.DS.'assets/img/new-xpander-cross/interior/closed-storage-box-cvt.jpg'; ?>">
+          <h4 class="text-center mmc-bold">Closed storage box CVT</h4>
         </div>
         <div class="swiper-slide">
-          <img class="w-100" src="<?= BASE_URL.DS.'assets/img/new-xpander/interior/new-2nd-row-dual-usb-ports.jpg'; ?>">
-          <h4 class="text-center mmc-bold">New 2nd Row Dual Usb Ports</h4>
+          <img class="w-100" src="<?= BASE_URL.DS.'assets/img/new-xpander-cross/interior/luggage-under-tray.jpg'; ?>">
+          <h4 class="text-center mmc-bold">Luggage under tray</h4>
         </div>
         <div class="swiper-slide">
-          <img class="w-100" src="<?= BASE_URL.DS.'assets/img/new-xpander/interior/new-8-inch-touchscreen-audio-with-smartphone-connectivity.jpg'; ?>">
-          <h4 class="text-center mmc-bold">New 8 Inch Touchscreen Audio With Smartphone Connectivity</h4>
+          <img class="w-100" src="<?= BASE_URL.DS.'assets/img/new-xpander-cross/interior/modern-interior.jpg'; ?>">
+          <h4 class="text-center mmc-bold">Modern interior</h4>
         </div>
         <div class="swiper-slide">
           <img class="w-100" src="<?= BASE_URL.DS.'assets/img/new-xpander/interior/new-cvt-transmission.jpg'; ?>">
           <h4 class="text-center mmc-bold">New CVT Transmission</h4>
         </div>
         <div class="swiper-slide">
-          <img class="w-100" src="<?= BASE_URL.DS.'assets/img/new-xpander/interior/new-digital-ac.jpg'; ?>">
-          <h4 class="text-center mmc-bold">New Digital AC</h4>
+          <img class="w-100" src="<?= BASE_URL.DS.'assets/img/new-xpander-cross/interior/new-9-audio-headunit-with-smartphone-connectivity.jpg'; ?>">
+          <h4 class="text-center mmc-bold">New 9 audio headunit with smartphone connectivity</h4>
         </div>
         <div class="swiper-slide">
-          <img class="w-100" src="<?= BASE_URL.DS.'assets/img/new-xpander/interior/new-door-trim-with-soft-touch-and-real-stitches.jpg'; ?>">
-          <h4 class="text-center mmc-bold">New Door Trim With Soft Touch And Real Stitches</h4>
+          <img class="w-100" src="<?= BASE_URL.DS.'assets/img/new-xpander-cross/interior/new-dual-tone-syntethic-leather-seat-with-heat-guard-function.jpg'; ?>">
+          <h4 class="text-center mmc-bold">New dual tone synthetic leather seat with heat guard function</h4>
         </div>
         <div class="swiper-slide">
-          <img class="w-100" src="<?= BASE_URL.DS.'assets/img/new-xpander/interior/new-electric-parking-brake-epb-with-brake-auto-hold-bah.jpg'; ?>">
+          <img class="w-100" src="<?= BASE_URL.DS.'assets/img/new-xpander-cross/interior/new-electric-parking-brake-epb-with-brake-auto-hold-bah.jpg'; ?>">
           <h4 class="text-center mmc-bold">New Electric Parking Brake (EPB) With Brake Auto Hold (BAH)</h4>
         </div>
         <div class="swiper-slide">
-          <img class="w-100" src="<?= BASE_URL.DS.'assets/img/new-xpander/interior/new-floor-console-with-arm-rest.jpg'; ?>">
-          <h4 class="text-center mmc-bold">New Floor Console With Arm Rest</h4>
+          <img class="w-100" src="<?= BASE_URL.DS.'assets/img/new-xpander-cross/interior/new-steering-wheel.jpg'; ?>">
+          <h4 class="text-center mmc-bold">New steering wheel</h4>
         </div>
         <div class="swiper-slide">
-          <img class="w-100" src="<?= BASE_URL.DS.'assets/img/new-xpander/interior/new-horizontal-axis-design-dashboard-sport.jpg'; ?>">
-          <h4 class="text-center mmc-bold">New Horizontal Axis Design Dashboard Sport</h4>
+          <img class="w-100" src="<?= BASE_URL.DS.'assets/img/new-xpander-cross/interior/softpad-material.jpg'; ?>">
+          <h4 class="text-center mmc-bold">Softpad material</h4>
         </div>
         <div class="swiper-slide">
-          <img class="w-100" src="<?= BASE_URL.DS.'assets/img/new-xpander/interior/new-horizontal-axis-design-dashboard-with-soft-pad-material.jpg'; ?>">
-          <h4 class="text-center mmc-bold">New Horizontal Axis Design Dashboard With Soft Pad Material</h4>
+          <img class="w-100" src="<?= BASE_URL.DS.'assets/img/new-xpander-cross/interior/stop-button-kos.jpg'; ?>">
+          <h4 class="text-center mmc-bold">Stop button KOS</h4>
         </div>
       </div>
     </div>
@@ -208,8 +208,8 @@
     <div class="d-none d-sm-block container">
       <div class="row mt-5">
         <div class="col d-flex justify-content-center">
-          <a href="<?=BASE_URL.DS.'assets/brochure/new-xpander.pdf'?>" class="btn btn-lg btn-danger me-2" target="_blank"><i class="fa fa-lg fa-download"></i> Download brochure</a>
-          <a href="https://wa.me/6281279008217?text=<?=$message?>" class="btn btn-lg btn-primary me-2" target="_blank"><i class="fa fa-lg fa-calculator"></i> Simulasi Kredit</a>
+          <a href="<?=BASE_URL.DS.'assets/brochure/new-xpander-cross.pdf'?>" class="btn btn-lg btn-danger me-2" target="_blank"><i class="fa fa-lg fa-download"></i> Download brochure</a>
+          <a href="https://wa.me/6281260864570?text=<?=$message?>" class="btn btn-lg btn-primary me-2" target="_blank"><i class="fa fa-lg fa-calculator"></i> Simulasi Kredit</a>
           <a href="javascript:void(0)" class="btn btn-lg btn-success" data-bs-toggle="modal" data-bs-target="#popupKonsultasi"><i class="fa fa-lg fa-whatsapp"></i> Konsultasi Pembelian</a>
         </div>
       </div>
@@ -218,7 +218,7 @@
     <div class="container d-block d-sm-none">
       <div class="row mt-5">
         <div class="col">
-          <a href="<?=BASE_URL.DS.'assets/brochure/new-xpander.pdf'?>" class="btn btn-lg btn-danger mb-2 d-flex justify-content-center"><i class="fa fa-lg fa-download me-2"></i> Download brochure</a>
+          <a href="<?=BASE_URL.DS.'assets/brochure/new-xpander-cross.pdf'?>" class="btn btn-lg btn-danger mb-2 d-flex justify-content-center"><i class="fa fa-lg fa-download me-2"></i> Download brochure</a>
           <a href="https://wa.me/6281279008217?text=<?=$message?>" class="btn btn-lg btn-primary mb-2 d-flex justify-content-center"><i class="fa fa-lg fa-calculator me-2"></i> Simulasi Kredit</a>
           <a href="javascript:void(0)" class="btn btn-lg btn-success mb-2 d-flex justify-content-center" data-bs-toggle="modal" data-bs-target="#popupKonsultasi"><i class="me-2 fa fa-lg fa-whatsapp"></i> Konsultasi Pembelian</a>
         </div>

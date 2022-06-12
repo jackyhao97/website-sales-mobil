@@ -16,7 +16,7 @@
           <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="background:black">
             <li><a class="dropdown-item text-white nav-product" href="<?=BASE_URL.DS.'mitsubishi-new-xpander'?>"><img src="<?=BASE_URL.DS.'assets/img/thumbs/new-xpander-thumb.png'?>" style="width: 100px" class="me-4">NEW XPANDER</a></li>
             <li><a class="dropdown-item text-white nav-product" href="<?=BASE_URL.DS.'mitsubishi-new-xpander-cross'?>"><img src="<?=BASE_URL.DS.'assets/img/thumbs/xpander-cross-thumb.png'?>" style="width: 100px" class="me-4">NEW XPANDER CROSS</a></li>
-            <li><a class="dropdown-item text-white nav-product" href="#"><img src="<?=BASE_URL.DS.'assets/img/thumbs/pajero-sport-thumb.png'?>" style="width: 100px" class="me-4">PAJERO SPORT</a></li>
+            <li><a class="dropdown-item text-white nav-product" href="<?=BASE_URL.DS.'mitsubishi-pajero-sport'?>"><img src="<?=BASE_URL.DS.'assets/img/thumbs/pajero-sport-thumb.png'?>" style="width: 100px" class="me-4">PAJERO SPORT</a></li>
             <li><a class="dropdown-item text-white nav-product" href="#"><img src="<?=BASE_URL.DS.'assets/img/thumbs/eclipse-cross-thumb.png'?>" style="width: 100px" class="me-4">ECLIPSE CROSS</a></li>
             <li><a class="dropdown-item text-white nav-product" href="#"><img src="<?=BASE_URL.DS.'assets/img/thumbs/triton-thumb.png'?>" style="width: 100px" class="me-4">TRITON</a></li>
             <li><a class="dropdown-item text-white nav-product" href="#"><img src="<?=BASE_URL.DS.'assets/img/thumbs/l300-thumb.png'?>" style="width: 100px" class="me-4">L300</a></li>
