@@ -86,12 +86,17 @@
         </div>
         <div class="row">
           <div class="col grid px-5 mb-5">
-            <img src="./assets/img/testimoni/2.jpg" alt="Testimoni Mitsubishi Medan" style="border-radius:10px;border:1px solid white">
-            <img src="./assets/img/testimoni/2.jpg" alt="Testimoni Mitsubishi Medan" style="border-radius:10px;border:1px solid white">
-            <img src="./assets/img/testimoni/2.jpg" alt="Testimoni Mitsubishi Medan" style="border-radius:10px;border:1px solid white">
-            <img src="./assets/img/testimoni/2.jpg" alt="Testimoni Mitsubishi Medan" style="border-radius:10px;border:1px solid white">
-            <img src="./assets/img/testimoni/2.jpg" alt="Testimoni Mitsubishi Medan" style="border-radius:10px;border:1px solid white">
-            <img src="./assets/img/testimoni/2.jpg" alt="Testimoni Mitsubishi Medan" style="border-radius:10px;border:1px solid white">
+            <img src="./assets/img/testimoni/1.jpeg" alt="Testimoni Mitsubishi Medan" style="border-radius:10px;border:1px solid white">
+            <img src="./assets/img/testimoni/2.jpeg" alt="Testimoni Mitsubishi Medan" style="border-radius:10px;border:1px solid white">
+            <img src="./assets/img/testimoni/3.jpeg" alt="Testimoni Mitsubishi Medan" style="border-radius:10px;border:1px solid white">
+            <img src="./assets/img/testimoni/4.jpeg" alt="Testimoni Mitsubishi Medan" style="border-radius:10px;border:1px solid white">
+            <img src="./assets/img/testimoni/5.jpeg" alt="Testimoni Mitsubishi Medan" style="border-radius:10px;border:1px solid white">
+            <img src="./assets/img/testimoni/6.jpeg" alt="Testimoni Mitsubishi Medan" style="border-radius:10px;border:1px solid white">
+            <img src="./assets/img/testimoni/7.jpeg" alt="Testimoni Mitsubishi Medan" style="border-radius:10px;border:1px solid white">
+            <img src="./assets/img/testimoni/8.jpeg" alt="Testimoni Mitsubishi Medan" style="border-radius:10px;border:1px solid white">
+            <img src="./assets/img/testimoni/9.jpeg" alt="Testimoni Mitsubishi Medan" style="border-radius:10px;border:1px solid white">
+            <img src="./assets/img/testimoni/10.jpeg" alt="Testimoni Mitsubishi Medan" style="border-radius:10px;border:1px solid white">
+            <img src="./assets/img/testimoni/11.jpeg" alt="Testimoni Mitsubishi Medan" style="border-radius:10px;border:1px solid white">
           </div>
         </div>
         <div class="row">

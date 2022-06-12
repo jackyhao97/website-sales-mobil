@@ -1,7 +1,7 @@
 <?php 
   require_once "../config.php"; 
   // $message = 'Berikut di-infokan untuk difollow up leads berikut ini, %0D %0DTanggal: %0DNama: %0DNo.HP: %0DCatatan: %0DUntuk selengkapnya mohon cek di OP, terima kasih. %0D %0DSalam, %0DDigital Marketing Team';
-  $message = 'Saya ingin bertanya simulasi kredit new xpander. (sumber website)';
+  $message = 'Saya ingin bertanya simulasi kredit new xpander cross. (sumber website)';
 ?>
 
 <!doctype html>
@@ -30,19 +30,16 @@
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="../assets/css/style.css">
-    <title>Mitsubishi New Xpander Medan</title>
+    <title>Mitsubishi New Xpander Cross Medan</title>
   </head>
   <body>
     <?php require_once '../navbar.php'; ?>
 
     <!-- Slider -->
-    <div class="swiper swiper-mitsubishi-new-xpander" style="margin-top: 73px">
+    <div class="swiper swiper-mitsubishi-new-xpander-cross" style="margin-top: 73px">
       <div class="swiper-wrapper">
         <div class="swiper-slide">
-          <img src="<?= BASE_URL.DS.'assets/img/new-xpander/new-xpander-desktop.jpg' ?>" alt="Mitsubishi New Xpander" class="w-100 slider-1">
-        </div>
-        <div class="swiper-slide">
-          <img src="<?= BASE_URL.DS.'assets/img/new-xpander/new-xpander-2-desktop.jpg' ?>" alt="Mitsubishi New Xpander" class="w-100 slider-2">
+          <img src="<?= BASE_URL.DS.'assets/img/new-xpander-cross/new-xpander-cross.jpg' ?>" alt="Mitsubishi New Xpander Cross" class="w-100 slider-1">
         </div>
       </div>
       <div class="swiper-pagination"></div>
@@ -51,7 +48,7 @@
 
     <!-- Price -->
     <div class="container mt-5">
-      <h2 class="text-uppercase mmc-bold text-center text-black">Harga New Xpander Medan</h2>
+      <h2 class="text-uppercase mmc-bold text-center text-black">Harga New Xpander Cross Medan</h2>
       <p class="text-center text-muted">Lihat harga terbaru New Xpander untuk wilayah Medan dan sekitarnya khusus untuk anda pengunjung website <a href="<?= BASE_URL; ?>" target="_blank">hargamitsubishimedanterbaik.com</a></p>
       <table class="table table-striped table-bordered table-width text-center">
         <thead>
@@ -62,7 +59,7 @@
         </thead>
         <tbody class="mmc-medium">
           <?php 
-            $sql = $conn->query("SELECT tipe,harga FROM tb_harga WHERE merek = 'NEW XPANDER' AND discontinue = 0 ORDER BY harga");
+            $sql = $conn->query("SELECT tipe,harga FROM tb_harga WHERE merek = 'NEW XPANDER CROSS' AND discontinue = 0 ORDER BY harga");
             while ($row = mysqli_fetch_array($sql, MYSQLI_ASSOC)) :
           ?>
           <tr>
@@ -74,7 +71,7 @@
       </table>
       <small class="text-muted">* Harga OTR Sumatera Utara.</small><br />
       <small class="text-muted">* Harga dapat berubah sewaktu-waktu tanpa pemberitahuan sebelumnya.</small><br />
-      <p class="text-black mt-2 mmc-bold">Untuk info detail harga lebih lanjut dapat menghubungi kami disini <a href="https://wa.me/+6281260864570?text=Halo Bg Eben, Saya ingin bertanya lebih lanjut harga dari new xpander. (Sumber website)" class="text-success mmc-bold" target="_blank"><i class="fa fa-lg fa-whatsapp"></i> 0812-6086-4570</a></p>
+      <p class="text-black mt-2 mmc-bold">Untuk info detail harga lebih lanjut dapat menghubungi kami disini <a href="https://wa.me/+6281260864570?text=Halo Bg Eben, Saya ingin bertanya lebih lanjut harga dari new xpander cross. (Sumber website)" class="text-success mmc-bold" target="_blank"><i class="fa fa-lg fa-whatsapp"></i> 0812-6086-4570</a></p>
     </div>
     <!-- Akhir Price -->
 
@@ -86,23 +83,23 @@
             <img src="<?=BASE_URL.DS.'assets/img/promo-spesial-result.png'?>" alt="Promo Mitsubishi New Xpander" class="w-100">
           </div>
           <div class="col-12 col-lg-6">
-              <h2 class="mmc-bold text-center mt-4 mt-sm-0">Promo New Xpander</h2>
+              <h2 class="mmc-bold text-center mt-4 mt-sm-0">Promo New Xpander Cross</h2>
               <ol>
-                <li>Program pilihan pembiayaan melalui PT. Dipo Star Finance (S&K berlaku): </li>
+                <li>Program pilihan pembiayaan melalui PT. Dipo Star Finance (S&K berlaku):  </li>
                 <ul>
-                  <li>DP ringan mulai 10%, atau</li>
-                  <li>Bunga 0% sampai dengan tenor 2 tahun, atau </li>
+                  <li>DP ringan mulai 8%, atau</li>
+                  <li>Bunga 0% sampai dengan tenor 2 tahun, atau  </li>
                   <li>Gratis Asuransi 2 tahun </li>
                   <li>Paket Smart Cash dengan bunga 0% dan gratis asuransi serta biaya admin</li>
                 </ul>
-                <li>Gratis kaca film Konica Minolta </li>
+                <li>Gratis kaca film V-Kool untuk variant Premium CVT dan kaca film Konica Minolta untuk variant CVT & MT  </li>
                 <li>Gratis Paket SMART Silver untuk Perawatan/Servis Berkala hingga 50.000 km atau 4 tahun: </li>
                 <ul>
                   <li>Biaya Jasa (Untuk semua varian) </li>
                   <li>Suku cadang, Mitsubishi Motors Genuine Oil & Brake Fluid (sesuai dengan Jadwal Service Booklet) </li>
                   <li>Chemical item: Engine flush, Brake Fluid </li>
-                  <li>Asuransi Kecelakaan Diri (Personal Accident) selama 1 tahun, dengan nominal klaim maksimal hingga Rp 5.000.000/orang* </li>
-                  <li>Asuransi Kerusakan Ban selama 1 tahun, dengan nominal klaim maksimal Rp 1.000.000 dan berlaku untuk 1 ban* </li>
+                  <li>Asuransi Kecelakaan Diri (Personal Accident) selama 1 tahun, dengan nominal klaim maksimal hingga Rp 10.000.000/orang* </li>
+                  <li>Asuransi Kerusakan Ban selama 1 tahun, dengan nominal klaim maksimal Rp. 1.400.000 dan berlaku untuk 1 ban* </li>
                 </ul>
               </ol>
           </div>
@@ -114,18 +111,18 @@
     <!-- Video -->
     <section class="video-colt mt-5 parallax-xpander">
       <div class="container-100 p-4 text-center text-white">
-        <h1 class="mmc-bold">Video New Xpander</h1>
-        <p>Dapatkan video menarik tentang Mitsubishi New Xpander berikut.</p>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/7duk5qqzONo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <h1 class="mmc-bold">Video New Xpander Cross</h1>
+        <p>Dapatkan video menarik tentang Mitsubishi New Xpander Cross berikut.</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/c8lEWDGAHEw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
     </section>
     <!-- Akhir Video -->
 
-    <h2 class="mmc-bold text-center mt-5">360 Exterior New Xpander</h2>
-    <div class="Sirv" data-src="https://andshant.sirv.com/new-xpander/product.spin" mousewheelstep="0"></div>
+    <h2 class="mmc-bold text-center mt-5">360 Exterior New Xpander Cross</h2>
+    <div class="Sirv" data-src="https://andshant.sirv.com/new-xpander-cross/product.spin" mousewheelstep="0"></div>
 
-    <h2 class="mmc-bold text-center mt-5 pt-4 text-white" style="background:black">Exterior New Xpander</h2>
-    <div class="swiper swiper-exterior-new-xpander text-white pb-4" style="background:black">
+    <h2 class="mmc-bold text-center mt-5 pt-4 text-white" style="background:black">Exterior New Xpander Cross</h2>
+    <div class="swiper swiper-exterior-new-xpander-cross text-white pb-4" style="background:black">
       <div class="swiper-wrapper">
         <div class="swiper-slide">
           <img class="w-100" src="<?= BASE_URL.DS.'assets/img/new-xpander/exterior/new-17-inch-two-tone-alloy-wheel.jpg'; ?>">
@@ -158,8 +155,8 @@
       </div>
     </div>
 
-    <h2 class="mmc-bold text-center mt-5">Interior New Xpander</h2>
-    <div class="swiper swiper-interior-new-xpander">
+    <h2 class="mmc-bold text-center mt-5">Interior New Xpander Cross</h2>
+    <div class="swiper swiper-interior-new-xpander-cross">
       <div class="swiper-wrapper">
         <div class="swiper-slide">
           <img class="w-100" src="<?= BASE_URL.DS.'assets/img/new-xpander/interior/large-open-tray-with-card-holder-usb-port-and-power-outlet.jpg'; ?>">
@@ -421,7 +418,7 @@
     <script src="https://scripts.sirv.com/sirv.js"></script>
     <script src="../assets/js/script.js"></script>
     <script>
-      new Swiper(".swiper-mitsubishi-new-xpander", {
+      new Swiper(".swiper-mitsubishi-new-xpander-cross", {
         autoplay: {
           delay: 3000,
           disableOnInteraction: false,
@@ -433,7 +430,7 @@
         slidesPerView: 1,
       });
 
-      new Swiper(".swiper-interior-new-xpander", {
+      new Swiper(".swiper-interior-new-xpander-cross", {
         autoplay: {
           delay: 3000,
           disableOnInteraction: false,
@@ -452,7 +449,7 @@
         },
       });
 
-      new Swiper(".swiper-exterior-new-xpander", {
+      new Swiper(".swiper-exterior-new-xpander-cross", {
         autoplay: {
           delay: 3000,
           disableOnInteraction: false,
@@ -498,8 +495,7 @@
       });
 
       if (window.matchMedia("(max-width: 576px)").matches) {
-        $(".slider-1").attr('src','<?= BASE_URL.DS.'assets/img/new-xpander/new-xpander-mobile.jpg' ?>')
-        $(".slider-2").attr('src','<?= BASE_URL.DS.'assets/img/new-xpander/new-xpander-2-mobile.jpg' ?>')
+        $(".slider-1").attr('src','<?= BASE_URL.DS.'assets/img/new-xpander-cross/new-xpander-cross-mb.jpg' ?>')
       }
 
       $(document).ready(function() {
