@@ -328,7 +328,7 @@
                   <div class="card-body">
                     <h3 class="mmc-bold text-center">NEW XPANDER CROSS</h3>
                     <small class="card-text" style="margin-bottom: 0; height: 100px">New Xpander Cross adalah sebuah crossover yang memadukan kenyamanan sebuah MPV dengan ketangguhan SUV.</small>
-                    <a class="btn btn-danger mt-3" href="<?=BASE_URL.DS.'mitsubishi-new-xpander/'?>"><i class="fas fa-plus mr-2" style="font-size: 12px;"></i> SELENGKAPNYA</a>
+                    <a class="btn btn-danger mt-3" href="<?=BASE_URL.DS.'mitsubishi-new-xpander-cross/'?>"><i class="fas fa-plus mr-2" style="font-size: 12px;"></i> SELENGKAPNYA</a>
                   </div>
                 </div>
               </div>
@@ -340,7 +340,7 @@
                   <div class="card-body">
                     <h3 class="mmc-bold text-center">PAJERO SPORT</h3>
                     <small class="card-text" style="margin-bottom: 0; height: 100px">Temukan dunia baru melalui eksplorasi tanpa batas dengan New Pajero Sport yang kini hadir lebih tangguh.</small>
-                    <a class="btn btn-danger mt-3" href="<?=BASE_URL.DS.'mitsubishi-new-xpander/'?>"><i class="fas fa-plus mr-2" style="font-size: 12px;"></i> SELENGKAPNYA</a>
+                    <a class="btn btn-danger mt-3" href="<?=BASE_URL.DS.'mitsubishi-pajero-sport/'?>"><i class="fas fa-plus mr-2" style="font-size: 12px;"></i> SELENGKAPNYA</a>
                   </div>
                 </div>
               </div>
@@ -352,7 +352,7 @@
                   <div class="card-body">
                     <h3 class="mmc-bold text-center">TRITON</h3>
                     <small class="card-text" style="margin-bottom: 0; height: 100px">Triton 4X4 hadir dengan performa lebih tangguh dan fitur-fitur inovatif.</small>
-                    <a class="btn btn-danger mt-3" href="<?=BASE_URL.DS.'mitsubishi-new-xpander/'?>"><i class="fas fa-plus mr-2" style="font-size: 12px;"></i> SELENGKAPNYA</a>
+                    <a class="btn btn-danger mt-3" href="<?=BASE_URL.DS.'mitsubishi-triton/'?>"><i class="fas fa-plus mr-2" style="font-size: 12px;"></i> SELENGKAPNYA</a>
                   </div>
                 </div>
               </div>
@@ -364,7 +364,7 @@
                   <div class="card-body">
                     <h3 class="mmc-bold text-center">L300</h3>
                     <small class="card-text" style="margin-bottom: 0; height: 100px">Efisien dan memiliki ruang kargo luas yang didukung oleh mesin bertenaga.</small>
-                    <a class="btn btn-danger mt-3" href="<?=BASE_URL.DS.'mitsubishi-new-xpander/'?>"><i class="fas fa-plus mr-2" style="font-size: 12px;"></i> SELENGKAPNYA</a>
+                    <a class="btn btn-danger mt-3" href="<?=BASE_URL.DS.'mitsubishi-l300/'?>"><i class="fas fa-plus mr-2" style="font-size: 12px;"></i> SELENGKAPNYA</a>
                   </div>
                 </div>
               </div>
@@ -376,7 +376,7 @@
                   <div class="card-body">
                     <h3 class="mmc-bold text-center">COLT DIESEL</h3>
                     <small class="card-text" style="margin-bottom: 0; height: 100px">Sangat cocok untuk bak kayu, aluminium dump truck, serta kargo lainnya.</small>
-                    <a class="btn btn-danger mt-3" href="<?=BASE_URL.DS.'mitsubishi-new-xpander/'?>"><i class="fas fa-plus mr-2" style="font-size: 12px;"></i> SELENGKAPNYA</a>
+                    <a class="btn btn-danger mt-3" href="<?=BASE_URL.DS.'mitsubishi-colt-diesel/'?>"><i class="fas fa-plus mr-2" style="font-size: 12px;"></i> SELENGKAPNYA</a>
                   </div>
                 </div>
               </div>
@@ -388,7 +388,7 @@
                   <div class="card-body">
                     <h3 class="mmc-bold text-center">FUSO</h3>
                     <small class="card-text" style="margin-bottom: 0; height: 100px">Fuso merupakan truk kategori medium yang ekonomis dan dapat diandalkan untuk berbagai kebutuhan.</small><br />
-                    <a class="btn btn-danger mt-3" href="<?=BASE_URL.DS.'mitsubishi-new-xpander/'?>"><i class="fas fa-plus mr-2" style="font-size: 12px;"></i> SELENGKAPNYA</a>
+                    <a class="btn btn-danger mt-3" href="<?=BASE_URL.DS.'mitsubishi-fuso/'?>"><i class="fas fa-plus mr-2" style="font-size: 12px;"></i> SELENGKAPNYA</a>
                   </div>
                 </div>
               </div>

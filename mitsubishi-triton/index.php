@@ -1,7 +1,7 @@
 <?php 
   require_once "../config.php"; 
   // $message = 'Berikut di-infokan untuk difollow up leads berikut ini, %0D %0DTanggal: %0DNama: %0DNo.HP: %0DCatatan: %0DUntuk selengkapnya mohon cek di OP, terima kasih. %0D %0DSalam, %0DDigital Marketing Team';
-  $message = 'Saya ingin bertanya simulasi kredit new xpander cross. (sumber website)';
+  $message = 'Saya ingin bertanya simulasi kredit triton. (sumber website)';
 ?>
 
 <!doctype html>
@@ -30,16 +30,16 @@
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="../assets/css/style.css">
-    <title>Mitsubishi New Xpander Cross Medan</title>
+    <title>Mitsubishi Triton Medan</title>
   </head>
   <body>
     <?php require_once '../navbar.php'; ?>
 
     <!-- Slider -->
-    <div class="swiper swiper-mitsubishi-new-xpander-cross" style="margin-top: 73px">
+    <div class="swiper swiper-mitsubishi-triton" style="margin-top: 73px">
       <div class="swiper-wrapper">
         <div class="swiper-slide">
-          <img src="<?= BASE_URL.DS.'assets/img/new-xpander-cross/new-xpander-cross.jpg' ?>" alt="Mitsubishi New Xpander Cross" class="w-100 slider-1">
+          <img src="<?= BASE_URL.DS.'assets/img/triton/banner-triton.jpg' ?>" alt="Mitsubishi Triton" class="w-100 slider-1">
         </div>
       </div>
       <div class="swiper-pagination"></div>
@@ -48,8 +48,8 @@
 
     <!-- Price -->
     <div class="container mt-5">
-      <h2 class="text-uppercase mmc-bold text-center text-black">Harga New Xpander Cross Medan</h2>
-      <p class="text-center text-muted">Lihat harga terbaru New Xpander untuk wilayah Medan dan sekitarnya khusus untuk anda pengunjung website <a href="<?= BASE_URL; ?>" target="_blank">hargamitsubishimedanterbaik.com</a></p>
+      <h2 class="text-uppercase mmc-bold text-center text-black">Harga Triton Medan</h2>
+      <p class="text-center text-muted">Lihat harga terbaru Triton untuk wilayah Medan dan sekitarnya khusus untuk anda pengunjung website <a href="<?= BASE_URL; ?>" target="_blank">hargamitsubishimedanterbaik.com</a></p>
       <table class="table table-striped table-bordered table-width text-center">
         <thead>
           <tr class="bg-danger text-white">
@@ -59,7 +59,7 @@
         </thead>
         <tbody class="mmc-medium">
           <?php 
-            $sql = $conn->query("SELECT tipe,harga FROM tb_harga WHERE merek = 'NEW XPANDER CROSS' AND discontinue = 0 ORDER BY harga");
+            $sql = $conn->query("SELECT tipe,harga FROM tb_harga WHERE merek = 'TRITON' AND discontinue = 0 ORDER BY harga");
             while ($row = mysqli_fetch_array($sql, MYSQLI_ASSOC)) :
           ?>
           <tr>
@@ -71,7 +71,7 @@
       </table>
       <small class="text-muted">* Harga OTR Sumatera Utara.</small><br />
       <small class="text-muted">* Harga dapat berubah sewaktu-waktu tanpa pemberitahuan sebelumnya.</small><br />
-      <p class="text-black mt-2 mmc-bold">Untuk info detail harga lebih lanjut dapat menghubungi kami disini <a href="https://wa.me/+6281260864570?text=Halo Bg Eben, Saya ingin bertanya lebih lanjut harga dari new xpander cross. (Sumber website)" class="text-success mmc-bold" target="_blank"><i class="fa fa-lg fa-whatsapp"></i> 0812-6086-4570</a></p>
+      <p class="text-black mt-2 mmc-bold">Untuk info detail harga lebih lanjut dapat menghubungi kami disini <a href="https://wa.me/+6281260864570?text=Halo Bg Eben, Saya ingin bertanya lebih lanjut harga dari triton. (Sumber website)" class="text-success mmc-bold" target="_blank"><i class="fa fa-lg fa-whatsapp"></i> 0812-6086-4570</a></p>
     </div>
     <!-- Akhir Price -->
 
@@ -83,23 +83,22 @@
             <img src="<?=BASE_URL.DS.'assets/img/promo-spesial-result.png'?>" alt="Promo Mitsubishi New Xpander" class="w-100">
           </div>
           <div class="col-12 col-lg-6">
-              <h2 class="mmc-bold text-center mt-4 mt-sm-0">Promo New Xpander Cross</h2>
+              <h2 class="mmc-bold text-center mt-4 mt-sm-0">Promo Triton</h2>
               <ol>
-                <li>Program pilihan pembiayaan melalui PT. Dipo Star Finance (S&K berlaku):  </li>
+                <li>Khusus pembelian Triton 4x2 di bulan Juni 2022 akan mendapatkan: </li>
                 <ul>
-                  <li>DP ringan mulai 8%, atau</li>
-                  <li>Bunga 0% sampai dengan tenor 2 tahun, atau  </li>
-                  <li>Gratis Asuransi 2 tahun </li>
-                  <li>Paket Smart Cash dengan bunga 0% dan gratis asuransi serta biaya admin</li>
+                  <li>Program pilihan pembiayaan melalui PT. Dipo Star Finance (S&K berlaku):</li>
+                  <li>DP ringan mulai 15%, atau </li>
+                  <li>Bunga 0% sampai dengan tenor 1 tahun</li>
+                  <li>Gratis Ban MT untuk varian SC & DC HDX</li>
+                  <li>Gratis biaya jasa dan suku cadang (sesuai dengan Service Manual Book) hingga 40.000 km atau 2 tahun untuk semua varian 4x4.</li>
                 </ul>
-                <li>Gratis kaca film V-Kool untuk variant Premium CVT dan kaca film Konica Minolta untuk variant CVT & MT  </li>
-                <li>Gratis Paket SMART Silver untuk Perawatan/Servis Berkala hingga 50.000 km atau 4 tahun: </li>
+                <li>Khusus pembelian Triton 4x4 di bulan Juni 2022 akan mendapatkan: </li>
                 <ul>
-                  <li>Biaya Jasa (Untuk semua varian) </li>
-                  <li>Suku cadang, Mitsubishi Motors Genuine Oil & Brake Fluid (sesuai dengan Jadwal Service Booklet) </li>
-                  <li>Chemical item: Engine flush, Brake Fluid </li>
-                  <li>Asuransi Kecelakaan Diri (Personal Accident) selama 1 tahun, dengan nominal klaim maksimal hingga Rp 10.000.000/orang* </li>
-                  <li>Asuransi Kerusakan Ban selama 1 tahun, dengan nominal klaim maksimal Rp. 1.400.000 dan berlaku untuk 1 ban* </li>
+                  <li>Program pilihan cashback, atau</li>
+                  <li>Program pilihan pembiayaan melalui PT. Dipo Star Finance (S&K berlaku):</li>
+                  <li>DP ringan mulai 15%, atau</li>
+                  <li>Bunga 0% sampai dengan tenor 1 tahun</li>
                 </ul>
               </ol>
           </div>
@@ -111,96 +110,66 @@
     <!-- Video -->
     <section class="video-colt mt-5 parallax-xpander">
       <div class="container-100 p-4 text-center text-white">
-        <h1 class="mmc-bold">Video New Xpander Cross</h1>
-        <p>Dapatkan video menarik tentang Mitsubishi New Xpander Cross berikut.</p>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/c8lEWDGAHEw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <h1 class="mmc-bold">Video Triton</h1>
+        <p>Dapatkan video menarik tentang Mitsubishi Triton berikut.</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/3veKfMryq0I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
     </section>
     <!-- Akhir Video -->
 
-    <h2 class="mmc-bold text-center mt-5">360 Exterior New Xpander Cross</h2>
-    <div class="Sirv" data-src="https://andshant.sirv.com/new-xpander-cross/product.spin" mousewheelstep="0"></div>
+    <h2 class="mmc-bold text-center mt-5">360 Exterior Triton</h2>
+    <div class="Sirv" data-src="https://andshant.sirv.com/triton/product.spin" mousewheelstep="0"></div>
 
-    <h2 class="mmc-bold text-center mt-5 pt-4 text-white" style="background:black">Exterior New Xpander Cross</h2>
-    <div class="swiper swiper-exterior-new-xpander-cross text-white pb-4" style="background:black">
+    <h2 class="mmc-bold text-center mt-5 pt-4 text-white" style="background:black">Exterior Triton</h2>
+    <div class="swiper swiper-exterior-triton text-white pb-4" style="background:black">
       <div class="swiper-wrapper">
         <div class="swiper-slide">
-          <img class="w-100" src="<?= BASE_URL.DS.'assets/img/new-xpander-cross/exterior/17-inch-alloy-wheel.jpg'; ?>">
-          <h4 class="text-center mmc-bold">New 17 Inch Two Tone Alloy Wheel</h4>
+          <img class="w-100" src="<?= BASE_URL.DS.'assets/img/triton/exterior/chrome-outer-door-handles.jpg'; ?>">
         </div>
         <div class="swiper-slide">
-          <img class="w-100" src="<?= BASE_URL.DS.'assets/img/new-xpander-cross/exterior/new-black-metallic-grille.jpg'; ?>">
-          <h4 class="text-center mmc-bold">New black metallic grille</h4>
+          <img class="w-100" src="<?= BASE_URL.DS.'assets/img/triton/exterior/chrome-power-door-mirrors.jpg'; ?>">
         </div>
         <div class="swiper-slide">
-          <img class="w-100" src="<?= BASE_URL.DS.'assets/img/new-xpander-cross/exterior/rear-bumper.jpg'; ?>">
-          <h4 class="text-center mmc-bold">Rear bumper</h4>
+          <img class="w-100" src="<?= BASE_URL.DS.'assets/img/triton/exterior/chrome-rear-gate-handle.jpg'; ?>">
         </div>
         <div class="swiper-slide">
-          <img class="w-100" src="<?= BASE_URL.DS.'assets/img/new-xpander-cross/exterior/roof-rail.jpg'; ?>">
-          <h4 class="text-center mmc-bold">Roof rail</h4>
+          <img class="w-100" src="<?= BASE_URL.DS.'assets/img/triton/exterior/dynamic-shield.jpg'; ?>">
         </div>
         <div class="swiper-slide">
-          <img class="w-100" src="<?= BASE_URL.DS.'assets/img/new-xpander-cross/exterior/shark-fin-antenna.jpg'; ?>">
-          <h4 class="text-center mmc-bold">Shark fin antenna</h4>
+          <img class="w-100" src="<?= BASE_URL.DS.'assets/img/triton/exterior/led-rear-combination-lamps.jpg'; ?>">
         </div>
         <div class="swiper-slide">
-          <img class="w-100" src="<?= BASE_URL.DS.'assets/img/new-xpander-cross/exterior/tailgate-garnish.jpg'; ?>">
-          <h4 class="text-center mmc-bold">Tailgate garnish</h4>
+          <img class="w-100" src="<?= BASE_URL.DS.'assets/img/triton/exterior/side-steps.jpg'; ?>">
         </div>
         <div class="swiper-slide">
-          <img class="w-100" src="<?= BASE_URL.DS.'assets/img/new-xpander-cross/exterior/wheel-arch-molding.jpg'; ?>">
-          <h4 class="text-center mmc-bold">Wheel arch molding</h4>
+          <img class="w-100" src="<?= BASE_URL.DS.'assets/img/triton/exterior/sturdy-rear-bumper.jpg'; ?>">
         </div>
       </div>
     </div>
 
-    <h2 class="mmc-bold text-center mt-5">Interior New Xpander Cross</h2>
-    <div class="swiper swiper-interior-new-xpander-cross">
+    <h2 class="mmc-bold text-center mt-5">Interior Triton</h2>
+    <div class="swiper swiper-interior-triton">
       <div class="swiper-wrapper">
         <div class="swiper-slide">
-          <img class="w-100" src="<?= BASE_URL.DS.'assets/img/new-xpander-cross/interior/2nd-row-arm-rest-with-cup-holder.jpg'; ?>">
-          <h4 class="text-center mmc-bold">2nd row arm rest with cup holder</h4>
+          <img class="w-100" src="<?= BASE_URL.DS.'assets/img/triton/interior/4-spoke-leather-steering-wheel.jpg'; ?>">
         </div>
         <div class="swiper-slide">
-          <img class="w-100" src="<?= BASE_URL.DS.'assets/img/new-xpander-cross/interior/closed-storage-box-cvt.jpg'; ?>">
-          <h4 class="text-center mmc-bold">Closed storage box CVT</h4>
+          <img class="w-100" src="<?= BASE_URL.DS.'assets/img/triton/interior/cruise-control.jpg'; ?>">
         </div>
         <div class="swiper-slide">
-          <img class="w-100" src="<?= BASE_URL.DS.'assets/img/new-xpander-cross/interior/luggage-under-tray.jpg'; ?>">
-          <h4 class="text-center mmc-bold">Luggage under tray</h4>
+          <img class="w-100" src="<?= BASE_URL.DS.'assets/img/triton/interior/lcd-speedometer.jpg'; ?>">
         </div>
         <div class="swiper-slide">
-          <img class="w-100" src="<?= BASE_URL.DS.'assets/img/new-xpander-cross/interior/modern-interior.jpg'; ?>">
-          <h4 class="text-center mmc-bold">Modern interior</h4>
+          <img class="w-100" src="<?= BASE_URL.DS.'assets/img/triton/interior/new-leather-interior.jpg'; ?>">
         </div>
         <div class="swiper-slide">
-          <img class="w-100" src="<?= BASE_URL.DS.'assets/img/new-xpander/interior/new-cvt-transmission.jpg'; ?>">
-          <h4 class="text-center mmc-bold">New CVT Transmission</h4>
+          <img class="w-100" src="<?= BASE_URL.DS.'assets/img/triton/interior/tilt-and-telescopic-steering.jpg'; ?>">
         </div>
         <div class="swiper-slide">
-          <img class="w-100" src="<?= BASE_URL.DS.'assets/img/new-xpander-cross/interior/new-9-audio-headunit-with-smartphone-connectivity.jpg'; ?>">
-          <h4 class="text-center mmc-bold">New 9 audio headunit with smartphone connectivity</h4>
+          <img class="w-100" src="<?= BASE_URL.DS.'assets/img/triton/interior/usb-mp3-player.jpg'; ?>">
         </div>
         <div class="swiper-slide">
-          <img class="w-100" src="<?= BASE_URL.DS.'assets/img/new-xpander-cross/interior/new-dual-tone-syntethic-leather-seat-with-heat-guard-function.jpg'; ?>">
-          <h4 class="text-center mmc-bold">New dual tone synthetic leather seat with heat guard function</h4>
-        </div>
-        <div class="swiper-slide">
-          <img class="w-100" src="<?= BASE_URL.DS.'assets/img/new-xpander-cross/interior/new-electric-parking-brake-epb-with-brake-auto-hold-bah.jpg'; ?>">
-          <h4 class="text-center mmc-bold">New Electric Parking Brake (EPB) With Brake Auto Hold (BAH)</h4>
-        </div>
-        <div class="swiper-slide">
-          <img class="w-100" src="<?= BASE_URL.DS.'assets/img/new-xpander-cross/interior/new-steering-wheel.jpg'; ?>">
-          <h4 class="text-center mmc-bold">New steering wheel</h4>
-        </div>
-        <div class="swiper-slide">
-          <img class="w-100" src="<?= BASE_URL.DS.'assets/img/new-xpander-cross/interior/softpad-material.jpg'; ?>">
-          <h4 class="text-center mmc-bold">Softpad material</h4>
-        </div>
-        <div class="swiper-slide">
-          <img class="w-100" src="<?= BASE_URL.DS.'assets/img/new-xpander-cross/interior/stop-button-kos.jpg'; ?>">
-          <h4 class="text-center mmc-bold">Stop button KOS</h4>
+          <img class="w-100" src="<?= BASE_URL.DS.'assets/img/triton/interior/wide-open-spaces.jpg'; ?>">
         </div>
       </div>
     </div>
@@ -208,7 +177,7 @@
     <div class="d-none d-sm-block container">
       <div class="row mt-5">
         <div class="col d-flex justify-content-center">
-          <a href="<?=BASE_URL.DS.'assets/brochure/new-xpander-cross.pdf'?>" class="btn btn-lg btn-danger me-2" target="_blank"><i class="fa fa-lg fa-download"></i> Download brochure</a>
+          <a href="<?=BASE_URL.DS.'assets/brochure/triton.pdf'?>" class="btn btn-lg btn-danger me-2" target="_blank"><i class="fa fa-lg fa-download"></i> Download brochure</a>
           <a href="https://wa.me/6281260864570?text=<?=$message?>" class="btn btn-lg btn-primary me-2" target="_blank"><i class="fa fa-lg fa-calculator"></i> Simulasi Kredit</a>
           <a href="javascript:void(0)" class="btn btn-lg btn-success" data-bs-toggle="modal" data-bs-target="#popupKonsultasi"><i class="fa fa-lg fa-whatsapp"></i> Konsultasi Pembelian</a>
         </div>
@@ -218,7 +187,7 @@
     <div class="container d-block d-sm-none">
       <div class="row mt-5">
         <div class="col">
-          <a href="<?=BASE_URL.DS.'assets/brochure/new-xpander-cross.pdf'?>" class="btn btn-lg btn-danger mb-2 d-flex justify-content-center"><i class="fa fa-lg fa-download me-2"></i> Download brochure</a>
+          <a href="<?=BASE_URL.DS.'assets/brochure/triton.pdf'?>" class="btn btn-lg btn-danger mb-2 d-flex justify-content-center"><i class="fa fa-lg fa-download me-2"></i> Download brochure</a>
           <a href="https://wa.me/6281279008217?text=<?=$message?>" class="btn btn-lg btn-primary mb-2 d-flex justify-content-center"><i class="fa fa-lg fa-calculator me-2"></i> Simulasi Kredit</a>
           <a href="javascript:void(0)" class="btn btn-lg btn-success mb-2 d-flex justify-content-center" data-bs-toggle="modal" data-bs-target="#popupKonsultasi"><i class="me-2 fa fa-lg fa-whatsapp"></i> Konsultasi Pembelian</a>
         </div>
@@ -418,7 +387,7 @@
     <script src="https://scripts.sirv.com/sirv.js"></script>
     <script src="../assets/js/script.js"></script>
     <script>
-      new Swiper(".swiper-mitsubishi-new-xpander-cross", {
+      new Swiper(".swiper-mitsubishi-triton", {
         autoplay: {
           delay: 3000,
           disableOnInteraction: false,
@@ -430,7 +399,7 @@
         slidesPerView: 1,
       });
 
-      new Swiper(".swiper-interior-new-xpander-cross", {
+      new Swiper(".swiper-interior-triton", {
         autoplay: {
           delay: 3000,
           disableOnInteraction: false,
@@ -449,7 +418,7 @@
         },
       });
 
-      new Swiper(".swiper-exterior-new-xpander-cross", {
+      new Swiper(".swiper-exterior-triton", {
         autoplay: {
           delay: 3000,
           disableOnInteraction: false,
@@ -495,7 +464,7 @@
       });
 
       if (window.matchMedia("(max-width: 576px)").matches) {
-        $(".slider-1").attr('src','<?= BASE_URL.DS.'assets/img/new-xpander-cross/new-xpander-cross-mb.jpg' ?>')
+        $(".slider-1").attr('src','<?= BASE_URL.DS.'assets/img/triton/banner-triton-mb.jpg' ?>')
       }
 
       $(document).ready(function() {
