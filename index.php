@@ -28,7 +28,7 @@
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="./assets/css/style.css">
-    <title>Mitsubishi Medan</title>
+    <title>Harga Mitsubishi Medan Terbaik</title>
   </head>
   <body>
     <?php require_once './navbar.php'; ?>
@@ -40,8 +40,8 @@
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="<?=BASE_URL.DS.'assets/img/promo.jpg'?>" class="d-none d-sm-block w-100" alt="Mitsubishi Promo Medan">
-          <img src="<?=BASE_URL.DS.'assets/img/promo-mb.jpg'?>" class="d-sm-none d-block w-100" alt="Mitsubishi Promo Medan">
+          <img src="<?=BASE_URL.DS.'assets/img/slider-promo-new-xpander.png'?>" class="d-none d-sm-block w-100" alt="Mitsubishi Promo Medan">
+          <img src="<?=BASE_URL.DS.'assets/img/slider-promo-new-xpander-mb.jpg'?>" class="d-sm-none d-block w-100" alt="Mitsubishi Promo Medan">
         </div>
         <div class="carousel-item">
           <img src="<?=BASE_URL.DS.'assets/img/new-xpander.jpg'?>" class="d-none d-sm-block w-100" alt="Mitsubishi New Xpander">
@@ -226,7 +226,7 @@
                 </div>
               </div>
             </div>
-            <div class="swiper-slide">
+            <!-- <div class="swiper-slide">
               <div class="card mb-3 swiper-card">
                 <div class="row no-gutters">
                   <div class="col-md-12 text-center">
@@ -262,7 +262,7 @@
                   </div>
                 </div>
               </div>
-            </div>
+            </div> -->
             <div class="swiper-slide">
               <div class="card mb-3 swiper-card">
                 <div class="row no-gutters">
@@ -341,15 +341,15 @@
               <div class="card mb-3 swiper-card">
                 <div class="row no-gutters">
                   <div class="col-md-12 text-center">
-                    <img src="<?=BASE_URL.DS.'assets/img/fuso/box-besi.png'?>" class="card-img w-80" alt="Mitsubishi Fuso Medan">
+                    <img src="<?=BASE_URL.DS.'assets/img/colt-diesel/colt-diesel.png'?>" class="card-img w-80" alt="Mitsubishi Colt Diesel Medan">
                   </div>
                   <div class="col-md-12">
                     <div class="card-body">
-                      <h5 class="card-title text-center mmc-bold">Mitsubishi Fuso</h5>
+                      <h5 class="card-title text-center mmc-bold">Mitsubishi Colt Diesel</h5>
                       <div class="row mt-4">
                         <div class="col-5 mmc-bold">Harga mulai</div>
                         <?php
-                          $sql = $conn->query("SELECT MIN(harga) AS harga FROM tb_harga WHERE merek = 'FUSO' AND discontinue = 0");
+                          $sql = $conn->query("SELECT MIN(harga) AS harga FROM tb_harga WHERE merek = 'COLT DIESEL' AND discontinue = 0");
                           $res = $sql->fetch_assoc();
                         ?>
                           <div class="col-7 mmc-bold"><?= "Rp " . number_format($res['harga'], 0, ",", "."); ?></div>
@@ -378,15 +378,15 @@
               <div class="card mb-3 swiper-card">
                 <div class="row no-gutters">
                   <div class="col-md-12 text-center">
-                    <img src="<?=BASE_URL.DS.'assets/img/colt-diesel/colt-diesel.png'?>" class="card-img w-80" alt="Mitsubishi Colt Diesel Medan">
+                    <img src="<?=BASE_URL.DS.'assets/img/fuso/box-besi.png'?>" class="card-img w-80" alt="Mitsubishi Fuso Medan">
                   </div>
                   <div class="col-md-12">
                     <div class="card-body">
-                      <h5 class="card-title text-center mmc-bold">Mitsubishi Colt Diesel</h5>
+                      <h5 class="card-title text-center mmc-bold">Mitsubishi Fuso</h5>
                       <div class="row mt-4">
                         <div class="col-5 mmc-bold">Harga mulai</div>
                         <?php
-                          $sql = $conn->query("SELECT MIN(harga) AS harga FROM tb_harga WHERE merek = 'COLT DIESEL' AND discontinue = 0");
+                          $sql = $conn->query("SELECT MIN(harga) AS harga FROM tb_harga WHERE merek = 'FUSO' AND discontinue = 0");
                           $res = $sql->fetch_assoc();
                         ?>
                           <div class="col-7 mmc-bold"><?= "Rp " . number_format($res['harga'], 0, ",", "."); ?></div>
@@ -425,7 +425,7 @@
             <img src="<?=BASE_URL.DS.'assets/img/promo-spesial-result.png'?>" alt="Promo Spesial Mitsubishi Medan" class="img-promo-spesial">
           </div>
           <div class="col-lg-6">
-            <h2 class="mmc-bold">PROMO <span class="blink_me text-danger mmc-bold">KHUSUS HARI INI!</span></h2>
+            <h2 class="mmc-bold">PROMO <span class="blink_me text-danger mmc-bold">KHUSUS BULAN INI!</span></h2>
             <div class="countdown">
               <span id="days"></span>
               <span id="hours"></span>
@@ -433,7 +433,7 @@
               <span id="secs"></span>
               <h2 id="end"></h2>
             </div>
-            <p>Dapatkan Bonus Langsung untuk penawaran kredit seperti berikut <b>KHUSUS HARI INI : </b></p>
+            <p>Dapatkan Bonus Langsung untuk penawaran kredit seperti berikut <b>KHUSUS BULAN INI : </b></p>
             <ul>
               <li>Kaca Film</li>
               <li>Karpet Lembaran</li>

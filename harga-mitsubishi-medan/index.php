@@ -32,7 +32,7 @@
     <?php require_once '../navbar.php'; ?>
     <div class="container-fluid fixed-top p-0" style="margin-top:73px;z-index:999">
       <marquee direction="left" scrollAmount="7" onmouseover="this.stop()" onmouseout="this.start()" style="background:white">        
-        <p class="text-danger mmc-bold" style="font-style: italic;margin-bottom:0">PROMO Mei 2022, Harga Turun Drastis, Diskon Besar Besaran, Bunga Kredit 0% Dan Free Aksesoris. Promo Hanya Berlaku Setiap Pemesanan Melalui Website Ini.. <span class="text-primary mmc-bold">Ajukan penawaran sekarang <a class="btn btn-success" style="margin-left: 10px">Telepon Sales</a>
+        <p class="text-danger mmc-bold" style="font-style: italic;margin-bottom:0">PROMO Juni 2022, Harga Turun Drastis, Diskon Besar Besaran, Bunga Kredit 0% Dan Free Aksesoris. Promo Hanya Berlaku Setiap Pemesanan Melalui Website Ini.. <span class="text-primary mmc-bold">Ajukan penawaran sekarang <a class="btn btn-success" style="margin-left: 10px">Telepon Sales</a>
       </marquee>
     </div>
     <div class="container container-price">
@@ -146,42 +146,6 @@
             </div>
           </div>    
         </div>
-        <div class="row no-gutters align-items-center mt-5">    
-          <div class="col-md-8 order-2 order-sm-1">
-            <div class="card-body">
-              <h5 class="card-title mmc-bold text-center">Mitsubishi Eclipse Cross</h5>
-              <table class="table table-bordered">
-                <caption> >> Daftar harga Mitsubishi Eclipse Cross</caption>
-                <thead class="bg-danger text-white text-center">
-                  <tr>                
-                    <th scope="col">Tipe</th>
-                    <th scope="col">Harga</th>
-                  </tr>
-                </thead>
-                <tbody>              
-                <?php
-                  $queryHarga = $conn->query("SELECT tipe, merek, harga FROM tb_harga WHERE merek = 'ECLIPSE CROSS' AND discontinue = 0 ORDER BY urutan");
-                  while ($row = $queryHarga->fetch_array()) :
-                ?>
-                  <tr>
-                    <td><?=$row['tipe']?></td>                
-                    <td><?= "Rp " . number_format($row["harga"], 0, ",", "."); ?></td>
-                  </tr>            
-                <?php
-                  endwhile;
-                ?>              
-                </tbody>
-              </table>
-              <p class="card-text"><small class="text-muted">* Harga OTR dapat berubah-ubah.</small></p>
-              <p class="card-text">Untuk info selengkapnya mengenai simulasi kredit Mitsubishi Eclipse Cross dapat menghubungi <b><a href="https://wa.me/+6282274190043?text=[WS]Halo Sardana Berlian. Saya ingin mengetahui simulasi kredit terbaru dari Mitsubishi Eclipse Cross." style="color: #1caa51"><i class="fa fa-lg fa-whatsapp"></i> 0812-7900-8217</a></b></p>
-              <a class="btn btn-success">Telepon Sales</a>
-              <a class="btn btn-primary">Simulasi Kredit</a>
-            </div>
-          </div>
-          <div class="col-md-4 order-1 order-sm-2">
-            <img src="<?=BASE_URL.DS.'assets/img/price/eclipse-cross.png'?>" alt="Harga Mitsubishi Eclipse Cross di Medan" class="w-100">
-          </div>
-        </div>    
         <div class="row no-gutters align-items-center mt-5">    
           <div class="col-md-4">
             <img src="<?=BASE_URL.DS.'assets/img/price/l300.png'?>" alt="Harga Mitsubishi L300 di Medan" class="w-100">

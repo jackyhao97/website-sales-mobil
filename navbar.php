@@ -19,9 +19,9 @@
             <li><a class="dropdown-item text-white nav-product" href="<?=BASE_URL.DS.'mitsubishi-pajero-sport'?>"><img src="<?=BASE_URL.DS.'assets/img/thumbs/pajero-sport-thumb.png'?>" style="width: 100px" class="me-4">PAJERO SPORT</a></li>
             <!-- <li><a class="dropdown-item text-white nav-product" href="#"><img src="<?=BASE_URL.DS.'assets/img/thumbs/eclipse-cross-thumb.png'?>" style="width: 100px" class="me-4">ECLIPSE CROSS</a></li> -->
             <li><a class="dropdown-item text-white nav-product" href="<?=BASE_URL.DS.'mitsubishi-triton'?>"><img src="<?=BASE_URL.DS.'assets/img/thumbs/triton-thumb.png'?>" style="width: 100px" class="me-4">TRITON</a></li>
-            <li><a class="dropdown-item text-white nav-product" href="#"><img src="<?=BASE_URL.DS.'assets/img/thumbs/l300-thumb.png'?>" style="width: 100px" class="me-4">L300</a></li>
-            <li><a class="dropdown-item text-white nav-product" href="#"><img src="<?=BASE_URL.DS.'assets/img/thumbs/colt-diesel-thumb.png'?>" style="width: 100px" class="me-4">COLT DIESEL</a></li>
-            <li><a class="dropdown-item text-white nav-product" href="#"><img src="<?=BASE_URL.DS.'assets/img/thumbs/fuso-thumb.png'?>" style="width: 100px" class="me-4">FUSO</a></li>
+            <li><a class="dropdown-item text-white nav-product" href="<?=BASE_URL.DS.'mitsubishi-l300'?>"><img src="<?=BASE_URL.DS.'assets/img/thumbs/l300-thumb.png'?>" style="width: 100px" class="me-4">L300</a></li>
+            <li><a class="dropdown-item text-white nav-product" href="<?=BASE_URL.DS.'mitsubishi-colt-diesel'?>"><img src="<?=BASE_URL.DS.'assets/img/thumbs/colt-diesel-thumb.png'?>" style="width: 100px" class="me-4">COLT DIESEL</a></li>
+            <li><a class="dropdown-item text-white nav-product" href="<?=BASE_URL.DS.'mitsubishi-fuso'?>"><img src="<?=BASE_URL.DS.'assets/img/thumbs/fuso-thumb.png'?>" style="width: 100px" class="me-4">FUSO</a></li>
           </ul>
         </li>
         <li class="nav-item">

@@ -73,14 +73,14 @@
     </ul>
 
     <ul>
-      <li>
+      <!-- <li>
         <a
           target="_blank"
           href="https://hargamitsubishimedan.id/product/eclipse-cross/"
         >
           Eclipse Cross
         </a>
-      </li>
+      </li> -->
       <li>
         <a
           target="_blank"
