@@ -65,12 +65,12 @@
       <div class="container-fluid bg-profile">
         <div class="row p-4 p-sm-5 align-items-center">
           <div class="col-12 col-md-6 text-center">
-            <img src="./assets/img/profile.png" alt="Profile">
+            <img src="<?=BASE_URL.DS.'assets/img/profile.png'?>" alt="Profile">
           </div>
           <div class="col-12 col-md-6 text-white">
-            <h3>Jacky - Sales Executive</h3>
+            <h3>ELIA EBENEZER GINTING - Senior Sales Executive</h3>
             <h1 class="text-uppercase text-mitsubishi">Mitsubishi Medan</h1>
-            <p>Percayakan urusan mobil Mitsubishi anda bersama Kami. Jacky – Sales Executive dari Mitsubishi Sardana Medan Siap melayani anda dan memberikan penawaran spesial yang terbaik bagi anda. Pertanyaan seputar Spesifikasi , Simulasi Kredit, Info Stok, Promo Terbaru, Booking Service, Test Drive dan Pemesanan silahkan menghubungi kami disini.</p>
+            <p>Percayakan urusan mobil Mitsubishi anda bersama Kami. ELIA EBENEZER GINTING - Senior Sales Executive dari Mitsubishi Sardana Medan Siap melayani anda dan memberikan penawaran spesial yang terbaik bagi anda. Pertanyaan seputar Spesifikasi , Simulasi Kredit, Info Stok, Promo Terbaru, Booking Service, Test Drive dan Pemesanan silahkan menghubungi kami disini.</p>
             <a class="btn btn-primary" href="tel:+6281279008217" target="_blank"><i class="fa fa-phone-alt"></i> Hubungi Kami</a>
             <a class="btn btn-success mt-2 mt-sm-0" href="https://wa.me/+6281279008217?text=Halo Jacky, Saya ingin bertanya tentang produk Mitsubishi. (sumber website)" target="_blank"><i class="fa fa-whatsapp"></i> Whatsapp Kami</a>
           </div>
@@ -461,14 +461,14 @@
           </div>
           <div class="col-12 col-lg-6">
             <h1 class="text-danger mmc-bold">MAU KONSULTASI PEMBELIAN?</h1>
-            <p class="text-danger mmc-medium">Hubungi <span class="text-dark">Jacky</span> dibawah ini</p>
+            <p class="text-danger mmc-medium">Hubungi <span class="text-dark">Eben</span> dibawah ini</p>
             <hr style="background:red;border-top: 2px solid rgba(0,0,0,.1);">
             <div class="row text-dark">
               <div class="col-sm-6 col-xs-12 d-flex align-items-center mt-4">
                 <i class="fa fa-user fa-lg" style="font-size:60px;margin-right:5px"></i>
                 <div class="container-profile-detail">
-                  <h5 class="mmc-bold">SALES EXECUTIVE</h5>
-                  <a class="mmc-bold text-danger page-scroll" href="#outer-container-profile">Jacky</a>
+                  <h5 class="mmc-bold">SENIOR SALES EXECUTIVE</h5>
+                  <a class="mmc-bold text-danger page-scroll" href="#outer-container-profile">Elia Ebenezer Ginting</a>
                 </div>
               </div>
               <div class="col-sm-6 col-xs-12 d-flex align-items-center mt-4">

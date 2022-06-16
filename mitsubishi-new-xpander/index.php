@@ -39,10 +39,10 @@
     <div class="swiper swiper-mitsubishi-new-xpander" style="margin-top: 73px">
       <div class="swiper-wrapper">
         <div class="swiper-slide">
-          <img src="<?= BASE_URL.DS.'assets/img/new-xpander/new-xpander-desktop.jpg' ?>" alt="Mitsubishi New Xpander" class="w-100 slider-1">
+          <img src="<?= BASE_URL.DS.'assets/img/new-xpander/new-xpander-2-desktop.png' ?>" alt="Mitsubishi New Xpander" class="w-100 slider-2">
         </div>
         <div class="swiper-slide">
-          <img src="<?= BASE_URL.DS.'assets/img/new-xpander/new-xpander-2-desktop.jpg' ?>" alt="Mitsubishi New Xpander" class="w-100 slider-2">
+          <img src="<?= BASE_URL.DS.'assets/img/new-xpander/new-xpander-desktop.jpg' ?>" alt="Mitsubishi New Xpander" class="w-100 slider-1">
         </div>
       </div>
       <div class="swiper-pagination"></div>
@@ -498,8 +498,8 @@
       });
 
       if (window.matchMedia("(max-width: 576px)").matches) {
-        $(".slider-1").attr('src','<?= BASE_URL.DS.'assets/img/new-xpander/new-xpander-mobile.jpg' ?>')
-        $(".slider-2").attr('src','<?= BASE_URL.DS.'assets/img/new-xpander/new-xpander-2-mobile.jpg' ?>')
+        $(".slider-1").attr('src','<?= BASE_URL.DS.'assets/img/new-xpander/new-xpander-mobile.png' ?>')
+        $(".slider-2").attr('src','<?= BASE_URL.DS.'assets/img/new-xpander/new-xpander-2-mobile.png' ?>')
       }
 
       $(document).ready(function() {

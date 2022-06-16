@@ -145,5 +145,5 @@
     </div>
   </div>
 
-  <p class="copyright">&copy; 2022 Mitsubishi Medan Jacky. All rights reserved</p>
+  <p class="copyright">&copy; 2022 Mitsubishi Medan Eben. All rights reserved</p>
 </div>
