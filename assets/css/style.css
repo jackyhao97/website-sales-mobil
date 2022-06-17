@@ -269,7 +269,35 @@ section.promo-spesial {
   color: white;
 }
 
+.img-profile {
+  border-radius: 100%;
+}
+
 @media (max-width: 576px) {
+  .img-profile {
+    width: 80%;
+    margin-bottom: 30px;
+  }
+
+  .img-profile-detail {
+    width: 80%;
+    display: flex;
+    margin: auto;
+    margin-bottom: 30px;
+    border-radius: 50%;
+  }
+
+  .text-custom {
+    font-size: 13px;
+    text-align: justify;
+  }
+
+  .countdown {
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
   .img-promo-spesial {
     width: 80%;
     margin: auto;

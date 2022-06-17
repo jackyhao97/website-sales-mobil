@@ -65,7 +65,7 @@
   <body style="background: #f2f2f2;">
     <?php require_once '../navbar.php'; ?>
     <div class="container container-price">
-      <h2 class="text-center text-uppercase mmc-medium mb-3" style="border: 2px solid #c5c5c5;">Testimoni Mitsubishi Medan</h2>
+      <h2 class="text-center text-uppercase mmc-medium mb-3" style="border: 2px solid #c5c5c5;">Testimoni Mitsubishi Eben</h2>
       <div class="row">
         <div class="col-6 col-sm-4 col-lg-3 mb-2">
           <a href="<?=BASE_URL.DS.'assets/img/testimoni/1.jpeg'?>"  data-lightbox="Testimoni" data-title="Terima kasih Ci atas pembelian unit Xpander Cross">
@@ -124,10 +124,11 @@
         </div>
       </div>
       <div class="row justify-content-center">
-        <p>Tunggu apalagi? Ayo segera pesan mobil kesayangan anda, cocok banget dimasa pandemi ini punya mobil sendiri.</p>
+        <p class="text-justify">Tunggu apalagi? Ayo segera pesan mobil kesayangan anda, cocok banget dimasa pandemi ini punya mobil sendiri.</p>
+        <h3 class="mmc-bold text-center mb-4">"Anda adalah Prioritas Pelanggan Kami"</h3>
       </div>
-      <a href="" class="btn btn-success btn-lg mb-2">Hubungi Sales</a>
-      <a href="" class="btn btn-primary btn-lg mb-2">Simulasi Kredit</a>
+      <a href="tel:+6281260864570" class="btn btn-success btn-lg mb-4" target="_blank">Hubungi Sales</a>
+      <a href="https://wa.me/+6281260864570?text=Halo Eben, Saya ingin tanya simulasi kredit mitsubishi. (sumber website)" class="btn btn-primary btn-lg mb-4" target="_blank">Simulasi Kredit</a>
     </div>
 
     <?php require_once '../footer.php'; ?>

@@ -96,14 +96,14 @@
       <div class="container-fluid bg-profile">
         <div class="row p-4 p-sm-5 align-items-center">
           <div class="col-12 col-md-6 text-center">
-            <img src="<?=BASE_URL.DS.'assets/img/profile.png'?>" alt="Profile">
+            <img src="<?=BASE_URL.DS.'assets/img/profile.png'?>" alt="Profile" class="img-profile">
           </div>
           <div class="col-12 col-md-6 text-white">
-            <h3>ELIA EBENEZER GINTING - Senior Sales Executive</h3>
-            <h1 class="text-uppercase text-mitsubishi">Mitsubishi Medan</h1>
-            <p>Percayakan urusan mobil Mitsubishi anda bersama Kami. ELIA EBENEZER GINTING - Senior Sales Executive dari Mitsubishi Sardana Medan Siap melayani anda dan memberikan penawaran spesial yang terbaik bagi anda. Pertanyaan seputar Spesifikasi , Simulasi Kredit, Info Stok, Promo Terbaru, Booking Service, Test Drive dan Pemesanan silahkan menghubungi kami disini.</p>
-            <a class="btn btn-primary" href="tel:+6281279008217" target="_blank"><i class="fa fa-phone-alt"></i> Hubungi Kami</a>
-            <a class="btn btn-success mt-2 mt-sm-0" href="https://wa.me/+6281279008217?text=Halo Jacky, Saya ingin bertanya tentang produk Mitsubishi. (sumber website)" target="_blank"><i class="fa fa-whatsapp"></i> Whatsapp Kami</a>
+            <h3 class="text-center mb-3"><b>EBENEZER GINTING</b> - Senior Sales Executive</h3>
+            <p class="mmc-bold text-center">"Anda adalah Prioritas Pelayanan Kami"</p>
+            <p class="text-custom">Percayakan urusan mobil Mitsubishi anda bersama Kami. <b>EBENEZER GINTING</b> - Senior Sales Executive dari Mitsubishi Sardana Medan Siap melayani anda dan memberikan penawaran spesial yang terbaik bagi anda. Pertanyaan seputar Spesifikasi , Simulasi Kredit, Info Stok, Promo Terbaru, Booking Service, Test Drive dan Pemesanan silahkan menghubungi kami dibawah ini.</p>
+            <a class="btn btn-primary" href="tel:+6281260864570" target="_blank"><i class="fa fa-phone-alt"></i> Hubungi Kami</a>
+            <a class="btn btn-success mt-2 mt-sm-0" href="https://wa.me/+6281260864570?text=Halo Eben, Saya ingin bertanya tentang produk Mitsubishi. (sumber website)" target="_blank"><i class="fa fa-whatsapp"></i> Whatsapp Kami</a>
           </div>
         </div>
       </div>
@@ -168,11 +168,11 @@
                   </div>              
                 </div>
                 <div class="row text-center" style="cursor: pointer">
-                  <div class="col-4 p-2 social-media-hover" style="background: #1515a4" onclick="window.open('tel:081370494906')">
+                  <div class="col-4 p-2 social-media-hover" style="background: #1515a4" onclick="window.open('tel:081260864570')">
                     <i class="fa fa-phone-alt fa-lg"></i><br />
                     <small>Telp Sekarang</small>
                   </div>
-                  <div class="col-4 p-2 social-media-hover" style="background: #19692c" onclick="window.open('https://wa.me/+6281973380227?text=Halo Bg Hasri, Saya ingin tanya harga xpander. [Sumber: website mitsubishidealermedan.com]')">
+                  <div class="col-4 p-2 social-media-hover" style="background: #19692c" onclick="window.open('https://wa.me/+6281260864570?text=Halo Eben, Saya ingin tanya harga xpander. (Sumber: website)')">
                     <i class="fa fa-whatsapp fa-lg"></i><br />
                     <small>Whatsapp</small>
                   </div>
@@ -205,11 +205,11 @@
                   </div>              
                 </div>
                 <div class="row text-center" style="cursor: pointer">
-                  <div class="col-4 p-2 social-media-hover" style="background: #1515a4" onclick="window.open('tel:081370494906')">
+                  <div class="col-4 p-2 social-media-hover" style="background: #1515a4" onclick="window.open('tel:081260864570')">
                     <i class="fa fa-phone-alt fa-lg"></i><br />
                     <small>Telp Sekarang</small>
                   </div>
-                  <div class="col-4 p-2 social-media-hover" style="background: #19692c" onclick="window.open('https://wa.me/+6281973380227?text=Halo Bg Hasri, Saya ingin tanya harga xpander. [Sumber: website mitsubishidealermedan.com]')">
+                  <div class="col-4 p-2 social-media-hover" style="background: #19692c" onclick="window.open('https://wa.me/+6281260864570?text=Halo Eben, Saya ingin tanya harga xpander. (Sumber: website)')">
                     <i class="fa fa-whatsapp fa-lg"></i><br />
                     <small>Whatsapp</small>
                   </div>
@@ -242,11 +242,11 @@
                   </div>              
                 </div>
                 <div class="row text-center" style="cursor: pointer">
-                  <div class="col-4 p-2 social-media-hover" style="background: #1515a4" onclick="window.open('tel:081370494906')">
+                  <div class="col-4 p-2 social-media-hover" style="background: #1515a4" onclick="window.open('tel:081260864570')">
                     <i class="fa fa-phone-alt fa-lg"></i><br />
                     <small>Telp Sekarang</small>
                   </div>
-                  <div class="col-4 p-2 social-media-hover" style="background: #19692c" onclick="window.open('https://wa.me/+6281973380227?text=Halo Bg Hasri, Saya ingin tanya harga xpander. [Sumber: website mitsubishidealermedan.com]')">
+                  <div class="col-4 p-2 social-media-hover" style="background: #19692c" onclick="window.open('https://wa.me/+6281260864570?text=Halo Eben, Saya ingin tanya harga xpander. (Sumber: website)')">
                     <i class="fa fa-whatsapp fa-lg"></i><br />
                     <small>Whatsapp</small>
                   </div>
@@ -279,11 +279,11 @@
                   </div>              
                 </div>
                 <div class="row text-center" style="cursor: pointer">
-                  <div class="col-4 p-2 social-media-hover" style="background: #1515a4" onclick="window.open('tel:081370494906')">
+                  <div class="col-4 p-2 social-media-hover" style="background: #1515a4" onclick="window.open('tel:081260864570')">
                     <i class="fa fa-phone-alt fa-lg"></i><br />
                     <small>Telp Sekarang</small>
                   </div>
-                  <div class="col-4 p-2 social-media-hover" style="background: #19692c" onclick="window.open('https://wa.me/+6281973380227?text=Halo Bg Hasri, Saya ingin tanya harga xpander. [Sumber: website mitsubishidealermedan.com]')">
+                  <div class="col-4 p-2 social-media-hover" style="background: #19692c" onclick="window.open('https://wa.me/+6281260864570?text=Halo Eben, Saya ingin tanya harga xpander. (Sumber: website)')">
                     <i class="fa fa-whatsapp fa-lg"></i><br />
                     <small>Whatsapp</small>
                   </div>
@@ -316,11 +316,11 @@
                   </div>              
                 </div>
                 <div class="row text-center" style="cursor: pointer">
-                  <div class="col-4 p-2 social-media-hover" style="background: #1515a4" onclick="window.open('tel:081370494906')">
+                  <div class="col-4 p-2 social-media-hover" style="background: #1515a4" onclick="window.open('tel:081260864570')">
                     <i class="fa fa-phone-alt fa-lg"></i><br />
                     <small>Telp Sekarang</small>
                   </div>
-                  <div class="col-4 p-2 social-media-hover" style="background: #19692c" onclick="window.open('https://wa.me/+6281973380227?text=Halo Bg Hasri, Saya ingin tanya harga xpander. [Sumber: website mitsubishidealermedan.com]')">
+                  <div class="col-4 p-2 social-media-hover" style="background: #19692c" onclick="window.open('https://wa.me/+6281260864570?text=Halo Eben, Saya ingin tanya harga xpander. (Sumber: website)')">
                     <i class="fa fa-whatsapp fa-lg"></i><br />
                     <small>Whatsapp</small>
                   </div>
@@ -353,11 +353,11 @@
                   </div>              
                 </div>
                 <div class="row text-center" style="cursor: pointer">
-                  <div class="col-4 p-2 social-media-hover" style="background: #1515a4" onclick="window.open('tel:081370494906')">
+                  <div class="col-4 p-2 social-media-hover" style="background: #1515a4" onclick="window.open('tel:081260864570')">
                     <i class="fa fa-phone-alt fa-lg"></i><br />
                     <small>Telp Sekarang</small>
                   </div>
-                  <div class="col-4 p-2 social-media-hover" style="background: #19692c" onclick="window.open('https://wa.me/+6281973380227?text=Halo Bg Hasri, Saya ingin tanya harga xpander. [Sumber: website mitsubishidealermedan.com]')">
+                  <div class="col-4 p-2 social-media-hover" style="background: #19692c" onclick="window.open('https://wa.me/+6281260864570?text=Halo Eben, Saya ingin tanya harga xpander. (Sumber: website)')">
                     <i class="fa fa-whatsapp fa-lg"></i><br />
                     <small>Whatsapp</small>
                   </div>
@@ -390,11 +390,11 @@
                   </div>              
                 </div>
                 <div class="row text-center" style="cursor: pointer">
-                  <div class="col-4 p-2 social-media-hover" style="background: #1515a4" onclick="window.open('tel:081370494906')">
+                  <div class="col-4 p-2 social-media-hover" style="background: #1515a4" onclick="window.open('tel:081260864570')">
                     <i class="fa fa-phone-alt fa-lg"></i><br />
                     <small>Telp Sekarang</small>
                   </div>
-                  <div class="col-4 p-2 social-media-hover" style="background: #19692c" onclick="window.open('https://wa.me/+6281973380227?text=Halo Bg Hasri, Saya ingin tanya harga xpander. [Sumber: website mitsubishidealermedan.com]')">
+                  <div class="col-4 p-2 social-media-hover" style="background: #19692c" onclick="window.open('https://wa.me/+6281260864570?text=Halo Eben, Saya ingin tanya harga xpander. (Sumber: website)')">
                     <i class="fa fa-whatsapp fa-lg"></i><br />
                     <small>Whatsapp</small>
                   </div>
@@ -427,11 +427,11 @@
                   </div>              
                 </div>
                 <div class="row text-center" style="cursor: pointer">
-                  <div class="col-4 p-2 social-media-hover" style="background: #1515a4" onclick="window.open('tel:081370494906')">
+                  <div class="col-4 p-2 social-media-hover" style="background: #1515a4" onclick="window.open('tel:081260864570')">
                     <i class="fa fa-phone-alt fa-lg"></i><br />
                     <small>Telp Sekarang</small>
                   </div>
-                  <div class="col-4 p-2 social-media-hover" style="background: #19692c" onclick="window.open('https://wa.me/+6281973380227?text=Halo Bg Hasri, Saya ingin tanya harga xpander. [Sumber: website mitsubishidealermedan.com]')">
+                  <div class="col-4 p-2 social-media-hover" style="background: #19692c" onclick="window.open('https://wa.me/+6281260864570?text=Halo Eben, Saya ingin tanya harga xpander. (Sumber: website)')">
                     <i class="fa fa-whatsapp fa-lg"></i><br />
                     <small>Whatsapp</small>
                   </div>
@@ -466,20 +466,27 @@
             </div>
             <p>Dapatkan Bonus Langsung untuk penawaran kredit seperti berikut <b>KHUSUS BULAN INI : </b></p>
             <ul>
-              <li>Kaca Film</li>
-              <li>Karpet Lembaran</li>
-              <li>Payung esklusif</li>
-              <li>Rumah Plat</li>
-              <li>Dompet Kulit</li>
-              <li>Gantungan kunci</li>
-              <li>Frame Plat</li>
-              <li>P3K</li>
-              <li>Dongkrak</li>
-              <li>Kunci Roda</li>
+              <li>Jasa servis s/d 50.000 km/ 4 tahun</li>
+              <li>Oli s/d 50.000 km/ 4 tahun</li>
+              <li>Spareparts s/d 50.000 km/ 4 tahun</li>
+              <li>Garansi mesin s/d 100.000 km/ 2 tahun</li>
+              <li>Garansi baterai s/d 2 tahun</li>
+              <li>Tersedia juga Hadiah Menarik:</li>
+              💥 Free payung<br />
+              💥 Free dongkrak<br />
+              💥 Free rumah plat<br />
+              💥 Free gantungan Kunci Mitsubishi<br />
+              💥 Free dompet Mitsubishi<br />
+              💥 Free kaca film<br />
+              💥 Free sensor parkir<br />
+              💥 Free kamera parkir<br />
+              💥 Free jok kulit<br />
+              💥 Free talang air<br />
+              *syarat dan ketentuan berlaku*
             </ul>
-            <p>Bagus bukan? Ayo segera pesan lewat kontak dibawah ini : </p>
-            <a href="" class="btn btn-primary"><i class="fa fa-phone-alt"></i> Hubungi Saya</a>
-            <a href="" class="btn btn-success"><i class="fa fa-whatsapp"></i> Whatsapp Saya</a>
+            <p>Banyak bukan? Ayo segera pesan lewat kontak dibawah ini : </p>
+            <a href="tel:+6281260864570" class="btn btn-primary"><i class="fa fa-phone-alt"></i> Hubungi Saya</a>
+            <a href="https://wa.me/+6281260864570?text=Halo sales Eben. (sumber website)" class="btn btn-success"><i class="fa fa-whatsapp"></i> Whatsapp Saya</a>
           </div>
         </div>
       </div>
@@ -499,14 +506,14 @@
                 <i class="fa fa-user fa-lg" style="font-size:60px;margin-right:5px"></i>
                 <div class="container-profile-detail">
                   <h5 class="mmc-bold">SENIOR SALES EXECUTIVE</h5>
-                  <a class="mmc-bold text-danger page-scroll" href="#outer-container-profile">Elia Ebenezer Ginting</a>
+                  <a class="mmc-bold text-danger page-scroll" href="#outer-container-profile">Ebenezer Ginting</a>
                 </div>
               </div>
               <div class="col-sm-6 col-xs-12 d-flex align-items-center mt-4">
                 <svg width="60" height="60" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 31.685 31.685" style="enable-background:new 0 0 31.685 31.685;" xml:space="preserve"> <g> <path d="M22.507,0H9.175C7.9,0,6.87,1.034,6.87,2.309v27.07c0,1.271,1.03,2.306,2.305,2.306h13.332 c1.273,0,2.307-1.034,2.307-2.306V2.309C24.813,1.034,23.78,0,22.507,0z M23.085,25.672H8.599V3.895h14.486V25.672z M18.932,2.343 h-6.181V1.669h6.182L18.932,2.343L18.932,2.343z M21.577,2.035c0,0.326-0.266,0.59-0.591,0.59c-0.326,0-0.591-0.265-0.591-0.59 s0.265-0.59,0.591-0.59C21.312,1.444,21.577,1.709,21.577,2.035z M18.655,29.225h-5.629v-1.732h5.629V29.225z"></path> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> </svg>
                 <div class="container-profile-detail">
                   <h5 class="mmc-bold">PHONE</h5>                  
-                  <a href="tel:+6282274190043" class="mmc-bold text-danger">0812-7900-8217</a>
+                  <a href="tel:+6281260864570" class="mmc-bold text-danger">0812-6086-4570</a>
                 </div>                
               </div>            
             </div>
@@ -515,7 +522,7 @@
                 <img alt="" data-src="https://hondamedancenter.com/wp-content/uploads/2020/11/whatsapp.svg" class="attachment-medium size-medium lazyloaded" src="https://hondamedancenter.com/wp-content/uploads/2020/11/whatsapp.svg" width="60" height="60">
                 <div class="container-profile-detail">
                   <h5 class="mmc-bold">WHATSAPP</h5>
-                  <a href="https://wa.me/+6282274190043?text=Halo Jacky. Saya mau konsultasi pembelian unit (sumber website)" class="mmc-bold text-danger" target="_blank">0812-7900-8217</a>
+                  <a href="https://wa.me/+6281260864570?text=Halo Eben. Saya mau konsultasi pembelian unit (sumber website)" class="mmc-bold text-danger" target="_blank">0812-6086-4570</a>
                 </div>                
               </div>
               <div class="col-sm-6 col-xs-12 d-flex align-items-center mt-4">

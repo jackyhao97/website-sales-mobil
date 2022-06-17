@@ -72,21 +72,21 @@
           </div>
           <div class="col-12 col-lg-6">
             <h1 class="text-danger mmc-bold">KONTAK SAYA</h1>
-            <p class="text-danger mmc-medium">Hubungi <span class="text-dark">Jacky</span> dibawah ini</p>
+            <p class="text-danger mmc-medium">Hubungi <span class="text-dark">Eben</span> dibawah ini</p>
             <hr style="background:red;border-top: 2px solid rgba(0,0,0,.1);">
             <div class="row text-dark">
               <div class="col-sm-6 col-xs-12 d-flex align-items-center mt-4">
                 <i class="fa fa-user fa-lg" style="font-size:60px;margin-right:5px"></i>
                 <div class="container-profile-detail">
-                  <h5 class="mmc-bold">SALES EXECUTIVE</h5>
-                  <a class="mmc-bold text-danger page-scroll" href="#outer-container-profile">Jacky</a>
+                  <h5 class="mmc-bold">SENIOR SALES EXECUTIVE</h5>
+                  <a class="mmc-bold text-danger page-scroll" href="#outer-container-profile">Ebenezer Ginting</a>
                 </div>
               </div>
               <div class="col-sm-6 col-xs-12 d-flex align-items-center mt-4">
                 <svg width="60" height="60" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 31.685 31.685" style="enable-background:new 0 0 31.685 31.685;" xml:space="preserve"> <g> <path d="M22.507,0H9.175C7.9,0,6.87,1.034,6.87,2.309v27.07c0,1.271,1.03,2.306,2.305,2.306h13.332 c1.273,0,2.307-1.034,2.307-2.306V2.309C24.813,1.034,23.78,0,22.507,0z M23.085,25.672H8.599V3.895h14.486V25.672z M18.932,2.343 h-6.181V1.669h6.182L18.932,2.343L18.932,2.343z M21.577,2.035c0,0.326-0.266,0.59-0.591,0.59c-0.326,0-0.591-0.265-0.591-0.59 s0.265-0.59,0.591-0.59C21.312,1.444,21.577,1.709,21.577,2.035z M18.655,29.225h-5.629v-1.732h5.629V29.225z"></path> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> </svg>
                 <div class="container-profile-detail">
                   <h5 class="mmc-bold">PHONE</h5>                  
-                  <a href="tel:+6282274190043" class="mmc-bold text-danger">0812-7900-8217</a>
+                  <a href="tel:+6281260864570" class="mmc-bold text-danger">0812-6086-4570</a>
                 </div>                
               </div>            
             </div>
@@ -95,7 +95,7 @@
                 <img alt="" data-src="https://hondamedancenter.com/wp-content/uploads/2020/11/whatsapp.svg" class="attachment-medium size-medium lazyloaded" src="https://hondamedancenter.com/wp-content/uploads/2020/11/whatsapp.svg" width="60" height="60">
                 <div class="container-profile-detail">
                   <h5 class="mmc-bold">WHATSAPP</h5>
-                  <a href="https://wa.me/+6282274190043?text=Halo Jacky. Saya tertarik dengan mobil Mitsubishi. (sumber website)" class="mmc-bold text-danger" target="_blank">0812-7900-8217</a>
+                  <a href="https://wa.me/+6281260864570?text=Halo Eben. Saya mau konsultasi pembelian unit (sumber website)" class="mmc-bold text-danger" target="_blank">0812-6086-4570</a>
                 </div>                
               </div>
               <div class="col-sm-6 col-xs-12 d-flex align-items-center mt-4">

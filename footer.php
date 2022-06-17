@@ -1,25 +1,25 @@
 <div class="container-fluid media-mobile">
   <div class="row text-center" style="cursor: pointer">
     <div class="col-3" style="background:black;padding:5px">
-      <div class="icon-media-mobile icon-media-mobile-red p-0 align-items-center" onclick="window.open('https://wa.me/+6281279008217?text=Halo Jacky. (sumber website)')">
+      <div class="icon-media-mobile icon-media-mobile-red p-0 align-items-center" onclick="window.open('https://wa.me/+6281260864570?text=Halo Eben. (sumber website)')">
         <i class="fa fa-lg fa-whatsapp mt-2"></i>
         <p class="p-0 mt-1 mb-0 mb-0" style="font-size:12px">WHATSAPP</p>              
       </div>
     </div>
     <div class="col-3" style="background:rgb(187, 17, 7);padding:5px">
-      <div class="icon-media-mobile p-0" onclick="window.open('https://www.facebook.com/jacky.mfirstlinez.1')">
-        <i class="fa fa-lg fa-facebook mt-2"></i>
-        <p class="p-0 mt-1 mb-0" style="font-size:12px">FACEBOOK</p>
+      <div class="icon-media-mobile p-0" onclick="window.open('https://hargamitsubishimedanterbaik.com/kontak')">
+        <i class="fa fa-lg fa-user mt-2"></i>
+        <p class="p-0 mt-1 mb-0" style="font-size:12px">KONTAK</p>
       </div>
     </div>
     <div class="col-3" style="background:rgb(187, 17, 7);padding:5px">
-      <div class="icon-media-mobile p-0" onclick="window.open('https://www.instagram.com/jackyha0/')">
+      <div class="icon-media-mobile p-0" onclick="window.open('https://www.instagram.com/mitsubishimotorsmedansumut/')">
         <i class="fa fa-lg fa-instagram mt-2"></i>
         <p class="p-0 mt-1 mb-0" style="font-size:12px">INSTAGRAM</p>
       </div>
     </div>
     <div class="col-3" style="background:black;padding:5px">
-      <div class="icon-media-mobile icon-media-mobile-red p-0" onclick="window.open('tel:+6281279008217')">
+      <div class="icon-media-mobile icon-media-mobile-red p-0" onclick="window.open('tel:+6281260864570')">
         <i class="fa fa-lg fa-phone-alt mt-2"></i>
         <p class="p-0 mt-1 mb-0" style="font-size:12px">PHONE</p>
       </div>
@@ -39,9 +39,9 @@
       <li>
         <a
           target="_blank"
-          href="https://wa.me/+628129008217?text=Halo Jacky. (sumber website)"
+          href="https://wa.me/+6281260864570?text=Halo sales Eben. (sumber website)"
         >
-          <i class="fa fa-lg fa-whatsapp"></i> 0812-7900-8217
+          <i class="fa fa-lg fa-whatsapp"></i> 0812-6086-4570
         </a>
       </li>
     </ul>
@@ -122,22 +122,22 @@
       <li>
         <a
           target="_blank"
-          href="https://www.instagram.com/jackyha0/"
+          href="https://www.instagram.com/mitsubishimotorsmedansumut/"
         >
           <i class="fa fa-lg fa-instagram"></i>
         </a>
-        <a target="_blank" href="https://www.facebook.com/jacky.mfirstlinez.1">
+        <a target="_blank" href="https://www.facebook.com/mitsubishimotorsmedansumut">
           <i class="fa fa-lg fa-facebook"></i>
         </a>
         <a
           target="_blank"
-          href="https://wa.me/+6281279008217?text=Halo Jacky. (sumber website)"
+          href="https://wa.me/+6281260864570?text=Halo Eben. (sumber website)"
         >
           <i class="fa fa-lg fa-whatsapp"></i>
         </a>
         <a
           target="_blank"
-          href="tel:+6281279008217"
+          href="tel:+62812760864570"
         >
           <i class="fa fa-lg fa-phone-alt"></i>
         </a>

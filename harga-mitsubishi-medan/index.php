@@ -63,7 +63,7 @@
     <?php require_once '../navbar.php'; ?>
     <div class="container-fluid fixed-top p-0" style="margin-top:73px;z-index:999">
       <marquee direction="left" scrollAmount="7" onmouseover="this.stop()" onmouseout="this.start()" style="background:white">        
-        <p class="text-danger mmc-bold" style="font-style: italic;margin-bottom:0">PROMO Juni 2022, Harga Turun Drastis, Diskon Besar Besaran, Bunga Kredit 0% Dan Free Aksesoris. Promo Hanya Berlaku Setiap Pemesanan Melalui Website Ini.. <span class="text-primary mmc-bold">Ajukan penawaran sekarang <a class="btn btn-success" style="margin-left: 10px">Telepon Sales</a>
+        <p class="text-danger mmc-bold" style="font-style: italic;margin-bottom:0">PROMO Juni 2022, Harga Turun Drastis, Diskon Besar Besaran, Bunga Kredit 0% Dan Free Aksesoris. Promo Hanya Berlaku Setiap Pemesanan Melalui Website Ini.. <span class="text-primary mmc-bold">Ajukan penawaran sekarang <a class="btn btn-success" style="margin-left: 10px" href="tel:+6281260864570" target="_blank">Telepon Sales</a>
       </marquee>
     </div>
     <div class="container container-price">
@@ -99,9 +99,9 @@
                 </tbody>
               </table>
               <p class="card-text"><small class="text-muted">* Harga OTR dapat berubah-ubah.</small></p>
-              <p class="card-text">Untuk info selengkapnya mengenai simulasi kredit Mitsubishi New Xpander dapat menghubungi <b><a href="https://wa.me/+6282274190043?text=[WS]Halo Sardana Berlian. Saya ingin mengetahui simulasi kredit terbaru dari Mitsubishi Xpander." style="color: #1caa51"><i class="fa fa-lg fa-whatsapp"></i> 0812-7900-8217</a></b></p>
-              <a class="btn btn-success">Telepon Sales</a>
-              <a class="btn btn-primary">Simulasi Kredit</a>
+              <p class="card-text">Untuk info selengkapnya mengenai simulasi kredit Mitsubishi New Xpander dapat menghubungi <b><a href="https://wa.me/+6281260864570?text=Halo Eben, Saya ingin mengetahui simulasi kredit terbaru dari Mitsubishi Xpander. (sumber website)" style="color: #1caa51"><i class="fa fa-lg fa-whatsapp"></i> 0812-6086-4570</a></b></p>
+              <a class="btn btn-success" href="tel:+6281260864570" target="_blank">Telepon Sales</a>
+              <a class="btn btn-primary" href="https://wa.me/+6281260864570?text=Halo Eben, Saya ingin tanya simulasi kredit mitsubishi. (sumber website)" target="_blank">Simulasi Kredit</a>
             </div>
           </div>
         </div>
@@ -132,9 +132,9 @@
                 </tbody>
               </table>
               <p class="card-text"><small class="text-muted">* Harga OTR dapat berubah-ubah.</small></p>
-              <p class="card-text">Untuk info selengkapnya mengenai simulasi kredit Mitsubishi Xpander Cross dapat menghubungi <b><a href="https://wa.me/+6282274190043?text=[WS]Halo Sardana Berlian. Saya ingin mengetahui simulasi kredit terbaru dari Mitsubishi Xpander Cross." style="color: #1caa51"><i class="fa fa-lg fa-whatsapp"></i> 0812-7900-8217</a></b></p>
-              <a class="btn btn-success">Telepon Sales</a>
-              <a class="btn btn-primary">Simulasi Kredit</a>
+              <p class="card-text">Untuk info selengkapnya mengenai simulasi kredit Mitsubishi Xpander Cross dapat menghubungi <b><a href="https://wa.me/+6281260864570?text=Halo Eben, Saya ingin mengetahui simulasi kredit terbaru dari Mitsubishi Xpander Cross. (sumber website)" style="color: #1caa51"><i class="fa fa-lg fa-whatsapp"></i> 0812-6086-4570</a></b></p>
+              <a class="btn btn-success" href="tel:+6281260864570" target="_blank">Telepon Sales</a>
+              <a class="btn btn-primary" href="https://wa.me/+6281260864570?text=Halo Eben, Saya ingin tanya simulasi kredit mitsubishi. (sumber website)" target="_blank">Simulasi Kredit</a>
             </div>
           </div>
           <div class="col-md-4 order-1 order-sm-2">
@@ -171,9 +171,9 @@
                 </tbody>
               </table>
               <p class="card-text"><small class="text-muted">* Harga OTR dapat berubah-ubah.</small></p>
-              <p class="card-text">Untuk info selengkapnya mengenai simulasi kredit Mitsubishi Pajero Sport dapat menghubungi <b><a href="https://wa.me/+6282274190043?text=[WS]Halo Sardana Berlian. Saya ingin mengetahui simulasi kredit terbaru dari Mitsubishi Pajero Sport." style="color: #1caa51"><i class="fa fa-lg fa-whatsapp"></i> 0812-7900-8217</a></b></p>
-              <a class="btn btn-success">Telepon Sales</a>
-              <a class="btn btn-primary">Simulasi Kredit</a>
+              <p class="card-text">Untuk info selengkapnya mengenai simulasi kredit Mitsubishi Pajero Sport dapat menghubungi <b><a href="https://wa.me/+6281260864570?text=Halo Eben, Saya ingin mengetahui simulasi kredit terbaru dari Mitsubishi Pajero Sport. (sumber website)" style="color: #1caa51"><i class="fa fa-lg fa-whatsapp"></i> 0812-6086-4570</a></b></p>
+              <a class="btn btn-success" href="tel:+6281260864570" target="_blank">Telepon Sales</a>
+              <a class="btn btn-primary" href="https://wa.me/+6281260864570?text=Halo Eben, Saya ingin tanya simulasi kredit mitsubishi. (sumber website)" target="_blank">Simulasi Kredit</a>
             </div>
           </div>    
         </div>
@@ -207,9 +207,9 @@
                 </tbody>
               </table>
               <p class="card-text"><small class="text-muted">* Harga OTR dapat berubah-ubah.</small></p>
-              <p class="card-text">Untuk info selengkapnya mengenai simulasi kredit Mitsubishi L300 dapat menghubungi <b><a href="https://wa.me/+6282274190043?text=[WS]Halo Sardana Berlian. Saya ingin mengetahui simulasi kredit terbaru dari Mitsubishi L300." style="color: #1caa51"><i class="fa fa-lg fa-whatsapp"></i> 0812-7900-8217</a></b></p>
-              <a class="btn btn-success">Telepon Sales</a>
-              <a class="btn btn-primary">Simulasi Kredit</a>
+              <p class="card-text">Untuk info selengkapnya mengenai simulasi kredit Mitsubishi L300 dapat menghubungi <b><a href="https://wa.me/+6281260864570?text=Halo Eben, Saya ingin mengetahui simulasi kredit terbaru dari Mitsubishi L300. (sumber website)" style="color: #1caa51"><i class="fa fa-lg fa-whatsapp"></i> 0812-6086-4570</a></b></p>
+              <a class="btn btn-success" href="tel:+6281260864570" target="_blank">Telepon Sales</a>
+              <a class="btn btn-primary" href="https://wa.me/+6281260864570?text=Halo Eben, Saya ingin tanya simulasi kredit mitsubishi. (sumber website)" target="_blank">Simulasi Kredit</a>
             </div>
           </div>   
         </div>
@@ -240,9 +240,9 @@
                 </tbody>
               </table>
               <p class="card-text"><small class="text-muted">* Harga OTR dapat berubah-ubah.</small></p>
-              <p class="card-text">Untuk info selengkapnya mengenai simulasi kredit Mitsubishi Triton dapat menghubungi <b><a href="https://wa.me/+6282274190043?text=[WS]Halo Sardana Berlian. Saya ingin mengetahui simulasi kredit terbaru dari Mitsubishi Triton" style="color: #1caa51"><i class="fa fa-lg fa-whatsapp"></i> 0812-7900-8217</a></b></p>
-              <a class="btn btn-success">Telepon Sales</a>
-              <a class="btn btn-primary">Simulasi Kredit</a>
+              <p class="card-text">Untuk info selengkapnya mengenai simulasi kredit Mitsubishi Triton dapat menghubungi <b><a href="https://wa.me/+6281260864570?text=Halo Eben, Saya ingin mengetahui simulasi kredit terbaru dari Mitsubishi Triton. (sumber website)" style="color: #1caa51"><i class="fa fa-lg fa-whatsapp"></i> 0812-6086-4570</a></b></p>
+              <a class="btn btn-success" href="tel:+6281260864570" target="_blank">Telepon Sales</a>
+              <a class="btn btn-primary" href="https://wa.me/+6281260864570?text=Halo Eben, Saya ingin tanya simulasi kredit mitsubishi. (sumber website)" target="_blank">Simulasi Kredit</a>
             </div>
           </div>    
           <div class="col-md-4 order-1 order-sm-2">
@@ -279,9 +279,9 @@
                 </tbody>
               </table>
               <p class="card-text"><small class="text-muted">* Harga OTR dapat berubah-ubah.</small></p>
-              <p class="card-text">Untuk info selengkapnya mengenai simulasi kredit Mitsubishi Colt Diesel dapat menghubungi <b><a href="https://wa.me/+6282274190043?text=[WS]Halo Sardana Berlian. Saya ingin mengetahui simulasi kredit terbaru dari Mitsubishi Colt Diesel." style="color: #1caa51"><i class="fa fa-lg fa-whatsapp"></i> 0812-7900-8217</a></b></p>
-              <a class="btn btn-success">Telepon Sales</a>
-              <a class="btn btn-primary">Simulasi Kredit</a>
+              <p class="card-text">Untuk info selengkapnya mengenai simulasi kredit Mitsubishi Colt Diesel dapat menghubungi <b><a href="https://wa.me/+6281260864570?text=Halo Eben, Saya ingin mengetahui simulasi kredit terbaru dari Mitsubishi Colt Diesel. (sumber website)" style="color: #1caa51"><i class="fa fa-lg fa-whatsapp"></i> 0812-6086-4570</a></b></p>
+              <a class="btn btn-success" href="tel:+6281260864570" target="_blank">Telepon Sales</a>
+              <a class="btn btn-primary" href="https://wa.me/+6281260864570?text=Halo Eben, Saya ingin tanya simulasi kredit mitsubishi. (sumber website)" target="_blank">Simulasi Kredit</a>
             </div>
           </div>   
         </div>
@@ -312,9 +312,9 @@
                 </tbody>
               </table>
               <p class="card-text"><small class="text-muted">* Harga OTR dapat berubah-ubah.</small></p>
-              <p class="card-text">Untuk info selengkapnya mengenai simulasi kredit Mitsubishi Fuso dapat menghubungi <b><a href="https://wa.me/+6282274190043?text=[WS]Halo Sardana Berlian. Saya ingin mengetahui simulasi kredit terbaru dari Mitsubishi Fuso" style="color: #1caa51"><i class="fa fa-lg fa-whatsapp"></i> 0812-7900-8217</a></b></p>
-              <a class="btn btn-success">Telepon Sales</a>
-              <a class="btn btn-primary">Simulasi Kredit</a>
+              <p class="card-text">Untuk info selengkapnya mengenai simulasi kredit Mitsubishi Fuso dapat menghubungi <b><a href="https://wa.me/+6281260864570?text=Halo Eben, Saya ingin mengetahui simulasi kredit terbaru dari Mitsubishi Fuso" style="color: #1caa51"><i class="fa fa-lg fa-whatsapp"></i> 0812-6086-4570</a></b></p>
+              <a class="btn btn-success" href="tel:+6281260864570" target="_blank">Telepon Sales</a>
+              <a class="btn btn-primary" href="https://wa.me/+6281260864570?text=Halo Eben, Saya ingin tanya simulasi kredit mitsubishi. (sumber website)" target="_blank">Simulasi Kredit</a>
             </div>
           </div>    
           <div class="col-md-4 order-1 order-sm-2">
