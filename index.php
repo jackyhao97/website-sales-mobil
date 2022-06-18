@@ -7,16 +7,18 @@
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap" rel="stylesheet"> 
-
+    <meta name="viewport" content="width=device-width, initial-scale=1">\
+    <meta name="description" content="Promo Mitsubishi Medan <?= strftime('%B %Y'); ?>. Diskon besar-besaran. Dapatkan informasi produk, promo terbaru, dan simulasi kredit tentang produk Mitsubishi." />
+    <meta name="robots" content="index, follow" />
+    <meta name="author" content="Jacky">
+    <meta property="og:locale" content="id_ID" />
+    <meta property="og:site_name" content="Promo Terbaik Mitsubishi Medan - Cashback Banyak & DP Ringan" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://hargamitsubishimedanterbaik.com/" />
+    <meta property="og:title" content="Promo Terbaik Mitsubishi Medan - Cashback Banyak & DP Ringan" />
+    <meta property="og:description" content="Promo Mitsubishi Medan <?= strftime('%B %Y'); ?>. Diskon besar-besaran. Dapatkan informasi produk, promo terbaru, dan simulasi kredit tentang produk Mitsubishi." />
+    <meta property="og:image" content="<?= BASE_URL.DS.'assets/img/favicon-196x196'; ?>" />
+    <meta property="og:image:secure_url" content="<?= BASE_URL.DS.'assets/img/favicon-196x196'; ?>" />
     <!-- Google Analytics -->
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y05V5NDS42"></script>
@@ -27,18 +29,6 @@
 
       gtag('config', 'G-Y05V5NDS42');
     </script>
-
-    <!-- Font Awesome -->
-    <script src="https://kit.fontawesome.com/00610b519d.js" crossorigin="anonymous"></script>
-
-    <!-- Swiper -->
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/swiper/swiper-bundle.min.css"
-    />
-
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="apple-touch-icon-precomposed" sizes="57x57" href="<?=BASE_URL.DS.'assets/img/'?>apple-touch-icon-57x57.png" />
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="<?=BASE_URL.DS.'assets/img/'?>apple-touch-icon-114x114.png" />
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="<?=BASE_URL.DS.'assets/img/'?>apple-touch-icon-72x72.png" />
@@ -59,20 +49,50 @@
     <meta name="msapplication-square150x150logo" content="mstile-150x150.png" />
     <meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
     <meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
-    <title>Harga Mitsubishi Medan Terbaik</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap" rel="stylesheet"> 
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/00610b519d.js" crossorigin="anonymous"></script>
+
+    <!-- Swiper -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Harga Mitsubishi Medan Terbaik - Mitsubishi Eben</title>
   </head>
   <body>
     <?php require_once './navbar.php'; ?>
-    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" style="margin-top: 73px">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" style="margin-top: 50px">
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img src="<?=BASE_URL.DS.'assets/img/slider-promo-new-xpander.png'?>" class="d-none d-sm-block w-100" alt="Mitsubishi Promo Medan">
           <img src="<?=BASE_URL.DS.'assets/img/promo-juni-mb.jpg'?>" class="d-sm-none d-block w-100" alt="Mitsubishi Promo Medan">
+        </div>
+        <div class="carousel-item">
+          <img src="<?=BASE_URL.DS.'assets/img/slider-pajero-sport.png'?>" class="d-none d-sm-block w-100" alt="Mitsubishi Promo Medan">
+          <img src="<?=BASE_URL.DS.'assets/img/slider-pajero-sport-mb.jpg'?>" class="d-sm-none d-block w-100" alt="Mitsubishi Promo Medan">
+        </div>
+        <div class="carousel-item">
+          <img src="<?=BASE_URL.DS.'assets/img/slider-new-xpander-cross.png'?>" class="d-none d-sm-block w-100" alt="Mitsubishi Promo Medan">
+          <img src="<?=BASE_URL.DS.'assets/img/slider-promo-new-xpander-cross-mb.jpg'?>" class="d-sm-none d-block w-100" alt="Mitsubishi Promo Medan">
         </div>
         <div class="carousel-item">
           <img src="<?=BASE_URL.DS.'assets/img/new-xpander.jpg'?>" class="d-none d-sm-block w-100" alt="Mitsubishi New Xpander">
@@ -92,6 +112,48 @@
         <span class="visually-hidden">Next</span>
       </button>
     </div>
+    <section class="promo-spesial py-5" id="promo-spesial">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <img src="<?=BASE_URL.DS.'assets/img/promo-spesial-result.png'?>" alt="Promo Spesial Mitsubishi Medan" class="img-promo-spesial">
+          </div>
+          <div class="col-lg-6">
+            <h2 class="mmc-bold">PROMO <span class="blink_me text-danger mmc-bold">KHUSUS BULAN INI!</span></h2>
+            <div class="countdown">
+              <span id="days"></span>
+              <span id="hours"></span>
+              <span id="mins"></span>
+              <span id="secs"></span>
+              <h2 id="end"></h2>
+            </div>
+            <p>Dapatkan Bonus Langsung untuk penawaran kredit seperti berikut <b>KHUSUS BULAN INI : </b></p>
+            <ul>
+              <li>Jasa servis s/d 50.000 km/ 4 tahun</li>
+              <li>Oli s/d 50.000 km/ 4 tahun</li>
+              <li>Spareparts s/d 50.000 km/ 4 tahun</li>
+              <li>Garansi mesin s/d 100.000 km/ 2 tahun</li>
+              <li>Garansi baterai s/d 2 tahun</li>
+              <li>Tersedia juga Hadiah Menarik:</li>
+              💥 Free payung<br />
+              💥 Free dongkrak<br />
+              💥 Free rumah plat<br />
+              💥 Free gantungan Kunci Mitsubishi<br />
+              💥 Free dompet Mitsubishi<br />
+              💥 Free kaca film<br />
+              💥 Free sensor parkir<br />
+              💥 Free kamera parkir<br />
+              💥 Free jok kulit<br />
+              💥 Free talang air<br />
+              *syarat dan ketentuan berlaku*
+            </ul>
+            <p>Banyak bukan? Ayo segera pesan lewat kontak dibawah ini : </p>
+            <a href="tel:+6281260864570" class="btn btn-primary"><i class="fa fa-phone-alt"></i> Hubungi Saya</a>
+            <a href="https://wa.me/+6281260864570?text=Halo sales Eben. (sumber website)" class="btn btn-success"><i class="fa fa-whatsapp"></i> Whatsapp Saya</a>
+          </div>
+        </div>
+      </div>
+    </section>
     <section class="profile" id="profile">
       <div class="container-fluid bg-profile">
         <div class="row p-4 p-sm-5 align-items-center">
@@ -126,8 +188,6 @@
             <img src="./assets/img/testimoni/7.jpeg" alt="Testimoni Mitsubishi Medan" style="border-radius:10px;border:1px solid white">
             <img src="./assets/img/testimoni/8.jpeg" alt="Testimoni Mitsubishi Medan" style="border-radius:10px;border:1px solid white">
             <img src="./assets/img/testimoni/9.jpeg" alt="Testimoni Mitsubishi Medan" style="border-radius:10px;border:1px solid white">
-            <img src="./assets/img/testimoni/10.jpeg" alt="Testimoni Mitsubishi Medan" style="border-radius:10px;border:1px solid white">
-            <img src="./assets/img/testimoni/11.jpeg" alt="Testimoni Mitsubishi Medan" style="border-radius:10px;border:1px solid white">
           </div>
         </div>
         <div class="row">
@@ -172,11 +232,11 @@
                     <i class="fa fa-phone-alt fa-lg"></i><br />
                     <small>Telp Sekarang</small>
                   </div>
-                  <div class="col-4 p-2 social-media-hover" style="background: #19692c" onclick="window.open('https://wa.me/+6281260864570?text=Halo Eben, Saya ingin tanya harga xpander. (Sumber: website)')">
+                  <div class="col-4 p-2 social-media-hover" style="background: #19692c" onclick="window.open('https://wa.me/+6281260864570?text=Halo Eben, Saya ingin tanya tentang new xpander. (Sumber: website)')">
                     <i class="fa fa-whatsapp fa-lg"></i><br />
                     <small>Whatsapp</small>
                   </div>
-                  <div class="col-4 p-2 social-media-hover" style="background: #BF1F16" onclick="window.location='mitsubishi-new-xpander/'">
+                  <div class="col-4 p-2 social-media-hover" style="background: #BF1F16" onclick="window.location='mitsubishi-new-xpander'">
                     <i class="fa fa-search fa-lg"></i><br />
                     <small>Telusuri</small>
                   </div>
@@ -209,11 +269,11 @@
                     <i class="fa fa-phone-alt fa-lg"></i><br />
                     <small>Telp Sekarang</small>
                   </div>
-                  <div class="col-4 p-2 social-media-hover" style="background: #19692c" onclick="window.open('https://wa.me/+6281260864570?text=Halo Eben, Saya ingin tanya harga xpander. (Sumber: website)')">
+                  <div class="col-4 p-2 social-media-hover" style="background: #19692c" onclick="window.open('https://wa.me/+6281260864570?text=Halo Eben, Saya ingin tanya new xpander cross. (Sumber: website)')">
                     <i class="fa fa-whatsapp fa-lg"></i><br />
                     <small>Whatsapp</small>
                   </div>
-                  <div class="col-4 p-2 social-media-hover" style="background: #BF1F16" onclick="window.location='mitsubishi/xpander'">
+                  <div class="col-4 p-2 social-media-hover" style="background: #BF1F16" onclick="window.location='mitsubishi-new-xpander-cross'">
                     <i class="fa fa-search fa-lg"></i><br />
                     <small>Telusuri</small>
                   </div>
@@ -246,11 +306,11 @@
                     <i class="fa fa-phone-alt fa-lg"></i><br />
                     <small>Telp Sekarang</small>
                   </div>
-                  <div class="col-4 p-2 social-media-hover" style="background: #19692c" onclick="window.open('https://wa.me/+6281260864570?text=Halo Eben, Saya ingin tanya harga xpander. (Sumber: website)')">
+                  <div class="col-4 p-2 social-media-hover" style="background: #19692c" onclick="window.open('https://wa.me/+6281260864570?text=Halo Eben, Saya ingin tanya pajero sport. (Sumber: website)')">
                     <i class="fa fa-whatsapp fa-lg"></i><br />
                     <small>Whatsapp</small>
                   </div>
-                  <div class="col-4 p-2 social-media-hover" style="background: #BF1F16" onclick="window.location='mitsubishi/xpander'">
+                  <div class="col-4 p-2 social-media-hover" style="background: #BF1F16" onclick="window.location='mitsubishi-pajero-sport'">
                     <i class="fa fa-search fa-lg"></i><br />
                     <small>Telusuri</small>
                   </div>
@@ -320,11 +380,11 @@
                     <i class="fa fa-phone-alt fa-lg"></i><br />
                     <small>Telp Sekarang</small>
                   </div>
-                  <div class="col-4 p-2 social-media-hover" style="background: #19692c" onclick="window.open('https://wa.me/+6281260864570?text=Halo Eben, Saya ingin tanya harga xpander. (Sumber: website)')">
+                  <div class="col-4 p-2 social-media-hover" style="background: #19692c" onclick="window.open('https://wa.me/+6281260864570?text=Halo Eben, Saya ingin tanya triton. (Sumber: website)')">
                     <i class="fa fa-whatsapp fa-lg"></i><br />
                     <small>Whatsapp</small>
                   </div>
-                  <div class="col-4 p-2 social-media-hover" style="background: #BF1F16" onclick="window.location='mitsubishi/xpander'">
+                  <div class="col-4 p-2 social-media-hover" style="background: #BF1F16" onclick="window.location='mitsubishi-triton'">
                     <i class="fa fa-search fa-lg"></i><br />
                     <small>Telusuri</small>
                   </div>
@@ -357,11 +417,11 @@
                     <i class="fa fa-phone-alt fa-lg"></i><br />
                     <small>Telp Sekarang</small>
                   </div>
-                  <div class="col-4 p-2 social-media-hover" style="background: #19692c" onclick="window.open('https://wa.me/+6281260864570?text=Halo Eben, Saya ingin tanya harga xpander. (Sumber: website)')">
+                  <div class="col-4 p-2 social-media-hover" style="background: #19692c" onclick="window.open('https://wa.me/+6281260864570?text=Halo Eben, Saya ingin tanya l300. (Sumber: website)')">
                     <i class="fa fa-whatsapp fa-lg"></i><br />
                     <small>Whatsapp</small>
                   </div>
-                  <div class="col-4 p-2 social-media-hover" style="background: #BF1F16" onclick="window.location='mitsubishi/xpander'">
+                  <div class="col-4 p-2 social-media-hover" style="background: #BF1F16" onclick="window.location='mitsubishi-l300'">
                     <i class="fa fa-search fa-lg"></i><br />
                     <small>Telusuri</small>
                   </div>
@@ -394,11 +454,11 @@
                     <i class="fa fa-phone-alt fa-lg"></i><br />
                     <small>Telp Sekarang</small>
                   </div>
-                  <div class="col-4 p-2 social-media-hover" style="background: #19692c" onclick="window.open('https://wa.me/+6281260864570?text=Halo Eben, Saya ingin tanya harga xpander. (Sumber: website)')">
+                  <div class="col-4 p-2 social-media-hover" style="background: #19692c" onclick="window.open('https://wa.me/+6281260864570?text=Halo Eben, Saya ingin tanya colt diesel. (Sumber: website)')">
                     <i class="fa fa-whatsapp fa-lg"></i><br />
                     <small>Whatsapp</small>
                   </div>
-                  <div class="col-4 p-2 social-media-hover" style="background: #BF1F16" onclick="window.location='mitsubishi/xpander'">
+                  <div class="col-4 p-2 social-media-hover" style="background: #BF1F16" onclick="window.location='mitsubishi-colt-diesel'">
                     <i class="fa fa-search fa-lg"></i><br />
                     <small>Telusuri</small>
                   </div>
@@ -431,11 +491,11 @@
                     <i class="fa fa-phone-alt fa-lg"></i><br />
                     <small>Telp Sekarang</small>
                   </div>
-                  <div class="col-4 p-2 social-media-hover" style="background: #19692c" onclick="window.open('https://wa.me/+6281260864570?text=Halo Eben, Saya ingin tanya harga xpander. (Sumber: website)')">
+                  <div class="col-4 p-2 social-media-hover" style="background: #19692c" onclick="window.open('https://wa.me/+6281260864570?text=Halo Eben, Saya ingin tanya fuso. (Sumber: website)')">
                     <i class="fa fa-whatsapp fa-lg"></i><br />
                     <small>Whatsapp</small>
                   </div>
-                  <div class="col-4 p-2 social-media-hover" style="background: #BF1F16" onclick="window.location='mitsubishi/xpander'">
+                  <div class="col-4 p-2 social-media-hover" style="background: #BF1F16" onclick="window.location='mitsubishi-fuso'">
                     <i class="fa fa-search fa-lg"></i><br />
                     <small>Telusuri</small>
                   </div>
@@ -449,53 +509,11 @@
         </div>
       </div>
     </section>
-    <section class="promo-spesial py-5" id="promo-spesial">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6">
-            <img src="<?=BASE_URL.DS.'assets/img/promo-spesial-result.png'?>" alt="Promo Spesial Mitsubishi Medan" class="img-promo-spesial">
-          </div>
-          <div class="col-lg-6">
-            <h2 class="mmc-bold">PROMO <span class="blink_me text-danger mmc-bold">KHUSUS BULAN INI!</span></h2>
-            <div class="countdown">
-              <span id="days"></span>
-              <span id="hours"></span>
-              <span id="mins"></span>
-              <span id="secs"></span>
-              <h2 id="end"></h2>
-            </div>
-            <p>Dapatkan Bonus Langsung untuk penawaran kredit seperti berikut <b>KHUSUS BULAN INI : </b></p>
-            <ul>
-              <li>Jasa servis s/d 50.000 km/ 4 tahun</li>
-              <li>Oli s/d 50.000 km/ 4 tahun</li>
-              <li>Spareparts s/d 50.000 km/ 4 tahun</li>
-              <li>Garansi mesin s/d 100.000 km/ 2 tahun</li>
-              <li>Garansi baterai s/d 2 tahun</li>
-              <li>Tersedia juga Hadiah Menarik:</li>
-              💥 Free payung<br />
-              💥 Free dongkrak<br />
-              💥 Free rumah plat<br />
-              💥 Free gantungan Kunci Mitsubishi<br />
-              💥 Free dompet Mitsubishi<br />
-              💥 Free kaca film<br />
-              💥 Free sensor parkir<br />
-              💥 Free kamera parkir<br />
-              💥 Free jok kulit<br />
-              💥 Free talang air<br />
-              *syarat dan ketentuan berlaku*
-            </ul>
-            <p>Banyak bukan? Ayo segera pesan lewat kontak dibawah ini : </p>
-            <a href="tel:+6281260864570" class="btn btn-primary"><i class="fa fa-phone-alt"></i> Hubungi Saya</a>
-            <a href="https://wa.me/+6281260864570?text=Halo sales Eben. (sumber website)" class="btn btn-success"><i class="fa fa-whatsapp"></i> Whatsapp Saya</a>
-          </div>
-        </div>
-      </div>
-    </section>
     <section class="kontak py-5" id="kontak">
       <div class="container">
         <div class="row align-items-center">
           <div class="col-12 col-lg-6">
-            <img src="<?=BASE_URL.DS.'assets/img/testimoni/1.jpeg'?>" alt="Kontak Kami" class="w-100 img-promo-spesial">
+            <img src="<?=BASE_URL.DS.'assets/img/foto-diri.jpg'?>" alt="Kontak Kami" class="w-100 img-promo-spesial">
           </div>
           <div class="col-12 col-lg-6">
             <h1 class="text-danger mmc-bold">MAU KONSULTASI PEMBELIAN?</h1>
@@ -543,5 +561,40 @@
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="<?=BASE_URL.DS.'assets/js/lightbox.js'?>"></script>
     <script src="./assets/js/script.js"></script>
+    <script>
+      $(document).ready(function () {
+        let countDownDate = new Date('Jun 30, 2022 00:00:00').getTime()
+
+        // Run myfunc every second
+        let myfunc = setInterval(function () {
+          let now = new Date().getTime()
+          let timeleft = countDownDate - now
+
+          // Calculating the days, hours, minutes and seconds left
+          let days = Math.floor(timeleft / (1000 * 60 * 60 * 24))
+          let hours = Math.floor(
+            (timeleft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+          )
+          let minutes = Math.floor((timeleft % (1000 * 60 * 60)) / (1000 * 60))
+          let seconds = Math.floor((timeleft % (1000 * 60)) / 1000)
+
+          // Result is output to the specific element
+          if (days > 0) document.getElementById('days').innerHTML = days + 'Hari '
+          document.getElementById('hours').innerHTML = hours + 'Jam '
+          document.getElementById('mins').innerHTML = minutes + 'Menit '
+          document.getElementById('secs').innerHTML = seconds + 'Detik'
+
+          // Display the message when countdown is over
+          if (timeleft < 0) {
+            clearInterval(myfunc)
+            document.getElementById('days').innerHTML = ''
+            document.getElementById('hours').innerHTML = ''
+            document.getElementById('mins').innerHTML = ''
+            document.getElementById('secs').innerHTML = ''
+            document.getElementById('end').innerHTML = 'TIME UP!!'
+          }
+        }, 1000)
+      })
+    </script>
   </body>
 </html>

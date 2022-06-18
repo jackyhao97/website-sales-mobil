@@ -6,6 +6,17 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Promo Mitsubishi Medan <?= strftime('%B %Y'); ?>. Diskon besar-besaran. Dapatkan informasi produk, promo terbaru, dan simulasi kredit tentang produk Mitsubishi." />
+    <meta name="robots" content="index, follow" />
+    <meta name="author" content="Jacky">
+    <meta property="og:locale" content="id_ID" />
+    <meta property="og:site_name" content="Promo Terbaik Mitsubishi Medan - Cashback Banyak & DP Ringan" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://hargamitsubishimedanterbaik.com/" />
+    <meta property="og:title" content="Promo Terbaik Mitsubishi Medan - Cashback Banyak & DP Ringan" />
+    <meta property="og:description" content="Promo Mitsubishi Medan <?= strftime('%B %Y'); ?>. Diskon besar-besaran. Dapatkan informasi produk, promo terbaru, dan simulasi kredit tentang produk Mitsubishi." />
+    <meta property="og:image" content="<?= BASE_URL.DS.'assets/img/favicon-196x196'; ?>" />
+    <meta property="og:image:secure_url" content="<?= BASE_URL.DS.'assets/img/favicon-196x196'; ?>" />
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">

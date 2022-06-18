@@ -10,6 +10,17 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Promo Mitsubishi Medan <?= strftime('%B %Y'); ?>. Diskon besar-besaran. Dapatkan informasi produk, promo terbaru, dan simulasi kredit tentang produk Mitsubishi." />
+    <meta name="robots" content="index, follow" />
+    <meta name="author" content="Jacky">
+    <meta property="og:locale" content="id_ID" />
+    <meta property="og:site_name" content="Promo Terbaik Mitsubishi Medan - Cashback Banyak & DP Ringan" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://hargamitsubishimedanterbaik.com/" />
+    <meta property="og:title" content="Promo Terbaik Mitsubishi Medan - Cashback Banyak & DP Ringan" />
+    <meta property="og:description" content="Promo Mitsubishi Medan <?= strftime('%B %Y'); ?>. Diskon besar-besaran. Dapatkan informasi produk, promo terbaru, dan simulasi kredit tentang produk Mitsubishi." />
+    <meta property="og:image" content="<?= BASE_URL.DS.'assets/img/favicon-196x196'; ?>" />
+    <meta property="og:image:secure_url" content="<?= BASE_URL.DS.'assets/img/favicon-196x196'; ?>" />
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -67,8 +78,11 @@
     <?php require_once '../navbar.php'; ?>
 
     <!-- Slider -->
-    <div class="swiper swiper-mitsubishi-new-pajero" style="margin-top: 73px">
+    <div class="swiper swiper-mitsubishi-new-pajero-sport" style="margin-top: 73px">
       <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="<?= BASE_URL.DS.'assets/img/slider-pajero-sport.png' ?>" alt="Mitsubishi Pajero Sport" class="w-100 slider-2">
+        </div>
         <div class="swiper-slide">
           <img src="<?= BASE_URL.DS.'assets/img/new-pajero-sport/banner-pajero-sport.jpg' ?>" alt="Mitsubishi Pajero Sport" class="w-100 slider-1">
         </div>
@@ -439,7 +453,7 @@
     <script src="https://scripts.sirv.com/sirv.js"></script>
     <script src="../assets/js/script.js"></script>
     <script>
-      new Swiper(".swiper-mitsubishi-pajero-sport", {
+      new Swiper(".swiper-mitsubishi-new-pajero-sport", {
         autoplay: {
           delay: 3000,
           disableOnInteraction: false,
@@ -517,6 +531,7 @@
 
       if (window.matchMedia("(max-width: 576px)").matches) {
         $(".slider-1").attr('src','<?= BASE_URL.DS.'assets/img/new-pajero-sport/banner-pajero-sport-mb.jpg' ?>')
+        $(".slider-2").attr('src','<?= BASE_URL.DS.'assets/img/slider-pajero-sport-mb.jpg' ?>')
       }
 
       $(document).ready(function() {

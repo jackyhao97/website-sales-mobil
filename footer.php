@@ -134,7 +134,7 @@
         </a>
         <a
           target="_blank"
-          href="tel:+62812760864570"
+          href="tel:+6281260864570"
         >
           <i class="fa fa-lg fa-phone-alt"></i>
         </a>
