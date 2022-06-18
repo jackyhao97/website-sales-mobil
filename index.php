@@ -72,7 +72,7 @@
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img src="<?=BASE_URL.DS.'assets/img/slider-promo-new-xpander.png'?>" class="d-none d-sm-block w-100" alt="Mitsubishi Promo Medan">
-          <img src="<?=BASE_URL.DS.'assets/img/slider-promo-new-xpander-mb.jpg'?>" class="d-sm-none d-block w-100" alt="Mitsubishi Promo Medan">
+          <img src="<?=BASE_URL.DS.'assets/img/promo-juni-mb.jpg'?>" class="d-sm-none d-block w-100" alt="Mitsubishi Promo Medan">
         </div>
         <div class="carousel-item">
           <img src="<?=BASE_URL.DS.'assets/img/new-xpander.jpg'?>" class="d-none d-sm-block w-100" alt="Mitsubishi New Xpander">
@@ -495,7 +495,7 @@
       <div class="container">
         <div class="row align-items-center">
           <div class="col-12 col-lg-6">
-            <img src="<?=BASE_URL.DS.'assets/img/kontak.jpg'?>" alt="Kontak Kami" class="w-100 img-promo-spesial">
+            <img src="<?=BASE_URL.DS.'assets/img/testimoni/1.jpeg'?>" alt="Kontak Kami" class="w-100 img-promo-spesial">
           </div>
           <div class="col-12 col-lg-6">
             <h1 class="text-danger mmc-bold">MAU KONSULTASI PEMBELIAN?</h1>

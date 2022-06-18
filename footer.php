@@ -126,9 +126,6 @@
         >
           <i class="fa fa-lg fa-instagram"></i>
         </a>
-        <a target="_blank" href="https://www.facebook.com/mitsubishimotorsmedansumut">
-          <i class="fa fa-lg fa-facebook"></i>
-        </a>
         <a
           target="_blank"
           href="https://wa.me/+6281260864570?text=Halo Eben. (sumber website)"

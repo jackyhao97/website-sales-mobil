@@ -1,7 +1,7 @@
 <?php 
   require_once "../config.php"; 
   // $message = 'Berikut di-infokan untuk difollow up leads berikut ini, %0D %0DTanggal: %0DNama: %0DNo.HP: %0DCatatan: %0DUntuk selengkapnya mohon cek di OP, terima kasih. %0D %0DSalam, %0DDigital Marketing Team';
-  $message = 'Saya ingin bertanya simulasi kredit triton. (sumber website)';
+  $message = 'Halo Eben, Saya ingin bertanya simulasi kredit triton. (sumber website)';
 ?>
 
 <!doctype html>
@@ -219,7 +219,7 @@
       <div class="row mt-5">
         <div class="col">
           <a href="<?=BASE_URL.DS.'assets/brochure/triton.pdf'?>" class="btn btn-lg btn-danger mb-2 d-flex justify-content-center"><i class="fa fa-lg fa-download me-2"></i> Download brochure</a>
-          <a href="https://wa.me/6281279008217?text=<?=$message?>" class="btn btn-lg btn-primary mb-2 d-flex justify-content-center"><i class="fa fa-lg fa-calculator me-2"></i> Simulasi Kredit</a>
+          <a href="https://wa.me/6281260864570?text=<?=$message?>" class="btn btn-lg btn-primary mb-2 d-flex justify-content-center" target="_blank"><i class="fa fa-lg fa-calculator me-2"></i> Simulasi Kredit</a>
           <a href="javascript:void(0)" class="btn btn-lg btn-success mb-2 d-flex justify-content-center" data-bs-toggle="modal" data-bs-target="#popupKonsultasi"><i class="me-2 fa fa-lg fa-whatsapp"></i> Konsultasi Pembelian</a>
         </div>
       </div>
@@ -230,21 +230,22 @@
     <div class="container mt-5 mb-2">
       <div class="row d-flex align-items-center">
         <div class="col-lg-6 col-12">
-          <img src="<?=BASE_URL.DS.'assets/img/profile.png'?>" alt="Mitsubishi Medan" class="w-100">
+          <img src="<?=BASE_URL.DS.'assets/img/profile.png'?>" alt="Mitsubishi Medan" class="img-profile-detail">
         </div>
         <div class="col-lg-6 col-12 info-ll">
           <h3 class="mmc-bold text-center">Info Lebih Lanjut</h3>
-          <p class="text-center mt-4">Hubungi Sales Executive kami untuk mendapatkan info lebih lengkap dan terupdate untuk mobil Mitsubishi pilihan anda.</p>        
+          <h3 class="text-center mt-4">"Anda adalah Prioritas Pelayanan Kami"</h3>
+          <p class="text-center">Hubungi Sales Executive kami untuk mendapatkan info lebih lengkap dan terupdate untuk mobil Mitsubishi pilihan anda.</p>        
           <div class="container-100">
             <div class="row py-4" style="margin-left:0;margin-right:0">
               <div class="col-12 d-flex" style="padding: 1rem">
                 <div class="container-contact w-100 p-3" style="background:#cacaca;color:black">
                   <i class="fas fa-user d-block text-center" style="font-size:40px;color:white;margin-top:60px"></i> <br>
-                  <a href="https://mitsubishimedan-vandys.id" target="_blank" style="text-decoration:none"><i class="fas fa-user mr-2" style="margin-top:40px;color:#8a8484"></i> <span style="color:black">Jacky Hau</span></a> <br>
-                  <a href="tel:+6282370304974" target="_blank" style="text-decoration:none"><i class="fas fa-phone-alt mr-2" style="margin-top:20px;color:#8a8484"></i> <span style="color:black">0812 7900 8217</span></a> <br>
-                  <a href="https://wa.me/+6282370304974?text=Hai Kak Vandys, Saya ingin bertanya tentang produk Mitsubishi." target="_blank" style="text-decoration:none"><i class="fa fa-whatsapp mr-2" style="margin-top:20px;color:#8a8484"></i> <span style="color:black">0812 7900 8217</span></a> <br>
-                  <a href="https://mitsubishimedan-vandys.id" target="_blank" style="text-decoration:none"><i class="fas fa-globe mr-2" style="margin-top:20px;color:#8a8484"></i> <span style="color:black">mitsubishijacky.com</span></a> <br>
-                  <p class="text-center text-uppercase mmc-bold" style="margin-top:40px;letter-spacing:2px">Mitsubishi Jacky</p>
+                  <a href="https://hargamitsubishimedanterbaik.com" target="_blank" style="text-decoration:none"><i class="fas fa-user mr-2" style="margin-top:40px;color:#8a8484"></i> <span style="color:black">Ebenezer Ginting</span></a> <br>
+                  <a href="tel:+6281260864570" target="_blank" style="text-decoration:none"><i class="fas fa-phone-alt mr-2" style="margin-top:20px;color:#8a8484"></i> <span style="color:black">0812 6086 4570</span></a> <br>
+                  <a href="https://wa.me/+6281260864570?text=Halo Eben, Saya ingin bertanya tentang produk Mitsubishi. (Sumber website)" target="_blank" style="text-decoration:none"><i class="fa fa-whatsapp mr-2" style="margin-top:20px;color:#8a8484"></i> <span style="color:black">0812 6086 4570</span></a> <br>
+                  <a href="https://hargamitsubishimedanterbaik.com" target="_blank" style="text-decoration:none"><i class="fas fa-globe mr-2" style="margin-top:20px;color:#8a8484"></i> <span style="color:black">hargamitsubishimedanterbaik.com</span></a> <br>
+                  <p class="text-center text-uppercase mmc-bold" style="margin-top:40px;letter-spacing:2px">Mitsubishi Eben</p>
                 </div>
               </div>            
             </div>
@@ -326,7 +327,7 @@
                   </div>
                   <div class="card-body">
                     <h3 class="mmc-bold text-center">NEW XPANDER</h3>
-                    <small class="card-text" style="margin-bottom: 0; height: 100px">New Xpander hadir dengan lampu utama baru desain T-Shape, memberikan pencahayaan terbaik dalam berkendara.</small>
+                    <small class="card-text" style="margin-bottom: 0; height: 100px">New Xpander hadir dengan lampu utama baru desain T-Shape, memberikan pencahayaan terbaik dalam berkendara.</small><br />
                     <a class="btn btn-danger mt-3" href="<?=BASE_URL.DS.'mitsubishi-new-xpander/'?>"><i class="fas fa-plus mr-2" style="font-size: 12px;"></i> SELENGKAPNYA</a>
                   </div>
                 </div>
@@ -338,7 +339,7 @@
                   </div>
                   <div class="card-body">
                     <h3 class="mmc-bold text-center">NEW XPANDER CROSS</h3>
-                    <small class="card-text" style="margin-bottom: 0; height: 100px">New Xpander Cross adalah sebuah crossover yang memadukan kenyamanan sebuah MPV dengan ketangguhan SUV.</small>
+                    <small class="card-text" style="margin-bottom: 0; height: 100px">New Xpander Cross adalah sebuah crossover yang memadukan kenyamanan sebuah MPV dengan ketangguhan SUV.</small><br />
                     <a class="btn btn-danger mt-3" href="<?=BASE_URL.DS.'mitsubishi-new-xpander-cross/'?>"><i class="fas fa-plus mr-2" style="font-size: 12px;"></i> SELENGKAPNYA</a>
                   </div>
                 </div>
@@ -350,7 +351,7 @@
                   </div>
                   <div class="card-body">
                     <h3 class="mmc-bold text-center">PAJERO SPORT</h3>
-                    <small class="card-text" style="margin-bottom: 0; height: 100px">Temukan dunia baru melalui eksplorasi tanpa batas dengan New Pajero Sport yang kini hadir lebih tangguh.</small>
+                    <small class="card-text" style="margin-bottom: 0; height: 100px">Temukan dunia baru melalui eksplorasi tanpa batas dengan New Pajero Sport yang kini hadir lebih tangguh.</small><br />
                     <a class="btn btn-danger mt-3" href="<?=BASE_URL.DS.'mitsubishi-pajero-sport/'?>"><i class="fas fa-plus mr-2" style="font-size: 12px;"></i> SELENGKAPNYA</a>
                   </div>
                 </div>
@@ -362,7 +363,7 @@
                   </div>
                   <div class="card-body">
                     <h3 class="mmc-bold text-center">TRITON</h3>
-                    <small class="card-text" style="margin-bottom: 0; height: 100px">Triton 4X4 hadir dengan performa lebih tangguh dan fitur-fitur inovatif.</small>
+                    <small class="card-text" style="margin-bottom: 0; height: 100px">Triton 4X4 hadir dengan performa lebih tangguh dan fitur-fitur inovatif.</small><br />
                     <a class="btn btn-danger mt-3" href="<?=BASE_URL.DS.'mitsubishi-triton/'?>"><i class="fas fa-plus mr-2" style="font-size: 12px;"></i> SELENGKAPNYA</a>
                   </div>
                 </div>
@@ -374,7 +375,7 @@
                   </div>
                   <div class="card-body">
                     <h3 class="mmc-bold text-center">L300</h3>
-                    <small class="card-text" style="margin-bottom: 0; height: 100px">Efisien dan memiliki ruang kargo luas yang didukung oleh mesin bertenaga.</small>
+                    <small class="card-text" style="margin-bottom: 0; height: 100px">Efisien dan memiliki ruang kargo luas yang didukung oleh mesin bertenaga.</small><br />
                     <a class="btn btn-danger mt-3" href="<?=BASE_URL.DS.'mitsubishi-l300/'?>"><i class="fas fa-plus mr-2" style="font-size: 12px;"></i> SELENGKAPNYA</a>
                   </div>
                 </div>
@@ -386,7 +387,7 @@
                   </div>
                   <div class="card-body">
                     <h3 class="mmc-bold text-center">COLT DIESEL</h3>
-                    <small class="card-text" style="margin-bottom: 0; height: 100px">Sangat cocok untuk bak kayu, aluminium dump truck, serta kargo lainnya.</small>
+                    <small class="card-text" style="margin-bottom: 0; height: 100px">Sangat cocok untuk bak kayu, aluminium dump truck, serta kargo lainnya.</small><br />
                     <a class="btn btn-danger mt-3" href="<?=BASE_URL.DS.'mitsubishi-colt-diesel/'?>"><i class="fas fa-plus mr-2" style="font-size: 12px;"></i> SELENGKAPNYA</a>
                   </div>
                 </div>

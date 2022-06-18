@@ -68,7 +68,7 @@
       <div class="container">
         <div class="row align-items-center">
           <div class="col-12 col-lg-6">
-            <img src="<?=BASE_URL.DS.'assets/img/kontak.jpg'?>" alt="Kontak Kami" class="w-100 img-promo-spesial">
+            <img src="<?=BASE_URL.DS.'assets/img/testimoni/2.jpeg'?>" alt="Kontak Kami" class="w-100 img-promo-spesial">
           </div>
           <div class="col-12 col-lg-6">
             <h1 class="text-danger mmc-bold">KONTAK SAYA</h1>
