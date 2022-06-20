@@ -83,15 +83,15 @@
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="<?=BASE_URL.DS.'assets/img/slider-promo-new-xpander.png'?>" class="d-none d-sm-block w-100" alt="Mitsubishi Promo Medan">
+          <img src="<?=BASE_URL.DS.'assets/img/slider-promo-new-xpander.jpg'?>" class="d-none d-sm-block w-100" alt="Mitsubishi Promo Medan">
           <img src="<?=BASE_URL.DS.'assets/img/promo-juni-mb.jpg'?>" class="d-sm-none d-block w-100" alt="Mitsubishi Promo Medan">
         </div>
         <div class="carousel-item">
-          <img src="<?=BASE_URL.DS.'assets/img/slider-pajero-sport.png'?>" class="d-none d-sm-block w-100" alt="Mitsubishi Promo Medan">
+          <img src="<?=BASE_URL.DS.'assets/img/slider-pajero-sport.jpg'?>" class="d-none d-sm-block w-100" alt="Mitsubishi Promo Medan">
           <img src="<?=BASE_URL.DS.'assets/img/slider-pajero-sport-mb.jpg'?>" class="d-sm-none d-block w-100" alt="Mitsubishi Promo Medan">
         </div>
         <div class="carousel-item">
-          <img src="<?=BASE_URL.DS.'assets/img/slider-new-xpander-cross.png'?>" class="d-none d-sm-block w-100" alt="Mitsubishi Promo Medan">
+          <img src="<?=BASE_URL.DS.'assets/img/slider-new-xpander-cross.jpg'?>" class="d-none d-sm-block w-100" alt="Mitsubishi Promo Medan">
           <img src="<?=BASE_URL.DS.'assets/img/slider-promo-new-xpander-cross-mb.jpg'?>" class="d-sm-none d-block w-100" alt="Mitsubishi Promo Medan">
         </div>
         <div class="carousel-item">
